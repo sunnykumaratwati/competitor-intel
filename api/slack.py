@@ -17,6 +17,7 @@ import json
 import hmac
 import time
 import hashlib
+import threading
 import urllib.parse
 from http.server import BaseHTTPRequestHandler
 
@@ -139,22 +140,40 @@ def gemini_answer(slug: str, battlecard: str, question: str, max_retries: int = 
 
 
 # ---- Slash command handler ----------------------------------------------------
-def handle_slash(form: dict) -> dict:
-    """Slack POSTs form-encoded data for slash commands."""
+def post_followup(response_url: str, payload: dict) -> None:
+    """Send the delayed reply to Slack via the request's response_url."""
+    try:
+        requests.post(response_url, json=payload, timeout=8)
+    except Exception as e:
+        print(f"[error] post_followup failed: {e}")
+
+
+def do_slash_work(form: dict) -> None:
+    """Heavy work: GitHub fetch + Gemini call. Runs in background thread
+    AFTER we've already acked Slack within 3s."""
+    response_url = form.get("response_url", "")
+    if not response_url:
+        return
+
     channel_id = form.get("channel_id", "")
     user_text  = (form.get("text") or "").strip()
 
     if ALLOWED_CHANNEL and channel_id != ALLOWED_CHANNEL:
-        return {"response_type": "ephemeral",
-                "text": ":lock: This bot only works in the configured channel."}
+        post_followup(response_url, {
+            "response_type": "ephemeral",
+            "text": ":lock: This bot only works in the configured channel.",
+        })
+        return
 
     if not user_text:
         comps = list_competitors()
-        return {"response_type": "ephemeral",
-                "text": ("Usage: `/competitor <name> <question>`\n"
-                         f"Known competitors: {', '.join(comps) if comps else '(none yet)'}")}
+        post_followup(response_url, {
+            "response_type": "ephemeral",
+            "text": ("Usage: `/competitor <name> <question>`\n"
+                     f"Known competitors: {', '.join(comps) if comps else '(none yet)'}"),
+        })
+        return
 
-    # First token = slug, rest = question
     parts = user_text.split(maxsplit=1)
     slug = parts[0].lower()
     question = parts[1] if len(parts) > 1 else "Give me a quick TL;DR vs Wati."
@@ -162,17 +181,43 @@ def handle_slash(form: dict) -> dict:
     md = fetch_md(slug)
     if not md:
         comps = list_competitors()
-        return {"response_type": "ephemeral",
-                "text": (f":mag: I don't have a battlecard for `{slug}` yet.\n"
-                         f"Known: {', '.join(comps) if comps else '(none)'}")}
+        post_followup(response_url, {
+            "response_type": "ephemeral",
+            "text": (f":mag: I don't have a battlecard for `{slug}` yet.\n"
+                     f"Known: {', '.join(comps) if comps else '(none)'}"),
+        })
+        return
 
     battlecard = extract_analysis(md)
     answer = gemini_answer(slug, battlecard, question)
 
-    # Public reply in the channel (response_type=in_channel)
+    post_followup(response_url, {
+        "response_type": "in_channel",
+        "replace_original": True,  # replaces the "thinking..." ack
+        "text": f"*{slug}* — {question}\n\n{answer}",
+    })
+
+
+def ack_slash(form: dict) -> dict:
+    """The immediate (<3s) response Slack sees. Tells the user we're working,
+    then a background thread does the slow work and posts the real reply."""
+    user_text = (form.get("text") or "").strip()
+    if not user_text:
+        # Empty command — handle inline, no need to spawn work
+        comps = list_competitors()
+        return {"response_type": "ephemeral",
+                "text": ("Usage: `/competitor <name> <question>`\n"
+                         f"Known competitors: {', '.join(comps) if comps else '(none yet)'}")}
+
+    # Kick off background work; thread keeps running after this function returns
+    # because Vercel waits until all threads exit (within the function timeout).
+    t = threading.Thread(target=do_slash_work, args=(form,), daemon=False)
+    t.start()
+
+    slug = user_text.split(maxsplit=1)[0]
     return {
         "response_type": "in_channel",
-        "text": f"*{slug}* — {question}\n\n{answer}",
+        "text": f":hourglass_flowing_sand: Looking up *{slug}*...",
     }
 
 
@@ -228,5 +273,5 @@ class handler(BaseHTTPRequestHandler):  # noqa: N801 (Vercel expects lowercase)
 
         form_pairs = urllib.parse.parse_qsl(body.decode("utf-8"))
         form = dict(form_pairs)
-        response = handle_slash(form)
+        response = ack_slash(form)
         self._send_json(200, response)
