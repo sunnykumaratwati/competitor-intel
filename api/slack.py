@@ -117,14 +117,25 @@ SALES REP QUESTION:
 ANSWER:"""
 
 
-def gemini_answer(slug: str, battlecard: str, question: str) -> str:
+def gemini_answer(slug: str, battlecard: str, question: str, max_retries: int = 3) -> str:
+    """Call Gemini with retry on transient overload/rate-limit errors.
+    Vercel serverless has a 10s default timeout on Hobby — so retries are short."""
     client = genai.Client(api_key=GEMINI_API_KEY)
     prompt = ANSWER_PROMPT.format(slug=slug, battlecard=battlecard, question=question)
-    try:
-        resp = client.models.generate_content(model=MODEL, contents=prompt)
-        return resp.text.strip()
-    except Exception as e:
-        return f":warning: Gemini error: {e}"
+    last_err = None
+    for attempt in range(1, max_retries + 1):
+        try:
+            resp = client.models.generate_content(model=MODEL, contents=prompt)
+            return resp.text.strip()
+        except Exception as e:
+            last_err = e
+            msg = str(e).lower()
+            transient = any(s in msg for s in ["503", "unavailable", "overloaded", "high demand", "429", "rate limit"])
+            if not transient or attempt == max_retries:
+                break
+            time.sleep(1.5 * attempt)  # 1.5s, 3s
+    return (":warning: Gemini is overloaded right now — please try again in a moment. "
+            f"(Last error: {last_err})")
 
 
 # ---- Slash command handler ----------------------------------------------------
