@@ -1,0 +1,100 @@
+name: Seed competitor on demand
+
+on:
+  workflow_dispatch:
+    inputs:
+      slug:
+        description: "Competitor slug (lowercase, no spaces), e.g. omnichat"
+        required: true
+        type: string
+      url:
+        description: "Competitor homepage URL. If empty, will try to auto-guess."
+        required: false
+        type: string
+      docs_url:
+        description: "Optional: competitor's docs/help-center URL."
+        required: false
+        type: string
+
+permissions:
+  contents: write   # so we can commit the new MD back
+
+jobs:
+  seed:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Resolve homepage URL
+        id: resolve
+        run: |
+          SLUG="${{ inputs.slug }}"
+          URL="${{ inputs.url }}"
+
+          if [ -z "$URL" ]; then
+            echo "No URL provided — guessing from slug..."
+            for CANDIDATE in \
+              "https://www.${SLUG}.com" \
+              "https://${SLUG}.com" \
+              "https://www.${SLUG}.io" \
+              "https://${SLUG}.io" \
+              "https://www.${SLUG}.ai" \
+              "https://${SLUG}.ai" \
+              "https://www.${SLUG}.co" \
+              "https://${SLUG}.co"; do
+              CODE=$(curl -L -s -o /dev/null -w "%{http_code}" --max-time 8 "$CANDIDATE" || echo "000")
+              echo "  $CANDIDATE -> $CODE"
+              if [ "$CODE" = "200" ] || [ "$CODE" = "301" ] || [ "$CODE" = "302" ]; then
+                URL="$CANDIDATE"
+                break
+              fi
+            done
+          fi
+
+          if [ -z "$URL" ]; then
+            echo "::error::Could not resolve a homepage URL for slug='$SLUG'. Re-run with the url input set."
+            exit 1
+          fi
+          echo "Resolved URL: $URL"
+          echo "url=$URL" >> "$GITHUB_OUTPUT"
+
+      - name: Seed competitor MD
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          DOCS_FLAG=""
+          if [ -n "${{ inputs.docs_url }}" ]; then
+            DOCS_FLAG="--docs-url ${{ inputs.docs_url }}"
+          fi
+          python scripts/seed_competitor.py "${{ inputs.slug }}" "${{ steps.resolve.outputs.url }}" $DOCS_FLAG
+
+      - name: Commit new MD
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          if [ -z "$(git status --porcelain competitors/)" ]; then
+            echo "No new MD was produced — seed must have failed quietly."
+            exit 1
+          fi
+
+          git add competitors/
+          git commit -m "feat(seed): on-demand battlecard for ${{ inputs.slug }}
+
+          Auto-seeded via /competitor in Slack.
+          Source URL: ${{ steps.resolve.outputs.url }}"
+          git push

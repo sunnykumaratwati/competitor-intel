@@ -28,6 +28,7 @@ from google import genai
 GEMINI_API_KEY    = os.environ.get("GEMINI_API_KEY", "")
 SLACK_SIGNING_SECRET = os.environ.get("SLACK_SIGNING_SECRET", "")
 SLACK_BOT_TOKEN   = os.environ.get("SLACK_BOT_TOKEN", "")
+GITHUB_TOKEN      = os.environ.get("GITHUB_TOKEN", "")  # PAT with repo+workflow scope
 GITHUB_REPO       = os.environ.get("GITHUB_REPO", "sunnykumaratwati/competitor-intel")
 GITHUB_BRANCH     = os.environ.get("GITHUB_BRANCH", "main")
 ALLOWED_CHANNEL   = os.environ.get("ALLOWED_CHANNEL", "")  # optional; restricts replies to one channel
@@ -48,6 +49,33 @@ def fetch_md(slug: str) -> str:
         return r.text if r.status_code == 200 else ""
     except Exception:
         return ""
+
+
+def trigger_seed_workflow(slug: str, url: str = "", docs_url: str = "") -> tuple:
+    """Dispatch the GitHub Actions seed-on-demand workflow.
+    Returns (ok_bool, message)."""
+    if not GITHUB_TOKEN:
+        return False, "GITHUB_TOKEN not configured in Vercel env."
+    api = f"https://api.github.com/repos/{GITHUB_REPO}/actions/workflows/seed-on-demand.yml/dispatches"
+    try:
+        r = requests.post(
+            api,
+            headers={
+                "Authorization": f"Bearer {GITHUB_TOKEN}",
+                "Accept": "application/vnd.github+json",
+                "X-GitHub-Api-Version": "2022-11-28",
+            },
+            json={
+                "ref": GITHUB_BRANCH,
+                "inputs": {"slug": slug, "url": url, "docs_url": docs_url},
+            },
+            timeout=6,
+        )
+        if r.status_code == 204:
+            return True, "ok"
+        return False, f"GitHub API {r.status_code}: {r.text[:200]}"
+    except Exception as e:
+        return False, str(e)
 
 
 def list_competitors() -> list:
@@ -204,10 +232,26 @@ def handle_slash(form: dict) -> dict:
 
     md = fetch_md(slug)
     if not md:
+        # Unknown competitor — kick off the on-demand seed workflow.
+        # User can also provide a URL inline: `/competitor add omnichat https://omnichat.com`
+        url_hint = ""
+        if slug == "add" and len(parts) > 1:
+            # Form: /competitor add <slug> <url>
+            tail = parts[1].split(maxsplit=2)
+            if len(tail) >= 2:
+                slug = tail[0].lower()
+                url_hint = tail[1]
+        ok, info = trigger_seed_workflow(slug, url=url_hint)
+        if ok:
+            return {"response_type": "in_channel",
+                    "text": (f":hammer_and_wrench: I don't have a battlecard for *{slug}* yet — "
+                             f"I've started building one. This takes 2-3 minutes. "
+                             f"Try `/competitor {slug} <your question>` again shortly.")}
         comps = list_competitors()
         return {"response_type": "ephemeral",
-                "text": (f":mag: I don't have a battlecard for `{slug}` yet.\n"
-                         f"Known: {', '.join(comps) if comps else '(none)'}")}
+                "text": (f":mag: I don't have a battlecard for `{slug}` yet, and auto-seed failed: {info}\n"
+                         f"Known: {', '.join(comps) if comps else '(none)'}\n"
+                         f"You can also seed manually: `/competitor add {slug} https://their-site.com`")}
 
     battlecard = extract_analysis(md)
     answer, used_gemini = gemini_answer(slug, battlecard, question)
