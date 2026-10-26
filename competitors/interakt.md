@@ -1,101 +1,102 @@
 ---
 name: interakt
 website: https://www.interakt.shop
-last_updated: 2026-10-19
+last_updated: 2026-10-26
 source_hashes:
-  homepage: 12bd46d8bba6
-  pricing: 73a2d47ae1d5
+  homepage: 2395d634c22e
+  pricing: 37ce28440f40
   product: e3b0c44298fc
-  about: 00e9322227c3
-  customers: 579410e6ea71
-  documentation: dea2b3bfb299
+  about: 2c72345593e4
+  customers: c73798cb11f4
+  documentation: 0533bf8d7a7b
 
 ---
 
 <!-- ANCHOR:tldr -->
 ## TL;DR vs Wati
-Interakt, a Jio Haptik company and Meta Business Partner, offers a multi-channel customer engagement platform for WhatsApp, Instagram, RCS, and Voice. It targets SMBs and D2C brands with a strong emphasis on AI-driven solutions and e-commerce integrations. While providing core WhatsApp API functionalities similar to Wati, Interakt's transparent pricing details are not publicly available, and its terms reveal potential hidden costs like convenience fees and client responsibility for SIM card management.
+Interakt, a Meta Business Partner from Jio Haptik, offers a broader multi-channel engagement platform (WhatsApp, Instagram, RCS, Voice) with a strong suite of AI and CRM/Sales-focused products. While Wati excels in customer volume, ease of onboarding, and clear pricing, Interakt's advanced AI, industry-specific solutions, and deep e-commerce integrations could appeal to specific segments, despite its opaque pricing, convenience fees, and unusual SIM card management requirement.
 <!-- /ANCHOR:tldr -->
 
 <!-- ANCHOR:wins -->
 ## Where We Win
-- Customer Scale: Wati boasts 16K+ customers, significantly higher than Interakt's stated 5000+ D2C brands, indicating broader market adoption. (Interakt About Us vs Wati context)
-- Explicit SOC 2 Compliance: Wati is SOC 2 compliant, a key security accreditation not mentioned by Interakt, appealing to larger enterprises with strict security requirements. (Wati context)
-- Google Partner: Wati is an official Meta + Google partner, suggesting broader integration capabilities beyond Meta's ecosystem, which Interakt does not explicitly claim. (Wati context)
-- Transparent Pricing: Wati offers clear, published user-based pricing tiers, whereas Interakt's pricing structure (including user limits or base subscription costs) is not publicly available. (Wati context vs Interakt Pricing 404)
-- No Hidden Fees: Wati does not charge additional 'convenience fees,' unlike Interakt's non-refundable 2% fee on both subscriptions and prepaid credits. (Interakt Terms & Conditions)
-- Simpler SIM Management: Wati handles all WhatsApp API infrastructure, abstracting the need for clients to manage SIM cards; Interakt explicitly requires clients to 'maintain access and be solely responsible for the registered SIM card' for emergencies. (Interakt Terms & Conditions)
-- No Prepaid Credit Expiry: Wati's messaging credits typically don't expire; Interakt states 'Prepaid Credits balance... shall become subject to a lapse period of 365 days' upon account inactivity. (Interakt Terms & Conditions)
-- BYOA Framework: Wati's Bring Your Own Account (BYOA) framework provides greater flexibility and control for certain enterprise customers, a unique offering not explicitly matched by Interakt. (Wati context)
+- Wati has a significantly larger customer base (16K+ customers) compared to Interakt (5K+ businesses trusting Interakt), indicating broader market adoption.
+- Wati provides transparent, published pricing tiers (Growth $59, Pro $119, Business $279), whereas Interakt's pricing page returned a 404 error, creating uncertainty for prospects.
+- Wati boasts SOC 2 compliance, a robust security and trust certification that Interakt does not explicitly mention in its scraped content.
+- Wati does not impose a mandatory 2% 'Convenience Fee' on subscription payments or prepaid credit recharges, unlike Interakt (Interakt Terms of Service).
+- Wati does not have a stated policy for prepaid credits expiring due to account inactivity, offering more flexibility than Interakt's 365-day lapse policy for inactive accounts (Interakt Terms of Service).
+- Wati, as a BSP, fully manages the WhatsApp API number. Interakt requires clients to maintain access to their registered SIM card and present it within 30 minutes in emergencies, posing an unusual operational burden (Interakt Terms of Service).
+- Wati is recognized for its 'easiest WhatsApp API onboarding,' suggesting a smoother and quicker setup process compared to Interakt, for which no specific ease of onboarding is highlighted.
+- Wati is an official Google partner in addition to being a Meta partner, potentially offering broader ecosystem benefits not explicitly mentioned by Interakt.
 <!-- /ANCHOR:wins -->
 
 <!-- ANCHOR:losses -->
 ## Where We Lose
-- Broader Channel Support: Interakt offers Instagram Automation and RCS Campaigns in addition to WhatsApp and Voice, providing a more comprehensive multi-channel engagement platform. (Interakt Homepage, Solutions)
-- Advanced AI Suite: Interakt features 'SOLO: Your AI Business Team' and 'AI Agents: Conversational AI for WhatsApp,' suggesting a deeper and more integrated AI offering than Wati's AI agent which upsells to Astra. (Interakt Homepage, Products)
-- Built-in Sales CRM: Interakt prominently features a 'Sales CRM' product to 'Boost Sales with WhatsApp CRM,' a functionality Wati explicitly lacks (no revenue attribution). (Interakt Homepage, Products)
-- Rich Business Messaging (RCS): Interakt directly supports Rich Business Messaging (RCS) campaigns, offering a modern and interactive messaging channel beyond WhatsApp, which Wati does not explicitly offer. (Interakt Homepage, Solutions)
-- Voice AI Receptionist: Interakt's 'MyCallGenie: Your AI Call Receptionist' extends AI capabilities to handle calls, providing an additional layer of automation not offered by Wati. (Interakt Homepage, Products, Solutions)
-- Shopify Specialization: Interakt is positioned as the '#1 WhatsApp Sales Channel app on the Shopify app store' in key regions (India, Malaysia, Singapore), indicating deep expertise and tailored solutions for Shopify merchants. (Interakt About Us, Homepage workshops)
+- Interakt offers multi-channel support for WhatsApp, Instagram, RCS, and Voice, providing a broader engagement platform compared to Wati's primary focus on WhatsApp (Interakt Homepage).
+- Interakt features a more diverse and specialized AI product suite including SOLO (AI Business Team), MyCallGenie (AI Call Receptionist), and Shopify Voice AI Agent, which appears more comprehensive than Wati's native AI agent that upsells to Astra (Interakt Homepage).
+- Interakt provides dedicated sales and CRM capabilities via its 'Marketing Hub,' 'Support Hub,' and 'Sales CRM' products, and is the '#1 WhatsApp Sales Channel app on Shopify' for specific regions, indicating a stronger sales enablement focus than Wati's team inbox (Interakt Homepage, About Us).
+- Interakt offers solutions tailored for a wide array of specific industries (e.g., B2B Sales, Travel, Restaurants, Edutech), potentially providing more verticalized features than Wati's broad regional strengths (Interakt Homepage).
+- Interakt demonstrates deeper e-commerce integration with Shopify, including a 'Shopify Voice AI Agent' and being the '#1 WhatsApp Sales Channel app on Shopify' for India, Malaysia, and Singapore, which could offer more specialized commerce features (Interakt Homepage, About Us).
+- Interakt utilizes Meta's Cloud API for data storage in North America and the European Union, offering a data residency option outside of APAC, which might be preferred by some customers compared to Wati's likely APAC-centric data storage (Interakt Privacy Policy, Terms of Service).
+- Interakt's website offers multilingual support for several languages (Indonesian, Arabic, Portuguese, Hindi, Spanish), suggesting better localization and accessibility in diverse markets (Interakt Pricing, Customers, Live Demo pages).
 <!-- /ANCHOR:losses -->
 
 <!-- ANCHOR:feature_notes -->
 ## Feature Notes (from their docs)
-- Pricing Model: Utilizes a prepaid credits system for sending and receiving WhatsApp messages, which are non-transferable and non-refundable. (Interakt Terms & Conditions)
-- Additional Fees: Charges a 2% 'Convenience Fee' on both subscription payments and prepaid credit recharges, which is non-refundable. (Interakt Terms & Conditions)
-- SIM Card Responsibility: Clients are required to maintain access and responsibility for the registered SIM card and present it within 30 minutes in case of emergencies. (Interakt Terms & Conditions)
-- Credit Expiry: Unused prepaid credits lapse after 365 calendar days if the user account becomes inactive (no active subscription). (Interakt Terms & Conditions)
-- Outstanding Balance Policy: If a prepaid balance is insufficient, service access is suspended, and any negative balance is immediately due, allowing Interakt to charge linked payment methods. (Interakt Terms & Conditions)
-- Uptime SLA: Offers a 95% uptime target availability for the Solution per financial year, with specified exclusions for downtime calculations. (Interakt Terms & Conditions)
-- Data Residency: WhatsApp messaging data resides on Meta's Cloud API, and Interakt explicitly states that data localization is not offered for this data. (Interakt Terms & Conditions)
-- Beta Products: Early access to 'Beta Products' is provided 'as is' and 'as available,' without any warranties, representations, indemnities, or contractual commitments. (Interakt Terms & Conditions)
-- Publicity Rights: Interakt reserves the right to use client logos, names, and performance metrics for its own marketing and advertising purposes, granted via a perpetual, irrevocable, worldwide, royalty-free license. (Interakt Terms & Conditions)
+- WhatsApp message data for Interakt clients resides on Meta's Cloud API infrastructure in North America and the European Union; Interakt explicitly states 'data localization is not offered' for specific regional storage (Interakt Privacy Policy, Terms of Service).
+- Clients are required to maintain access to their registered SIM card and must be able to present it in cases of emergencies within 30 minutes, an unusual operational responsibility for a BSP solution (Interakt Terms of Service).
+- Interakt's official pricing page ('https://www.interakt.shop/plans') returned a 404 error, meaning specific plan costs, included features, and user limits are not publicly available in the scraped content.
+- A non-refundable 2% 'Convenience Fee' is automatically applied to all subscription payments and prepaid credit recharges (Interakt Terms of Service).
+- Any unused prepaid credits automatically expire after 365 calendar days if the user account is deemed inactive (i.e., no active subscription) (Interakt Terms of Service).
+- In the event of a negative account balance ('Outstanding Deficit'), the amount is immediately due, and Interakt is authorized to automatically charge linked payment methods for recovery (Interakt Terms of Service).
+- Interakt commits to a 95% Target Availability uptime (with specific exclusions). If this SLA is not met for two consecutive months, clients have the right to terminate and receive a refund for utilization fees (Interakt Terms of Service).
+- Interakt reserves the right to use client logos, names, and performance metrics for its own marketing and advertising purposes with a perpetual, irrevocable, worldwide, royalty-free license (Interakt Terms of Service).
+- Interakt offers a 7-14 day trial period, with automatic charging for subscription/usage fees if the trial is not terminated before its expiry (Interakt Terms of Service).
 <!-- /ANCHOR:feature_notes -->
 
 <!-- ANCHOR:objections -->
 ## Objection Handling
 
-### Interakt seems to have more advanced AI features, like their SOLO AI team and AI agents, compared to Wati's upsell to Astra.
-**Response:** While Interakt integrates AI, Wati focuses on core WhatsApp API efficiency. Wati's AI integration, though a separate product (Astra), provides robust conversational AI and is designed for seamless integration with the Wati platform.
+### Interakt seems to have more sophisticated AI features, like their SOLO AI team and AI Call Receptionist. Why should I choose Wati?
+**Response:** While Interakt promotes various AI components, Wati provides a straightforward and robust WhatsApp API solution with a focus on ease of use and reliability. Our native AI agent handles standard queries, and for more advanced needs, our Astra AI upsell offers powerful, enterprise-grade conversational AI without requiring multiple disparate AI products.
 
-**Proof points:** Interakt has 'SOLO Your AI Business Team' and 'AI Agents Conversational AI for WhatsApp.', Wati's native AI agent upsells to Astra at ~$100/mo.
+**Proof points:** Wati: native AI agent upsells to Astra at ~$100/mo., Interakt: 'SOLO Your AI Business Team,' 'MyCallGenie Your AI Call Receptionist.'
 
-### Interakt offers Instagram and RCS, making it a more comprehensive multi-channel solution than Wati.
-**Response:** Wati specializes in deep WhatsApp API functionality, offering the easiest onboarding and robust features like WhatsApp Business Calling, which is a critical differentiator for businesses focused on direct WhatsApp engagement. For broader multi-channel needs, Wati offers a strong API for integration into existing CRMs or other platforms.
+### Interakt is a Meta Business Partner and offers Instagram and RCS, making it a multi-channel solution. Wati seems limited to WhatsApp.
+**Response:** Wati is also an official Meta partner, specializing in deep WhatsApp API functionality and rapid onboarding, which is often the primary need for businesses to drive real results. While Interakt supports multiple channels, Wati's focused expertise ensures superior performance and support within the critical WhatsApp channel.
 
-**Proof points:** Interakt lists 'Instagram Automation' and 'RCS Campaigns.', Wati's strength is 'easiest WhatsApp API onboarding' and 'WhatsApp Business Calling.'
+**Proof points:** Wati: 'official Meta + Google partner.', Interakt: 'Solutions By Channels [...] WhatsApp [...] Instagram [...] RCS'.
 
-### Interakt's focus on Shopify and D2C brands seems very strong, potentially a better fit for my e-commerce business.
-**Response:** Wati serves 16,000+ customers across diverse industries globally, including many e-commerce businesses, and offers robust integrations with e-commerce platforms. Our official Meta + Google partnership ensures broad platform compatibility and marketing reach for D2C brands.
+### Interakt is strong in Shopify, even being the #1 WhatsApp sales channel app there. Can Wati offer similar e-commerce sales benefits?
+**Response:** Wati's robust WhatsApp API platform enables powerful WhatsApp marketing, automation, and customer support flows that directly drive sales and retention for e-commerce, including Shopify. Our 'easiest WhatsApp API onboarding' ensures quick setup to leverage WhatsApp for commerce effectively, even without a specific 'Sales Channel App' title.
 
-**Proof points:** Interakt is '#1 WhatsApp Sales Channel app on the Shopify app store' (India, Malaysia, Singapore)., Wati has 16K+ customers and is an 'official Meta + Google partner.'
+**Proof points:** Interakt: '#1 WhatsApp Sales Channel app on the Shopify app store for India, Malaysia and Singapore.', Wati: 'easiest WhatsApp API onboarding,' 'WhatsApp Marketing,' 'WhatsApp Automation,' 'WhatsApp CRM,' 'WhatsApp Commerce.'
 
-### I'm concerned about hidden costs, but Interakt's prepaid model seems straightforward.
-**Response:** Wati offers clear, predictable monthly subscription pricing without additional 'convenience fees' or the complexity of managing prepaid credits that can expire. Our transparent model ensures you know your costs upfront without worrying about credit lapse or extra charges.
+### Interakt mentions its data is stored in North America and EU through Meta's Cloud API. Where is Wati's data stored, and what are the implications for data privacy/localization?
+**Response:** Wati is SOC 2 compliant and headquartered in Hong Kong, adhering to stringent data protection standards to ensure your data security. While Interakt uses Meta's global infrastructure for NA/EU data residence, they explicitly state that 'data localization is not offered,' meaning you cannot specify a particular regional data storage within their setup.
 
-**Proof points:** Interakt charges a '2% Convenience Fee' on subscriptions and prepaid credits, and 'Prepaid Credits' expire after 365 days of inactivity., Wati offers all-inclusive monthly subscription plans.
+**Proof points:** Wati: 'SOC 2.', Interakt: 'Data Residence... currently located in North America and European Union via Cloud API service by Meta,' 'data localization is not offered.'
 
-### Interakt mentions its 95% uptime SLA, which sounds good for reliability.
-**Response:** Wati maintains enterprise-grade reliability and security, including SOC 2 compliance, ensuring high availability and trust for our 16,000+ customers. Our infrastructure is built for scale and stability, and our SOC 2 certification provides an independent assurance of our security practices.
+### Interakt's terms mention I need to maintain access to my registered SIM card and present it for emergencies. Is this normal for a WhatsApp BSP, and does Wati have such a requirement?
+**Response:** No, this is an unusual operational requirement for a WhatsApp Business Solution Provider. Wati handles all the technical complexities of the WhatsApp API, including number management. You will not need to retain access to your physical SIM card for operational or emergency purposes with Wati, simplifying your business operations significantly.
 
-**Proof points:** Interakt's SLA is '95% uptime,' with multiple exclusions for downtime calculation., Wati is 'SOC 2' compliant, indicating robust security and availability controls.
+**Proof points:** Interakt: 'Client will need to maintain access and be solely responsible for the registered SIM card and will need to present the same in cases of emergencies in no longer than 30 minutes' (Interakt Terms of Service)., Wati: 'WhatsApp Business Solution Provider,' 'easiest WhatsApp API onboarding.'
 
-### Interakt's requirement for me to manage the SIM card for emergencies is a bit unusual. Is that standard?
-**Response:** No, it's not standard for a modern WABA provider. Wati handles all the underlying WhatsApp API infrastructure, abstracting away any need for you to manage physical SIM cards or handle related emergencies. Our approach ensures a truly 'hands-off' experience for the client.
+### Interakt offers a 7-14 day free trial. Does Wati offer a trial?
+**Response:** Wati's focus is on providing comprehensive support and immediate value, ensuring our 'easiest WhatsApp API onboarding' gets you up and running quickly. While a traditional free trial isn't explicitly mentioned in our public offerings, our clear pricing and proven reliability mean you can start realizing value without extended evaluation periods.
 
-**Proof points:** Interakt explicitly states: 'Client will need to maintain access and be solely responsible for the registered SIM card and will need to present the same in cases of emergencies in no longer than 30 minutes.', Wati provides easiest WhatsApp API onboarding and handles backend complexities.
+**Proof points:** Interakt: 'Trial Period' of 7-14 days (Interakt Terms of Service)., Wati: 'easiest WhatsApp API onboarding.'
 
 <!-- /ANCHOR:objections -->
 
 <!-- ANCHOR:pricing -->
 ## Pricing Battle
-Interakt's pricing model relies on a base subscription (details unavailable) combined with non-refundable, expiring prepaid credits for messaging, incurring an additional 2% convenience fee. Wati, in contrast, offers transparent, all-inclusive monthly subscription plans with clearly defined user limits and no extra fees, providing more predictable costs.
+Interakt's pricing information is not publicly available in the scraped content, making a direct comparison with Wati's transparent pricing challenging. Interakt does impose a 2% convenience fee on payments and has a 365-day expiry for inactive prepaid credits.
 
 | Segment | Wati Cost | interakt Cost | Winner | Why |
 |---|---|---|---|---|
-| Small SMB (3 agents, 2K msg/mo) | $59/month (Growth plan) | Data not available (base subscription + prepaid credits + 2% convenience fee) | **wati** | Wati offers transparent, fixed pricing for 3 users, while Interakt's total cost is unclear and includes additional fees and expiring credits. |
-| Mid-Market (7 agents, 10K msg/mo) | $197/month (Pro plan: 5 users @ $119 + 2 extra users @ $39 each) | Data not available (base subscription + prepaid credits + 2% convenience fee) | **wati** | Wati provides clear per-user scalability with predictable costs, whereas Interakt's lack of transparent pricing and user limits makes direct comparison impossible. |
-| Scale (20 agents, 50K msg/mo) | $1314/month (Business plan: 5 users @ $279 + 15 extra users @ $69 each, or Enterprise Custom) | Data not available (base subscription + prepaid credits + 2% convenience fee) | **wati** | Wati offers large-scale plans and custom enterprise options with clear pricing. Interakt's prepaid credit model with a 2% convenience fee could become cumbersome and less cost-effective at high volumes due to hidden charges and credit management overhead. |
+| Small SMB (3 users, low message volume) | $59/mo (Growth plan) | Data not available | **wati** | Wati offers clear pricing for 3 users, while Interakt's pricing is not available and includes a 2% convenience fee. |
+| Mid-market (5 users, moderate message volume) | $119/mo (Pro plan) | Data not available | **wati** | Wati provides a transparent Pro plan for 5 users. Interakt's pricing is unavailable, and its prepaid credit expiry policy could be a disadvantage for variable usage. |
+| Scale (10+ users, high message volume) | $119 + 5*$39/mo = $314/mo (Pro plan for 10 users) or Business $279 + 5*$69/mo = $624/mo (Business plan for 10 users) | Data not available | **wati** | Wati offers predictable per-user pricing for scaling teams. Interakt's pricing structure is unknown, and it adds a 2% convenience fee on all payments. |
 
 <!-- /ANCHOR:pricing -->
 
@@ -124,6 +125,7 @@ Interakt's pricing model relies on a base subscription (details unavailable) com
 - 2026-10-05: Refreshed — changed: documentation
 - 2026-10-12: Refreshed — changed: homepage, pricing, about, customers, documentation
 - 2026-10-19: Refreshed — changed: homepage, pricing, about, customers, documentation
+- 2026-10-26: Refreshed — changed: homepage, pricing, about, customers, documentation
 <!-- /ANCHOR:changelog -->
 
 <!-- ============================================================ -->
@@ -138,19 +140,19 @@ Title: Page Not Found | Interakt - WhatsApp for Business | WhatsApp API Pricing 
 URL Source: https://www.interakt.shop/plans
 
 Markdown Content:
-[](https://us06web.zoom.us/webinar/register/1517919732999/WN_y0KK_dcATnmdXkAz-Gw2Pg)[[Workshop] Get your Shopify store Diwali-ready | 22nd Oct @ 11 AM](https://us06web.zoom.us/webinar/register/1517919732999/WN_y0KK_dcATnmdXkAz-Gw2Pg)[Register Now](https://www.interakt.shop/integrations/integrating-whatsapp-business-api-with-shopify/)
+[](https://www.interakt.shop/integrations/integrating-whatsapp-business-api-with-shopify/)[![Image 22: New](https://www.interakt.shop/wp-content/uploads/2025/04/New-Tag-3.png)Introducing Shopify Voice AI Agent.](https://www.interakt.shop/integrations/integrating-whatsapp-business-api-with-shopify/)[Learn More](https://www.interakt.shop/integrations/integrating-whatsapp-business-api-with-shopify/)
 
-[](https://us06web.zoom.us/webinar/register/1517919732999/WN_y0KK_dcATnmdXkAz-Gw2Pg)[[Workshop] Get your Shopify store Diwali-ready | 22nd Oct @ 11 AM](https://us06web.zoom.us/webinar/register/1517919732999/WN_y0KK_dcATnmdXkAz-Gw2Pg)Register Now
+[](https://www.interakt.shop/integrations/integrating-whatsapp-business-api-with-shopify/)[![Image 23: New](https://www.interakt.shop/wp-content/uploads/2025/04/New-Tag-3.png) Introducing **Shopify Voice AI Agent**Learn More →](https://www.interakt.shop/integrations/integrating-whatsapp-business-api-with-shopify/)
 
-[](https://us06web.zoom.us/webinar/register/1517919732999/WN_y0KK_dcATnmdXkAz-Gw2Pg)[[Workshop] Get your Shopify store Diwali-ready | 22nd Oct @ 11 AM](https://us06web.zoom.us/webinar/register/1517919732999/WN_y0KK_dcATnmdXkAz-Gw2Pg)[Register Now](https://www.interakt.shop/integrations/integrating-whatsapp-business-api-with-shopify/)
+[](https://www.interakt.shop/integrations/integrating-whatsapp-business-api-with-shopify/)[![Image 24: New](https://www.interakt.shop/wp-content/uploads/2025/04/New-Tag-3.png)Introducing Shopify Voice AI Agent.](https://www.interakt.shop/integrations/integrating-whatsapp-business-api-with-shopify/)[Learn More](https://www.interakt.shop/integrations/integrating-whatsapp-business-api-with-shopify/)
 
-[](https://us06web.zoom.us/webinar/register/1517919732999/WN_y0KK_dcATnmdXkAz-Gw2Pg)[[Workshop] Get your Shopify store Diwali-ready | 22nd Oct @ 11 AM](https://us06web.zoom.us/webinar/register/1517919732999/WN_y0KK_dcATnmdXkAz-Gw2Pg)Register Now
+[](https://www.interakt.shop/integrations/integrating-whatsapp-business-api-with-shopify/)[![Image 25: New](https://www.interakt.shop/wp-content/uploads/2025/04/New-Tag-3.png) Introducing **Shopify Voice AI Agent**Learn More →](https://www.interakt.shop/integrations/integrating-whatsapp-business-api-with-shopify/)
 
-[![Image 22](https://www.interakt.shop/wp-content/uploads/2024/05/Logo.svg)](https://www.interakt.shop/)
+[![Image 26](https://www.interakt.shop/wp-content/uploads/2024/05/Logo.svg)](https://www.interakt.shop/)
 
 *    Products  Close Products Open Products 
 
-    *   [SOLO ![Image 23](https://www.interakt.shop/wp-content/uploads/2026/07/Group-14.png) Your AI Business Team](https://www.interakt.shop/solo/)
+    *   [SOLO ![Image 27](https://www.interakt.shop/wp-content/uploads/2026/07/Group-14.png) Your AI Business Team](https://www.interakt.shop/solo/)
 
     *   [AI Agents Conversational AI for WhatsApp](https://www.interakt.shop/whatsapp-ai-agents/)
 
@@ -162,9 +164,9 @@ Markdown Content:
 
     *   [MyCallGenie Your AI Call Receptionist](https://www.interakt.shop/mycallgenie-ai-call-receptionist/)
 
-[![Image 24](https://www.interakt.shop/wp-content/uploads/2025/04/Frame-6-1.png)](https://www.interakt.shop/whatsapp-business-api-live-demo/)
+[![Image 28](https://www.interakt.shop/wp-content/uploads/2025/04/Frame-6-1.png)](https://www.interakt.shop/whatsapp-business-api-live-demo/)
 
-*    Solutions  Close Solutions Open Solutions By Channels ![Image 25](https://www.interakt.shop/wp-content/uploads/2026/04/Group-1430106419.svg) WhatsApp  ![Image 26](https://www.interakt.shop/wp-content/uploads/2026/04/Group-2-2.svg) Instagram  ![Image 27](https://www.interakt.shop/wp-content/uploads/2026/04/Group-3-2.svg) RCS  ![Image 28](https://www.interakt.shop/wp-content/uploads/2026/04/Group-4-2.svg) Voice New   [WhatsApp Voice Calling New](https://www.interakt.shop/whatsapp-voice-calling/)[No Code Chatbot Builder](https://www.interakt.shop/no-code-chatbot-builder/)[WhatsApp Business API](https://www.interakt.shop/whatsapp-business-api/)[WhatsApp Forms](https://www.interakt.shop/whatsapp-form/)[Click to WhatsApp Ads](https://www.interakt.shop/click-to-whatsapp-ads/)[WhatsApp Marketing](https://www.interakt.shop/whatsapp-marketing/)[WhatsApp Automation](https://www.interakt.shop/whatsapp-automation/)[WhatsApp CRM](https://www.interakt.shop/sales-crm/)[WhatsApp Commerce](https://www.interakt.shop/whatsapp-commerce/)[WhatsApp Chat Widget](https://www.interakt.shop/whatsapp-chat-widget/)[WhatsApp Notification Library](https://www.interakt.shop/whatsapp-notifications-library/) [Instagram Automation](https://www.interakt.shop/instagram-automation/) [RCS Campaigns](https://www.interakt.shop/whatsapp-rcs-fallback/)[Rich Messaging](https://www.interakt.shop/richbusinessmessaging-rcs/) [MyCallGenie](https://www.interakt.shop/mycallgenie-ai-call-receptionist/)  By Industry [![Image 29](https://www.interakt.shop/wp-content/uploads/2026/04/Group-1430106420.svg) B2B Sales](https://www.interakt.shop/whatsapp-business-for-b2b-sales/)[![Image 30](https://www.interakt.shop/wp-content/uploads/2026/04/Group-1430106422.svg) Travel and Tourism](https://www.interakt.shop/whatsapp-business-for-travel-and-tourism/)[![Image 31](https://www.interakt.shop/wp-content/uploads/2026/04/Group-1430106423.svg) Restaurants & Food Business](https://www.interakt.shop/whatsapp-business-for-restaurants-food-businesses/)[![Image 32](https://www.interakt.shop/wp-content/uploads/2026/04/Group-1430106424.svg) Spas and Salons](https://www.interakt.shop/whatsapp-business-for-spas-and-salons/)[![Image 33](https://www.interakt.shop/wp-content/uploads/2026/04/Group-1430106425.svg) Health & Wellness Brands](https://www.interakt.shop/whatsapp-business-for-health-wellness-brands/)[![Image 34](https://www.interakt.shop/wp-content/uploads/2026/04/Group-1430106426.svg) Beauty & Cosmetics Brands](https://www.interakt.shop/whatsapp-business-for-beauty-cosmetics-brands/)[![Image 35](https://www.interakt.shop/wp-content/uploads/2026/04/Group-1430106427.svg) Edutech](https://www.interakt.shop/whatsapp-business-for-edutech/)[![Image 36](https://www.interakt.shop/wp-content/uploads/2026/04/Group-1430106428.svg) Automotive Industry](https://www.interakt.shop/whatsapp-business-for-automotive-industry/)[![Image 37](https://www.interakt.shop/wp-content/uploads/2026/04/Group-1430106429.svg) Home Decor & Furnishing](https://www.interakt.shop/whatsapp-business-for-home-decor-and-furnishings/)[![Image 38](https://www.interakt.shop/wp-content/uploads/2026/04/Group-1430106430.svg) Marketing Agency](https://www.interakt.shop/whatsapp-business-for-marketing-agency/)[![Image 39](https://www.interakt.shop/wp-content/uploads/2026/04/Group-1430106431.svg) Real Estate](https://www.interakt.shop/whatsapp-business-for-real-estate/)[![Image 40](https://www.interakt.shop/wp-content/uploads/2026/04/Group-1430106432.svg) Freelancer & Consultant Sales](https://www.interakt.shop/whatsapp-business-for-freelancer-and-consultant-sales/)[![Image 41](https://www.interakt.shop/wp-content/uploads/2026/04/Group-1430106433.svg) Banking & Finance](https://www.interakt.shop/whatsapp-business-for-banking-and-finance/) ![Image 42](https://www.interakt.shop/wp-content/uploads/2026/04/Frame-6-2.png)          
+*    Solutions  Close Solutions Open Solutions By Channels ![Image 29](https://www.interakt.shop/wp-content/uploads/2026/04/Group-1430106419.svg) WhatsApp  ![Image 30](https://www.interakt.shop/wp-content/uploads/2026/04/Group-2-2.svg) Instagram  ![Image 31](https://www.interakt.shop/wp-content/uploads/2026/04/Group-3-2.svg) RCS  ![Image 32](https://www.interakt.shop/wp-content/uploads/2026/04/Group-4-2.svg) Voice New   [WhatsApp Voice Calling New](https://www.interakt.shop/whatsapp-voice-calling/)[No Code Chatbot Builder](https://www.interakt.shop/no-code-chatbot-builder/)[WhatsApp Business API](https://www.interakt.shop/whatsapp-business-api/)[WhatsApp Forms](https://www.interakt.shop/whatsapp-form/)[Click to WhatsApp Ads](https://www.interakt.shop/click-to-whatsapp-ads/)[WhatsApp Marketing](https://www.interakt.shop/whatsapp-marketing/)[WhatsApp Automation](https://www.interakt.shop/whatsapp-automation/)[WhatsApp CRM](https://www.interakt.shop/sales-crm/)[WhatsApp Commerce](https://www.interakt.shop/whatsapp-commerce/)[WhatsApp Chat Widget](https://www.interakt.shop/whatsapp-chat-widget/)[WhatsApp Notification Library](https://www.interakt.shop/whatsapp-notifications-library/) [Instagram Automation](https://www.interakt.shop/instagram-automation/) [RCS Campaigns](https://www.interakt.shop/whatsapp-rcs-fallback/)[Rich Messaging](https://www.interakt.shop/richbusinessmessaging-rcs/) [MyCallGenie](https://www.interakt.shop/mycallgenie-ai-call-receptionist/)  By Industry [![Image 33](https://www.interakt.shop/wp-content/uploads/2026/04/Group-1430106420.svg) B2B Sales](https://www.interakt.shop/whatsapp-business-for-b2b-sales/)[![Image 34](https://www.interakt.shop/wp-content/uploads/2026/04/Group-1430106422.svg) Travel and Tourism](https://www.interakt.shop/whatsapp-business-for-travel-and-tourism/)[![Image 35](https://www.interakt.shop/wp-content/uploads/2026/04/Group-1430106423.svg) Restaurants & Food Business](https://www.interakt.shop/whatsapp-business-for-restaurants-food-businesses/)[![Image 36](https://www.interakt.shop/wp-content/uploads/2026/04/Group-1430106424.svg) Spas and Salons](https://www.interakt.shop/whatsapp-business-for-spas-and-salons/)[![Image 37](https://www.interakt.shop/wp-content/uploads/2026/04/Group-1430106425.svg) Health & Wellness Brands](https://www.interakt.shop/whatsapp-business-for-health-wellness-brands/)[![Image 38](https://www.interakt.shop/wp-content/uploads/2026/04/Group-1430106426.svg) Beauty & Cosmetics Brands](https://www.interakt.shop/whatsapp-business-for-beauty-cosmetics-brands/)[![Image 39](https://www.interakt.shop/wp-content/uploads/2026/04/Group-1430106427.svg) Edutech](https://www.interakt.shop/whatsapp-business-for-edutech/)[![Image 40](https://www.interakt.shop/wp-content/uploads/2026/04/Group-1430106428.svg) Automotive Industry](https://www.interakt.shop/whatsapp-business-for-automotive-industry/)[![Image 41](https://www.interakt.shop/wp-content/uploads/2026/04/Group-1430106429.svg) Home Decor & Furnishing](https://www.interakt.shop/whatsapp-business-for-home-decor-and-furnishings/)[![Image 42](https://www.interakt.shop/wp-content/uploads/2026/04/Group-1430106430.svg) Marketing Agency](https://www.interakt.shop/whatsapp-business-for-marketing-agency/)[![Image 43](https://www.interakt.shop/wp-content/uploads/2026/04/Group-1430106431.svg) Real Estate](https://www.interakt.shop/whatsapp-business-for-real-estate/)[![Image 44](https://www.interakt.shop/wp-content/uploads/2026/04/Group-1430106432.svg) Freelancer & Consultant Sales](https://www.interakt.shop/whatsapp-business-for-freelancer-and-consultant-sales/)[![Image 45](https://www.interakt.shop/wp-content/uploads/2026/04/Group-1430106433.svg) Banking & Finance](https://www.interakt.shop/whatsapp-business-for-banking-and-finance/) ![Image 46](https://www.interakt.shop/wp-content/uploads/2026/04/Frame-6-2.png)          
 *   [Integrations](https://www.interakt.shop/integrations/) 
 *   [Pricing](https://www.interakt.shop/pricing/) 
 *   [Partnerships](https://www.interakt.shop/partner-program/) 
@@ -178,7 +180,7 @@ Markdown Content:
 
     *   [FAQs](https://www.interakt.shop/faqs/)
 
-[![Image 43](https://www.interakt.shop/wp-content/uploads/2026/04/Banner-1-1.png)](https://www.interakt.shop/whatsapp-business-api-live-demo/)
+[![Image 47](https://www.interakt.shop/wp-content/uploads/2026/04/Banner-1-1.png)](https://www.interakt.shop/whatsapp-business-api-live-demo/)
 
 [Demo](https://www.interakt.shop/whatsapp-business-api-live-demo/)
 
@@ -186,15 +188,19 @@ Markdown Content:
 
 [Start Free Trial](https://www.interakt.shop/marketing-automation/signup/)
 
-![Image 44: en](https://www.interakt.shop/wp-content/plugins/gtranslate/flags/svg/en.svg)en
+![Image 48: en](https://www.interakt.shop/wp-content/plugins/gtranslate/flags/svg/en.svg)en
 
-[![Image 45: en](https://www.interakt.shop/plans) English](https://www.interakt.shop/plans)[![Image 46: id](https://www.interakt.shop/plans) Indonesian](https://www.interakt.shop/id/plans)[![Image 47: ar](https://www.interakt.shop/plans) Arabic](https://www.interakt.shop/ar/plans)[![Image 48: pt](https://www.interakt.shop/plans) Portuguese](https://www.interakt.shop/pt/plans)[![Image 49: hi](https://www.interakt.shop/plans) Hindi](https://www.interakt.shop/hi/plans)[![Image 50: es](https://www.interakt.shop/plans) Spanish](https://www.interakt.shop/es/plans)
+[![Image 49: en](https://www.interakt.shop/plans) English](https://www.interakt.shop/plans)[![Image 50: id](https://www.interakt.shop/plans) Indonesian](https://www.interakt.shop/id/plans)[![Image 51: ar](https://www.interakt.shop/plans) Arabic](https://www.interakt.shop/ar/plans)[![Image 52: pt](https://www.interakt.shop/plans) Portuguese](https://www.interakt.shop/pt/plans)[![Image 53: hi](https://www.interakt.shop/plans) Hindi](https://www.interakt.shop/hi/plans)[![Image 54: es](https://www.interakt.shop/plans) Spanish](https://www.interakt.shop/es/plans)
 
-[![Image 51](https://www.interakt.shop/wp-content/uploads/2024/05/Logo.svg)](https://www.interakt.shop/)
+[![Image 55](https://www.interakt.shop/wp-content/uploads/2024/05/Logo.svg)](https://www.interakt.shop/)
+
+![Image 56: en](https://www.interakt.shop/wp-content/plugins/gtranslate/flags/svg/en.svg)en
+
+[![Image 57: en](https://www.interakt.shop/plans) English](https://www.interakt.shop/plans)[![Image 58: id](https://www.interakt.shop/plans) Indonesian](https://www.interakt.shop/id/plans)[![Image 59: ar](https://www.interakt.shop/plans) Arabic](https://www.interakt.shop/ar/plans)[![Image 60: pt](https://www.interakt.shop/plans) Portuguese](https://www.interakt.shop/pt/plans)[![Image 61: hi](https://www.interakt.shop/plans) Hindi](https://www.interakt.shop/hi/plans)[![Image 62: es](https://www.interakt.shop/plans) Spanish](https://www.interakt.shop/es/plans)
 
 *    Products  Close Products Open Products 
 
-    *   [SOLO ![Image 52](https://www.interakt.shop/wp-content/uploads/2026/07/Group-14.png) Your AI Business Team](https://www.interakt.shop/solo/)
+    *   [SOLO ![Image 63](https://www.interakt.shop/wp-content/uploads/2026/07/Group-14.png) Your AI Business Team](https://www.interakt.shop/solo/)
 
     *   [AI Agents Conversational AI for WhatsApp](https://www.interakt.shop/whatsapp-ai-agents/)
 
@@ -206,9 +212,7 @@ Markdown Content:
 
     *   [MyCallGenie Your AI Call Receptionist](https://www.interakt.shop/mycallgenie-ai-call-receptionist/)
 
-[![Image 53](https://www.interakt.shop/wp-content/uploads/2025/04/Frame-6-1.png)](https://www.interakt.shop/whatsapp-business-api-live-demo/)
-
-*    Solutions  Close Solutions Open Solutions By Channels ![Image 54](https://www.interakt.shop/wp-content/uploads/2026/04/Group-1430106419.svg) WhatsApp  ![Image 55](https://www.interakt.shop/wp-content/uploads/2026/04/Group-2-2.svg) Instagram  ![Image 56](https://www.interakt.shop/wp-content/uploads/2026/04/Group-3-2.svg) RCS  ![Image 57](https://www.interakt.shop/wp-content/uploads/2026/04/Group-4-2.svg) Voice New   [WhatsApp Voice Calling New](https://www.interakt.shop/whatsapp-voice-calling/)[No Code Chatbot Builder](https://www.interakt.shop/no-code-chatbot-builder/)[WhatsApp Business API](https://www.interakt.shop/whatsapp-business-api/)[WhatsApp Forms](https://www.interakt.shop/whatsapp-form/)[Click to WhatsApp Ads](https://www.interakt.shop/click-to-whatsapp-ads/)[WhatsApp Marketing](https://www.interakt.shop/whatsapp-marketing/)[WhatsApp Automation](https://www.interakt.shop/whatsapp-automation/)[WhatsApp CRM](https://www.interakt.shop/sales-crm/)[WhatsApp Commerce](https://www.interakt.shop/whatsapp-commerce/)[WhatsApp Chat Widget](https://www.interakt.shop/whatsapp-chat-widget/)[WhatsApp Notification Library](https://www.interakt.shop/whatsapp-notifications-library/) [Instagram Automation](https://www.interakt.shop/instagram-automation/) [RCS Campaigns](https://www.interakt.sho
+*    Solutions  Close Solutions Open Solutions  By Channels  ![Image 64](https://www.interakt.shop/wp-content/uploads/2026/04/Group-1430106419.svg) WhatsApp  [WhatsApp Voice Calling New](https://www.interakt.shop/whatsapp-voice-calling/)[No Code Chatbot Builder](https://www.interakt.shop/no-code-chatbot-builder/)[WhatsApp Business API](https://www.interakt.shop/whatsapp-business-api/)[WhatsApp Forms](https://www.interakt.shop/whatsapp-form/)[Click to WhatsApp Ads](https://www.interakt.shop/click-to-whatsapp-ads/)[WhatsApp
 
 [Content truncated]
 <!-- /ANCHOR:source_pricing -->
@@ -227,15 +231,15 @@ URL Source: https://www.interakt.shop/about
 Markdown Content:
 ![Image 10: ...](blob:http://localhost/8ac3b6157802c8b292fdee99ca0eba0a)
 
-[](https://us06web.zoom.us/webinar/register/1517919732999/WN_y0KK_dcATnmdXkAz-Gw2Pg)[[Workshop] Get your Shopify store Diwali-ready | 22nd Oct @ 11 AM](https://us06web.zoom.us/webinar/register/1517919732999/WN_y0KK_dcATnmdXkAz-Gw2Pg)[Register Now](https://www.interakt.shop/integrations/integrating-whatsapp-business-api-with-shopify/)
+[](https://www.interakt.shop/integrations/integrating-whatsapp-business-api-with-shopify/)[![Image 11](https://www.interakt.shop/wp-content/uploads/2025/04/New-Tag-3.png)Introducing Shopify Voice AI Agent.](https://www.interakt.shop/integrations/integrating-whatsapp-business-api-with-shopify/)[Learn More](https://www.interakt.shop/integrations/integrating-whatsapp-business-api-with-shopify/)
 
-[](https://us06web.zoom.us/webinar/register/1517919732999/WN_y0KK_dcATnmdXkAz-Gw2Pg)[[Workshop] Get your Shopify store Diwali-ready | 22nd Oct @ 11 AM](https://us06web.zoom.us/webinar/register/1517919732999/WN_y0KK_dcATnmdXkAz-Gw2Pg)Register Now
+[](https://www.interakt.shop/integrations/integrating-whatsapp-business-api-with-shopify/)[![Image 12: New](blob:http://localhost/ac599c6c963c74bed2804c845f554ed0) Introducing **Shopify Voice AI Agent**Learn More →](https://www.interakt.shop/integrations/integrating-whatsapp-business-api-with-shopify/)
 
-[![Image 11](blob:http://localhost/031a860cae98bac756933037c0796a5a)](https://www.interakt.shop/)
+[![Image 13](https://www.interakt.shop/wp-content/uploads/2024/05/Logo.svg)](https://www.interakt.shop/)
 
 *    Products  Close Products Open Products 
 
-    *   [SOLO ![Image 13](blob:http://localhost/61b0a7b0e686bf43f87f8e16e4822a16) Your AI Business Team](https://www.interakt.shop/solo/)
+    *   [SOLO ![Image 14](blob:http://localhost/61b0a7b0e686bf43f87f8e16e4822a16) Your AI Business Team](https://www.interakt.shop/solo/)
 
     *   [AI Agents Conversational AI for WhatsApp](https://www.interakt.shop/whatsapp-ai-agents/)
 
@@ -249,7 +253,7 @@ Markdown Content:
 
 [![Image 15](blob:http://localhost/a5baabb8c986fb7518a68ce3a50161ae)](https://www.interakt.shop/whatsapp-business-api-live-demo/)
 
-*    Solutions  Close Solutions Open Solutions By Channels ![Image 17](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) WhatsApp  ![Image 19](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Instagram  ![Image 21](blob:http://localhost/e0eddde41819fa08a3b546684c54f8e9) RCS  ![Image 22](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Voice New   [WhatsApp Voice Calling New](https://www.interakt.shop/whatsapp-voice-calling/)[No Code Chatbot Builder](https://www.interakt.shop/no-code-chatbot-builder/)[WhatsApp Business API](https://www.interakt.shop/whatsapp-business-api/)[WhatsApp Forms](https://www.interakt.shop/whatsapp-form/)[Click to WhatsApp Ads](https://www.interakt.shop/click-to-whatsapp-ads/)[WhatsApp Marketing](https://www.interakt.shop/whatsapp-marketing/)[WhatsApp Automation](https://www.interakt.shop/whatsapp-automation/)[WhatsApp CRM](https://www.interakt.shop/sales-crm/)[WhatsApp Commerce](https://www.interakt.shop/whatsapp-commerce/)[WhatsApp Chat Widget](https://www.interakt.shop/whatsapp-chat-widget/)[WhatsApp Notification Library](https://www.interakt.shop/whatsapp-notifications-library/) [Instagram Automation](https://www.interakt.shop/instagram-automation/) [RCS Campaigns](https://www.interakt.shop/whatsapp-rcs-fallback/)[Rich Messaging](https://www.interakt.shop/richbusinessmessaging-rcs/) [MyCallGenie](https://www.interakt.shop/mycallgenie-ai-call-receptionist/)  By Industry [![Image 24](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) B2B Sales](https://www.interakt.shop/whatsapp-business-for-b2b-sales/)[![Image 26](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Travel and Tourism](https://www.interakt.shop/whatsapp-business-for-travel-and-tourism/)[![Image 28](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Restaurants & Food Business](https://www.interakt.shop/whatsapp-business-for-restaurants-food-businesses/)[![Image 30](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Spas and Salons](https://www.interakt.shop/whatsapp-business-for-spas-and-salons/)[![Image 32](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Health & Wellness Brands](https://www.interakt.shop/whatsapp-business-for-health-wellness-brands/)[![Image 34](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Beauty & Cosmetics Brands](https://www.interakt.shop/whatsapp-business-for-beauty-cosmetics-brands/)[![Image 36](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Edutech](https://www.interakt.shop/whatsapp-business-for-edutech/)[![Image 38](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Automotive Industry](https://www.interakt.shop/whatsapp-business-for-automotive-industry/)[![Image 40](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Home Decor & Furnishing](https://www.interakt.shop/whatsapp-business-for-home-decor-and-furnishings/)[![Image 42](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Marketing Agency](https://www.interakt.shop/whatsapp-business-for-marketing-agency/)[![Image 44](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Real Estate](https://www.interakt.shop/whatsapp-business-for-real-estate/)[![Image 46](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Freelancer & Consultant Sales](https://www.interakt.shop/whatsapp-business-for-freelancer-and-consultant-sales/)[![Image 48](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Banking & Finance](https://www.interakt.shop/whatsapp-business-for-banking-and-finance/) ![Image 50](blob:http://localhost/fcc2d4d79fdfef8d8a84c66560893a7b)          
+*    Solutions  Close Solutions Open Solutions By Channels ![Image 16](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) WhatsApp  ![Image 17](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Instagram  ![Image 18](blob:http://localhost/e0eddde41819fa08a3b546684c54f8e9) RCS  ![Image 19](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Voice New   [WhatsApp Voice Calling New](https://www.interakt.shop/whatsapp-voice-calling/)[No Code Chatbot Builder](https://www.interakt.shop/no-code-chatbot-builder/)[WhatsApp Business API](https://www.interakt.shop/whatsapp-business-api/)[WhatsApp Forms](https://www.interakt.shop/whatsapp-form/)[Click to WhatsApp Ads](https://www.interakt.shop/click-to-whatsapp-ads/)[WhatsApp Marketing](https://www.interakt.shop/whatsapp-marketing/)[WhatsApp Automation](https://www.interakt.shop/whatsapp-automation/)[WhatsApp CRM](https://www.interakt.shop/sales-crm/)[WhatsApp Commerce](https://www.interakt.shop/whatsapp-commerce/)[WhatsApp Chat Widget](https://www.interakt.shop/whatsapp-chat-widget/)[WhatsApp Notification Library](https://www.interakt.shop/whatsapp-notifications-library/) [Instagram Automation](https://www.interakt.shop/instagram-automation/) [RCS Campaigns](https://www.interakt.shop/whatsapp-rcs-fallback/)[Rich Messaging](https://www.interakt.shop/richbusinessmessaging-rcs/) [MyCallGenie](https://www.interakt.shop/mycallgenie-ai-call-receptionist/)  By Industry [![Image 20](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) B2B Sales](https://www.interakt.shop/whatsapp-business-for-b2b-sales/)[![Image 21](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Travel and Tourism](https://www.interakt.shop/whatsapp-business-for-travel-and-tourism/)[![Image 22](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Restaurants & Food Business](https://www.interakt.shop/whatsapp-business-for-restaurants-food-businesses/)[![Image 23](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Spas and Salons](https://www.interakt.shop/whatsapp-business-for-spas-and-salons/)[![Image 24](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Health & Wellness Brands](https://www.interakt.shop/whatsapp-business-for-health-wellness-brands/)[![Image 25](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Beauty & Cosmetics Brands](https://www.interakt.shop/whatsapp-business-for-beauty-cosmetics-brands/)[![Image 26](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Edutech](https://www.interakt.shop/whatsapp-business-for-edutech/)[![Image 27](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Automotive Industry](https://www.interakt.shop/whatsapp-business-for-automotive-industry/)[![Image 28](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Home Decor & Furnishing](https://www.interakt.shop/whatsapp-business-for-home-decor-and-furnishings/)[![Image 29](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Marketing Agency](https://www.interakt.shop/whatsapp-business-for-marketing-agency/)[![Image 30](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Real Estate](https://www.interakt.shop/whatsapp-business-for-real-estate/)[![Image 31](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Freelancer & Consultant Sales](https://www.interakt.shop/whatsapp-business-for-freelancer-and-consultant-sales/)[![Image 32](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Banking & Finance](https://www.interakt.shop/whatsapp-business-for-banking-and-finance/) ![Image 33](blob:http://localhost/fcc2d4d79fdfef8d8a84c66560893a7b)          
 *   [Integrations](https://www.interakt.shop/integrations/) 
 *   [Pricing](https://www.interakt.shop/pricing/) 
 *   [Partnerships](https://www.interakt.shop/partner-program/) 
@@ -263,7 +267,7 @@ Markdown Content:
 
     *   [FAQs](https://www.interakt.shop/faqs/)
 
-[![Image 52](blob:http://localhost/fa7dc6d4f3b15645b784be329867990a)](https://www.interakt.shop/whatsapp-business-api-live-demo/)
+[![Image 34](blob:http://localhost/fa7dc6d4f3b15645b784be329867990a)](https://www.interakt.shop/whatsapp-business-api-live-demo/)
 
 [Demo](https://www.interakt.shop/whatsapp-business-api-live-demo/)
 
@@ -271,11 +275,11 @@ Markdown Content:
 
 [Start Free Trial](https://www.interakt.shop/marketing-automation/signup/)
 
-[![Image 54](blob:http://localhost/031a860cae98bac756933037c0796a5a)](https://www.interakt.shop/)
+[![Image 35](blob:http://localhost/031a860cae98bac756933037c0796a5a)](https://www.interakt.shop/)
 
 *    Products  Close Products Open Products 
 
-    *   [SOLO ![Image 56](blob:http://localhost/61b0a7b0e686bf43f87f8e16e4822a16) Your AI Business Team](https://www.interakt.shop/solo/)
+    *   [SOLO ![Image 36](blob:http://localhost/61b0a7b0e686bf43f87f8e16e4822a16) Your AI Business Team](https://www.interakt.shop/solo/)
 
     *   [AI Agents Conversational AI for WhatsApp](https://www.interakt.shop/whatsapp-ai-agents/)
 
@@ -287,7 +291,7 @@ Markdown Content:
 
     *   [MyCallGenie Your AI Call Receptionist](https://www.interakt.shop/mycallgenie-ai-call-receptionist/)
 
-*    Solutions  Close Solutions Open Solutions  By Channels  ![Image 58](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) WhatsApp  [WhatsApp Voice Calling New](https://www.interakt.shop/whatsapp-voice-calling/)[No Code Chatbot Builder](https://www.interakt.shop/no-code-chatbot-builder/)[WhatsApp Business API](https://www.interakt.shop/whatsapp-business-api/)[WhatsApp Forms](https://www.interakt.shop/whatsapp-form/)[Click to WhatsApp Ads](https://www.interakt.shop/click-to-whatsapp-ads/)[WhatsApp Marketing](https://www.interakt.shop/whatsapp-marketing/)[WhatsApp Automation](https://www.interakt.shop/whatsapp-automation/)[WhatsApp CRM](https://www.interakt.shop/sales-crm/)[WhatsApp Commerce](https://www.interakt.shop/whatsapp-commerce/)[WhatsApp Chat Widget](https://www.interakt.shop/whatsapp-chat-widget/)[WhatsApp Notification Library](https://www.interakt.shop/whatsapp-notifications-library/) ![Image 60](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Instagram  [Instagram 
+*    Solutions  Close Solutions Open Solutions  By Channels  ![Image 37](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) WhatsApp  [WhatsApp Voice Calling New](https://www.interakt.shop/whatsapp-voice-calling/)[No Code Chatbot Builder](https://www.interakt.shop/no-code-chatbot-builder/)[WhatsApp Business API](https://www.interakt.shop/whatsapp-business-api/)[WhatsApp Forms](https://www.interakt.shop/whatsapp-form/)[Click to WhatsApp Ads](https://www.interakt.shop/click-to-whatsapp-ads/)[WhatsApp Marketing](https://www.interakt.shop/whatsapp-marketing/)[WhatsApp Automation](https://www.interakt.shop/whatsapp-automation/)[WhatsApp CRM](https://www.interakt.shop/sales-crm/)[WhatsApp Commerce](https://www.interakt.shop/whatsapp-commerce/)[WhatsApp Chat Widget](https://www.interakt.shop/whatsapp-chat-widget/)[WhatsApp Notification Library](https://www.interakt.shop
 
 [Content truncated]
 <!-- /ANCHOR:source_about -->
@@ -299,13 +303,11 @@ Title: Interakt Case Studies: Real Stories of WhatsApp Business Success
 URL Source: https://www.interakt.shop/case-studies
 
 Markdown Content:
-![Image 1: ...](blob:http://localhost/8ac3b6157802c8b292fdee99ca0eba0a)
+[](https://www.interakt.shop/integrations/integrating-whatsapp-business-api-with-shopify/)[![Image 1](https://www.interakt.shop/wp-content/uploads/2025/04/New-Tag-3.png)Introducing Shopify Voice AI Agent.](https://www.interakt.shop/integrations/integrating-whatsapp-business-api-with-shopify/)[Learn More](https://www.interakt.shop/integrations/integrating-whatsapp-business-api-with-shopify/)
 
-[](https://us06web.zoom.us/webinar/register/1517919732999/WN_y0KK_dcATnmdXkAz-Gw2Pg)[[Workshop] Get your Shopify store Diwali-ready | 22nd Oct @ 11 AM](https://us06web.zoom.us/webinar/register/1517919732999/WN_y0KK_dcATnmdXkAz-Gw2Pg)[Register Now](https://www.interakt.shop/integrations/integrating-whatsapp-business-api-with-shopify/)
+[](https://www.interakt.shop/integrations/integrating-whatsapp-business-api-with-shopify/)[![Image 2: New](blob:http://localhost/ac599c6c963c74bed2804c845f554ed0) Introducing **Shopify Voice AI Agent**Learn More →](https://www.interakt.shop/integrations/integrating-whatsapp-business-api-with-shopify/)
 
-[](https://us06web.zoom.us/webinar/register/1517919732999/WN_y0KK_dcATnmdXkAz-Gw2Pg)[[Workshop] Get your Shopify store Diwali-ready | 22nd Oct @ 11 AM](https://us06web.zoom.us/webinar/register/1517919732999/WN_y0KK_dcATnmdXkAz-Gw2Pg)Register Now
-
-[![Image 2](blob:http://localhost/031a860cae98bac756933037c0796a5a)](https://www.interakt.shop/)
+[![Image 3](https://www.interakt.shop/wp-content/uploads/2024/05/Logo.svg)](https://www.interakt.shop/)
 
 *    Products  Close Products Open Products 
 
@@ -321,9 +323,9 @@ Markdown Content:
 
     *   [MyCallGenie Your AI Call Receptionist](https://www.interakt.shop/mycallgenie-ai-call-receptionist/)
 
-[![Image 6](blob:http://localhost/a5baabb8c986fb7518a68ce3a50161ae)](https://www.interakt.shop/whatsapp-business-api-live-demo/)
+[![Image 5](blob:http://localhost/a5baabb8c986fb7518a68ce3a50161ae)](https://www.interakt.shop/whatsapp-business-api-live-demo/)
 
-*    Solutions  Close Solutions Open Solutions By Channels ![Image 8](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) WhatsApp  ![Image 10](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Instagram  ![Image 12](blob:http://localhost/e0eddde41819fa08a3b546684c54f8e9) RCS  ![Image 13](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Voice New   [WhatsApp Voice Calling New](https://www.interakt.shop/whatsapp-voice-calling/)[No Code Chatbot Builder](https://www.interakt.shop/no-code-chatbot-builder/)[WhatsApp Business API](https://www.interakt.shop/whatsapp-business-api/)[WhatsApp Forms](https://www.interakt.shop/whatsapp-form/)[Click to WhatsApp Ads](https://www.interakt.shop/click-to-whatsapp-ads/)[WhatsApp Marketing](https://www.interakt.shop/whatsapp-marketing/)[WhatsApp Automation](https://www.interakt.shop/whatsapp-automation/)[WhatsApp CRM](https://www.interakt.shop/sales-crm/)[WhatsApp Commerce](https://www.interakt.shop/whatsapp-commerce/)[WhatsApp Chat Widget](https://www.interakt.shop/whatsapp-chat-widget/)[WhatsApp Notification Library](https://www.interakt.shop/whatsapp-notifications-library/) [Instagram Automation](https://www.interakt.shop/instagram-automation/) [RCS Campaigns](https://www.interakt.shop/whatsapp-rcs-fallback/)[Rich Messaging](https://www.interakt.shop/richbusinessmessaging-rcs/) [MyCallGenie](https://www.interakt.shop/mycallgenie-ai-call-receptionist/)  By Industry [![Image 15](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) B2B Sales](https://www.interakt.shop/whatsapp-business-for-b2b-sales/)[![Image 17](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Travel and Tourism](https://www.interakt.shop/whatsapp-business-for-travel-and-tourism/)[![Image 19](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Restaurants & Food Business](https://www.interakt.shop/whatsapp-business-for-restaurants-food-businesses/)[![Image 21](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Spas and Salons](https://www.interakt.shop/whatsapp-business-for-spas-and-salons/)[![Image 23](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Health & Wellness Brands](https://www.interakt.shop/whatsapp-business-for-health-wellness-brands/)[![Image 25](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Beauty & Cosmetics Brands](https://www.interakt.shop/whatsapp-business-for-beauty-cosmetics-brands/)[![Image 27](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Edutech](https://www.interakt.shop/whatsapp-business-for-edutech/)[![Image 29](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Automotive Industry](https://www.interakt.shop/whatsapp-business-for-automotive-industry/)[![Image 31](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Home Decor & Furnishing](https://www.interakt.shop/whatsapp-business-for-home-decor-and-furnishings/)[![Image 33](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Marketing Agency](https://www.interakt.shop/whatsapp-business-for-marketing-agency/)[![Image 35](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Real Estate](https://www.interakt.shop/whatsapp-business-for-real-estate/)[![Image 37](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Freelancer & Consultant Sales](https://www.interakt.shop/whatsapp-business-for-freelancer-and-consultant-sales/)[![Image 39](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Banking & Finance](https://www.interakt.shop/whatsapp-business-for-banking-and-finance/) ![Image 41](blob:http://localhost/fcc2d4d79fdfef8d8a84c66560893a7b)          
+*    Solutions  Close Solutions Open Solutions By Channels ![Image 6](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) WhatsApp  ![Image 7](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Instagram  ![Image 8](blob:http://localhost/e0eddde41819fa08a3b546684c54f8e9) RCS  ![Image 9](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Voice New   [WhatsApp Voice Calling New](https://www.interakt.shop/whatsapp-voice-calling/)[No Code Chatbot Builder](https://www.interakt.shop/no-code-chatbot-builder/)[WhatsApp Business API](https://www.interakt.shop/whatsapp-business-api/)[WhatsApp Forms](https://www.interakt.shop/whatsapp-form/)[Click to WhatsApp Ads](https://www.interakt.shop/click-to-whatsapp-ads/)[WhatsApp Marketing](https://www.interakt.shop/whatsapp-marketing/)[WhatsApp Automation](https://www.interakt.shop/whatsapp-automation/)[WhatsApp CRM](https://www.interakt.shop/sales-crm/)[WhatsApp Commerce](https://www.interakt.shop/whatsapp-commerce/)[WhatsApp Chat Widget](https://www.interakt.shop/whatsapp-chat-widget/)[WhatsApp Notification Library](https://www.interakt.shop/whatsapp-notifications-library/) [Instagram Automation](https://www.interakt.shop/instagram-automation/) [RCS Campaigns](https://www.interakt.shop/whatsapp-rcs-fallback/)[Rich Messaging](https://www.interakt.shop/richbusinessmessaging-rcs/) [MyCallGenie](https://www.interakt.shop/mycallgenie-ai-call-receptionist/)  By Industry [![Image 10](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) B2B Sales](https://www.interakt.shop/whatsapp-business-for-b2b-sales/)[![Image 11](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Travel and Tourism](https://www.interakt.shop/whatsapp-business-for-travel-and-tourism/)[![Image 12](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Restaurants & Food Business](https://www.interakt.shop/whatsapp-business-for-restaurants-food-businesses/)[![Image 13](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Spas and Salons](https://www.interakt.shop/whatsapp-business-for-spas-and-salons/)[![Image 14](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Health & Wellness Brands](https://www.interakt.shop/whatsapp-business-for-health-wellness-brands/)[![Image 15](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Beauty & Cosmetics Brands](https://www.interakt.shop/whatsapp-business-for-beauty-cosmetics-brands/)[![Image 16](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Edutech](https://www.interakt.shop/whatsapp-business-for-edutech/)[![Image 17](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Automotive Industry](https://www.interakt.shop/whatsapp-business-for-automotive-industry/)[![Image 18](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Home Decor & Furnishing](https://www.interakt.shop/whatsapp-business-for-home-decor-and-furnishings/)[![Image 19](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Marketing Agency](https://www.interakt.shop/whatsapp-business-for-marketing-agency/)[![Image 20](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Real Estate](https://www.interakt.shop/whatsapp-business-for-real-estate/)[![Image 21](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Freelancer & Consultant Sales](https://www.interakt.shop/whatsapp-business-for-freelancer-and-consultant-sales/)[![Image 22](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Banking & Finance](https://www.interakt.shop/whatsapp-business-for-banking-and-finance/) ![Image 23](blob:http://localhost/fcc2d4d79fdfef8d8a84c66560893a7b)          
 *   [Integrations](https://www.interakt.shop/integrations/) 
 *   [Pricing](https://www.interakt.shop/pricing/) 
 *   [Partnerships](https://www.interakt.shop/partner-program/) 
@@ -337,7 +339,7 @@ Markdown Content:
 
     *   [FAQs](https://www.interakt.shop/faqs/)
 
-[![Image 43](blob:http://localhost/fa7dc6d4f3b15645b784be329867990a)](https://www.interakt.shop/whatsapp-business-api-live-demo/)
+[![Image 24](blob:http://localhost/fa7dc6d4f3b15645b784be329867990a)](https://www.interakt.shop/whatsapp-business-api-live-demo/)
 
 [Demo](https://www.interakt.shop/whatsapp-business-api-live-demo/)
 
@@ -345,23 +347,21 @@ Markdown Content:
 
 [Start Free Trial](https://www.interakt.shop/marketing-automation/signup/)
 
-[![Image 45](blob:http://localhost/031a860cae98bac756933037c0796a5a)](https://www.interakt.shop/)
+![Image 25: en](https://www.interakt.shop/wp-content/plugins/gtranslate/flags/svg/en.svg)en
+
+[![Image 26: en](https://www.interakt.shop/case-studies) English](https://www.interakt.shop/case-study/)[![Image 27: id](https://www.interakt.shop/case-studies) Indonesian](https://www.interakt.shop/id/case-study/)[![Image 28: ar](https://www.interakt.shop/case-studies) Arabic](https://www.interakt.shop/ar/case-study/)[![Image 29: pt](https://www.interakt.shop/case-studies) Portuguese](https://www.interakt.shop/pt/case-study/)[![Image 30: hi](https://www.interakt.shop/case-studies) Hindi](https://www.interakt.shop/hi/case-study/)[![Image 31: es](https://www.interakt.shop/case-studies) Spanish](https://www.interakt.shop/es/case-study/)
+
+[![Image 32](blob:http://localhost/031a860cae98bac756933037c0796a5a)](https://www.interakt.shop/)
+
+![Image 33: en](https://www.interakt.shop/wp-content/plugins/gtranslate/flags/svg/en.svg)en
+
+[![Image 34: en](https://www.interakt.shop/case-studies) English](https://www.interakt.shop/case-study/)[![Image 35: id](https://www.interakt.shop/case-studies) Indonesian](https://www.interakt.shop/id/case-study/)[![Image 36: ar](https://www.interakt.shop/case-studies) Arabic](https://www.interakt.shop/ar/case-study/)[![Image 37: pt](https://www.interakt.shop/case-studies) Portuguese](https://www.interakt.shop/pt/case-study/)[![Image 38: hi](https://www.interakt.shop/case-studies) Hindi](https://www.interakt.shop/hi/case-study/)[![Image 39: es](https://www.interakt.shop/case-studies) Spanish](https://www.interakt.shop/es/case-study/)
 
 *    Products  Close Products Open Products 
 
-    *   [SOLO ![Image 47](blob:http://localhost/61b0a7b0e686bf43f87f8e16e4822a16) Your AI Business Team](https://www.interakt.shop/solo/)
+    *   [SOLO ![Image 40](blob:http://localhost/61b0a7b0e686bf43f87f8e16e4822a16) Your AI Business Team](https://www.interakt.shop/solo/)
 
-    *   [AI Agents Conversational AI for WhatsApp](https://www.interakt.shop/whatsapp-ai-agents/)
-
-    *   [Marketing Hub Your Ultimate Campaign Suite](https://www.interakt.shop/marketing-automation/)
-
-    *   [Support Hub All-in-One Customer Platform](https://www.interakt.shop/customer-support-automation/)
-
-    *   [Sales CRM Boost Sales with WhatsApp CRM](https://www.interakt.shop/sales-crm/)
-
-    *   [MyCallGenie Your AI Call Receptionist](https://www.interakt.shop/mycallgenie-ai-call-receptionist/)
-
-*    Solutions  Close Solutions Open Solutions  By Channels  ![Image 49](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) WhatsApp  [WhatsApp Voice Calling New](https://www.interakt.shop/whatsapp-voice-calling/)[No Code Chatbot Builder](https://www.interakt.shop/no-code-chatbot-builder/)[WhatsApp Business API](https://www.interakt.shop/whatsapp-business-api/)[WhatsApp Forms](https://www.interakt.shop/whatsapp-form/)[Click to WhatsApp Ads](https://www.interakt.shop/click-to-whatsapp-ads/)[WhatsApp Marketing](https://www.interakt.shop/whatsapp-marketing/)[WhatsApp Automation](https://www.interakt.shop/whatsapp-automation/)[WhatsApp CRM](https://www.interakt.shop/sales-crm/)[WhatsApp Commerce](https://www.interakt.shop/whatsapp-commerce/)[WhatsApp Chat Widget](https://www.interakt.shop/whatsapp-chat-widget/)[WhatsApp Notification Library](https://www.interakt.shop/whatsapp-notifications-library/) ![Image 51](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Instagram  [Instagram Automation](https://www.inte
+    *   [AI Agents Co
 
 [Content truncated]
 <!-- /ANCHOR:source_customers -->
@@ -533,6 +533,16 @@ Published Time: Sun, 07 Jan 2024 15:14:46 GMT
 Markdown Content:
 A 201x62 small image, likely a logo, icon or avatar
 
+=== https://www.interakt.shop/wp-content/uploads/2023/04/Group-3794.png ===
+Title: Group-3794.png
+
+URL Source: https://www.interakt.shop/wp-content/uploads/2023/04/Group-3794.png
+
+Published Time: Sun, 07 Jan 2024 15:14:10 GMT
+
+Markdown Content:
+a half green circle on the white background
+
 === https://www.interakt.shop/wp-content/uploads/2023/04/G2-Badges-2.png ===
 Title: G2-Badges-2.png
 
@@ -541,25 +551,25 @@ URL Source: https://www.interakt.shop/wp-content/uploads/2023/04/G2-Badges-2.png
 Published Time: Tue, 24 Jun 2025 09:08:49 GMT
 
 Markdown Content:
-Four certificates for small business
+Four possible wins at a competition
 
-=== https://www.interakt.shop/whatsapp-business-api-live-demo ===
-Title: Whatsapp Business API Live Demo
+=== https://www.interakt.shop/contact-us ===
+Title: Contact us for WhatsApp Business API with Interakt
 
-URL Source: https://www.interakt.shop/whatsapp-business-api-live-demo
+URL Source: https://www.interakt.shop/contact-us
 
 Markdown Content:
 ![Image 1: ...](blob:http://localhost/8ac3b6157802c8b292fdee99ca0eba0a)
 
-[](https://us06web.zoom.us/webinar/register/1517919732999/WN_y0KK_dcATnmdXkAz-Gw2Pg)[[Workshop] Get your Shopify store Diwali-ready | 22nd Oct @ 11 AM](https://us06web.zoom.us/webinar/register/1517919732999/WN_y0KK_dcATnmdXkAz-Gw2Pg)[Register Now](https://www.interakt.shop/integrations/integrating-whatsapp-business-api-with-shopify/)
+[](https://www.interakt.shop/integrations/integrating-whatsapp-business-api-with-shopify/)[![Image 2](https://www.interakt.shop/wp-content/uploads/2025/04/New-Tag-3.png)Introducing Shopify Voice AI Agent.](https://www.interakt.shop/integrations/integrating-whatsapp-business-api-with-shopify/)[Learn More](https://www.interakt.shop/integrations/integrating-whatsapp-business-api-with-shopify/)
 
-[](https://us06web.zoom.us/webinar/register/1517919732999/WN_y0KK_dcATnmdXkAz-Gw2Pg)[[Workshop] Get your Shopify store Diwali-ready | 22nd Oct @ 11 AM](https://us06web.zoom.us/webinar/register/1517919732999/WN_y0KK_dcATnmdXkAz-Gw2Pg)Register Now
+[](https://www.interakt.shop/integrations/integrating-whatsapp-business-api-with-shopify/)[![Image 3: New](blob:http://localhost/ac599c6c963c74bed2804c845f554ed0) Introducing **Shopify Voice AI Agent**Learn More →](https://www.interakt.shop/integrations/integrating-whatsapp-business-api-with-shopify/)
 
-[![Image 2](blob:http://localhost/031a860cae98bac756933037c0796a5a)](https://www.interakt.shop/)
+[![Image 4](https://www.interakt.shop/wp-content/uploads/2024/05/Logo.svg)](https://www.interakt.shop/)
 
 *    Products  Close Products Open Products 
 
-    *   [SOLO ![Image 4](blob:http://localhost/61b0a7b0e686bf43f87f8e16e4822a16) Your AI Business Team](https://www.interakt.shop/solo/)
+    *   [SOLO ![Image 5](blob:http://localhost/61b0a7b0e686bf43f87f8e16e4822a16) Your AI Business Team](https://www.interakt.shop/solo/)
 
     *   [AI Agents Conversational AI for WhatsApp](https://www.interakt.shop/whatsapp-ai-agents/)
 
@@ -573,7 +583,7 @@ Markdown Content:
 
 [![Image 6](blob:http://localhost/a5baabb8c986fb7518a68ce3a50161ae)](https://www.interakt.shop/whatsapp-business-api-live-demo/)
 
-*    Solutions  Close Solutions Open Solutions By Channels ![Image 8](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) WhatsApp  ![Image 10](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Instagram  ![Image 12](blob:http://localhost/e0eddde41819fa08a3b546684c54f8e9) RCS  ![Image 13](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Voice New   [WhatsApp Voice Calling New](https://www.interakt.shop/whatsapp-voice-calling/)[No Code Chatbot Builder](https://www.interakt.shop/no-code-chatbot-builder/)[WhatsApp Business API](https://www.interakt.shop/whatsapp-business-api/)[WhatsApp Forms](https://www.interakt.shop/whatsapp-form/)[Click to WhatsApp Ads](https://www.interakt.shop/click-to-whatsapp-ads/)[WhatsApp Marketing](https://www.interakt.shop/whatsapp-marketing/)[WhatsApp Automation](https://www.interakt.shop/whatsapp-automation/)[WhatsApp CRM](https://www.interakt.shop/sales-crm/)[WhatsApp Commerce](https://www.interakt.shop/whatsapp-commerce/)[WhatsApp Chat Widget](https://www.interakt.shop/whatsapp-chat-widget/)[WhatsApp Notification Library](https://www.interakt.shop/whatsapp-notifications-library/) [Instagram Automation](https://www.interakt.shop/instagram-automation/) [RCS Campaigns](https://www.interakt.shop/whatsapp-rcs-fallback/)[Rich Messaging](https://www.interakt.shop/richbusinessmessaging-rcs/) [MyCallGenie](https://www.interakt.shop/mycallgenie-ai-call-receptionist/)  By Industry [![Image 15](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) B2B Sales](https://www.interakt.shop/whatsapp-business-for-b2b-sales/)[![Image 17](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Travel and Tourism](https://www.interakt.shop/whatsapp-business-for-travel-and-tourism/)[![Image 19](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Restaurants & Food Business](https://www.interakt.shop/whatsapp-business-for-restaurants-food-businesses/)[![Image 21](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Spas and Salons](https://www.interakt.shop/whatsapp-business-for-spas-and-salons/)[![Image 23](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Health & Wellness Brands](https://www.interakt.shop/whatsapp-business-for-health-wellness-brands/)[![Image 25](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Beauty & Cosmetics Brands](https://www.interakt.shop/whatsapp-business-for-beauty-cosmetics-brands/)[![Image 27](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Edutech](https://www.interakt.shop/whatsapp-business-for-edutech/)[![Image 29](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Automotive Industry](https://www.interakt.shop/whatsapp-business-for-automotive-industry/)[![Image 31](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Home Decor & Furnishing](https://www.interakt.shop/whatsapp-business-for-home-decor-and-furnishings/)[![Image 33](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Marketing Agency](https://www.interakt.shop/whatsapp-business-for-marketing-agency/)[![Image 35](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Real Estate](https://www.interakt.shop/whatsapp-business-for-real-estate/)[![Image 37](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Freelancer & Consultant Sales](https://www.interakt.shop/whatsapp-business-for-freelancer-and-consultant-sales/)[![Image 39](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Banking & Finance](https://www.interakt.shop/whatsapp-business-for-banking-and-finance/) ![Image 41](blob:http://localhost/fcc2d4d79fdfef8d8a84c66560893a7b)          
+*    Solutions  Close Solutions Open Solutions By Channels ![Image 7](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) WhatsApp  ![Image 8](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Instagram  ![Image 9](blob:http://localhost/e0eddde41819fa08a3b546684c54f8e9) RCS  ![Image 10](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Voice New   [WhatsApp Voice Calling New](https://www.interakt.shop/whatsapp-voice-calling/)[No Code Chatbot Builder](https://www.interakt.shop/no-code-chatbot-builder/)[WhatsApp Business API](https://www.interakt.shop/whatsapp-business-api/)[WhatsApp Forms](https://www.interakt.shop/whatsapp-form/)[Click to WhatsApp Ads](https://www.interakt.shop/click-to-whatsapp-ads/)[WhatsApp Marketing](https://www.interakt.shop/whatsapp-marketing/)[WhatsApp Automation](https://www.interakt.shop/whatsapp-automation/)[WhatsApp CRM](https://www.interakt.shop/sales-crm/)[WhatsApp Commerce](https://www.interakt.shop/whatsapp-commerce/)[WhatsApp Chat Widget](https://www.interakt.shop/whatsapp-chat-widget/)[WhatsApp Notification Library](https://www.interakt.shop/whatsapp-notifications-library/) [Instagram Automation](https://www.interakt.shop/instagram-automation/) [RCS Campaigns](https://www.interakt.shop/whatsapp-rcs-fallback/)[Rich Messaging](https://www.interakt.shop/richbusinessmessaging-rcs/) [MyCallGenie](https://www.interakt.shop/mycallgenie-ai-call-receptionist/)  By Industry [![Image 11](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) B2B Sales](https://www.interakt.shop/whatsapp-business-for-b2b-sales/)[![Image 12](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Travel and Tourism](https://www.interakt.shop/whatsapp-business-for-travel-and-tourism/)[![Image 13](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Restaurants & Food Business](https://www.interakt.shop/whatsapp-business-for-restaurants-food-businesses/)[![Image 14](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Spas and Salons](https://www.interakt.shop/whatsapp-business-for-spas-and-salons/)[![Image 15](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Health & Wellness Brands](https://www.interakt.shop/whatsapp-business-for-health-wellness-brands/)[![Image 16](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Beauty & Cosmetics Brands](https://www.interakt.shop/whatsapp-business-for-beauty-cosmetics-brands/)[![Image 17](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Edutech](https://www.interakt.shop/whatsapp-business-for-edutech/)[![Image 18](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Automotive Industry](https://www.interakt.shop/whatsapp-business-for-automotive-industry/)[![Image 19](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Home Decor & Furnishing](https://www.interakt.shop/whatsapp-business-for-home-decor-and-furnishings/)[![Image 20](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Marketing Agency](https://www.interakt.shop/whatsapp-business-for-marketing-agency/)[![Image 21](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Real Estate](https://www.interakt.shop/whatsapp-business-for-real-estate/)[![Image 22](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Freelancer & Consultant Sales](https://www.interakt.shop/whatsapp-business-for-freelancer-and-consultant-sales/)[![Image 23](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Banking & Finance](https://www.interakt.shop/whatsapp-business-for-banking-and-finance/) ![Image 24](blob:http://localhost/fcc2d4d79fdfef8d8a84c66560893a7b)          
 *   [Integrations](https://www.interakt.shop/integrations/) 
 *   [Pricing](https://www.interakt.shop/pricing/) 
 *   [Partnerships](https://www.interakt.shop/partner-program/) 
@@ -587,7 +597,7 @@ Markdown Content:
 
     *   [FAQs](https://www.interakt.shop/faqs/)
 
-[![Image 43](blob:http://localhost/fa7dc6d4f3b15645b784be329867990a)](https://www.interakt.shop/whatsapp-business-api-live-demo/)
+[![Image 25](blob:http://localhost/fa7dc6d4f3b15645b784be329867990a)](https://www.interakt.shop/whatsapp-business-api-live-demo/)
 
 [Demo](https://www.interakt.shop/whatsapp-business-api-live-demo/)
 
@@ -595,11 +605,11 @@ Markdown Content:
 
 [Start Free Trial](https://www.interakt.shop/marketing-automation/signup/)
 
-[![Image 45](blob:http://localhost/031a860cae98bac756933037c0796a5a)](https://www.interakt.shop/)
+[![Image 26](blob:http://localhost/031a860cae98bac756933037c0796a5a)](https://www.interakt.shop/)
 
 *    Products  Close Products Open Products 
 
-    *   [SOLO ![Image 47](blob:http://localhost/61b0a7b0e686bf43f87f8e16e4822a16) Your AI Business Team](https://www.interakt.shop/solo/)
+    *   [SOLO ![Image 27](blob:http://localhost/61b0a7b0e686bf43f87f8e16e4822a16) Your AI Business Team](https://www.interakt.shop/solo/)
 
     *   [AI Agents Conversational AI for WhatsApp](https://www.interakt.shop/whatsapp-ai-agents/)
 
@@ -611,7 +621,7 @@ Markdown Content:
 
     *   [MyCallGenie Your AI Call Receptionist](https://www.interakt.shop/mycallgenie-ai-call-receptionist/)
 
-*    Solutions  Close Solutions Open Solutions  By Channels  ![Image 49](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) WhatsApp  [WhatsApp Voice Calling New](https://www.interakt.shop/whatsapp-voice-calling/)[No Code Chatbot Builder](https://www.interakt.shop/no-code-chatbot-builder/)[WhatsApp Business API](https://www.interakt.shop/whatsapp-business-api/)[WhatsApp Forms](https://www.interakt.shop/whatsapp-form/)[Click to WhatsApp Ads](https://www.interakt.shop/click-to-whatsapp-ads/)[WhatsApp Marketing](https://www.interakt.shop/whatsapp-marketing/)[WhatsApp Automation](https://www.interakt.shop/whatsapp-automation/)[WhatsApp CRM](https://www.interakt.shop/sales-crm/)[WhatsApp Commerce](https://www.interakt.shop/whatsapp-commerce/)[WhatsApp Chat Widget](https://www.interakt.shop/whatsapp-chat-widget/)[WhatsApp Notification Library](https://www.interakt.shop/whatsapp-notifications-library/) ![Image 51](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Instagram  [Instagram Automation](https://www.interakt.shop/instagram-automation/) ![Image 53](blob:http://localhost/e0eddde41819fa08a3b546684c54f8e9) RCS  [RCS Campaigns](https://www.interakt.shop/whatsapp-rcs-fallback/)[Rich Messaging](https://www.interakt.shop/richbusinessmessaging-rcs/) ![Image 54](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Voice New [MyCallGenie](https://www.interakt.shop/mycallgenie-ai-call-receptionist/)   By Industry  [![Image 56](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) B2B Sales](https://www.interakt.shop/whatsapp-business-for-b2b-sales/)[![Image 58](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Travel and Tourism](https://www.interakt.shop/whatsapp-business-for-travel-and-tourism/)[![Image 60](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Restaurants & Food Business](https://www.interakt.shop/whatsapp-business-for-restaurants-food-businesses/)[![Image 62](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Spas and Salons](https://www.interakt.shop/whatsapp-business-for-spas-and-salons/)[![Image 64](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Health & Wellness Brands](https://www.interakt.shop/whatsapp-business-for-health-wellness-brands/)[![Image 66](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Beauty & Cosmetics Brands](https://www.interakt.shop/whatsapp-business-for-beauty-cosmetics-brands/)[![Image 68](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Edutech](https://www.interakt.shop/whatsapp-business-for-edutech/)[![Image 70](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Automotive Industry](https://www.interakt.shop/whatsapp-business-for-automotive-industry/)[![Image 72](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Home Decor & Furnishing](https://www.interakt.shop/whatsapp-business-for-home-decor-and-furnishings/)[![Image 74](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Marketing Agency](https://www.interakt.shop/whatsapp-business-for-marketing-agency/)[![Image 76](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Real Estate](https://www.interakt.shop/whatsapp-business-for-real-estate/)[![Image 78](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Freelancer & Consultant Sales](https://www.interakt.shop/whatsapp-business-for-freelancer-and-consultant-sales/)[![Image 80](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Banking & Finance](https://www.interakt.shop/whatsapp-business-for-banking-and-finance/)          
+*    Solutions  Close Solutions Open Solutions  By Channels  ![Image 28](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) WhatsApp  [WhatsApp Voice Calling New](https://www.interakt.shop/whatsapp-voice-calling/)[No Code Chatbot Builder](https://www.interakt.shop/no-code-chatbot-builder/)[WhatsApp Business API](https://www.interakt.shop/whatsapp-business-api/)[WhatsApp Forms](https://www.interakt.shop/whatsapp-form/)[Click to WhatsApp Ads](https://www.interakt.shop/click-to-whatsapp-ads/)[WhatsApp Marketing](https://www.interakt.shop/whatsapp-marketing/)[WhatsApp Automation](https://www.interakt.shop/whatsapp-automation/)[WhatsApp CRM](https://www.interakt.shop/sales-crm/)[WhatsApp Commerce](https://www.interakt.shop/whatsapp-commerce/)[WhatsApp Chat Widget](https://www.interakt.shop/whatsapp-chat-widget/)[WhatsApp Notification Library](https://www.interakt.shop/whatsapp-notifications-library/) ![Image 29](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Instagram  [Instagram Automation](https://www.interakt.shop/instagram-automation/) ![Image 30](blob:http://localhost/e0eddde41819fa08a3b546684c54f8e9) RCS  [RCS Campaigns](https://www.interakt.shop/whatsapp-rcs-fallback/)[Rich Messaging](https://www.interakt.shop/richbusinessmessaging-rcs/) ![Image 31](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Voice New [MyCallGenie](https://www.interakt.shop/mycallgenie-ai-call-receptionist/)   By Industry  [![Image 32](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) B2B Sales](https://www.interakt.shop/whatsapp-business-for-b2b-sales/)[![Image 33](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Travel and Tourism](https://www.interakt.shop/whatsapp-business-for-travel-and-tourism/)[![Image 34](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Restaurants & Food Business](https://www.interakt.shop/whatsapp-business-for-restaurants-food-businesses/)[![Image 35](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Spas and Salons](https://www.interakt.shop/whatsapp-business-for-spas-and-salons/)[![Image 36](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Health & Wellness Brands](https://www.interakt.shop/whatsapp-business-for-health-wellness-brands/)[![Image 37](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Beauty & Cosmetics Brands](https://www.interakt.shop/whatsapp-business-for-beauty-cosmetics-brands/)[![Image 38](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Edutech](https://www.interakt.shop/whatsapp-business-for-edutech/)[![Image 39](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Automotive Industry](https://www.interakt.shop/whatsapp-business-for-automotive-industry/)[![Image 40](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Home Decor & Furnishing](https://www.interakt.shop/whatsapp-business-for-home-decor-and-furnishings/)[![Image 41](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Marketing Agency](https://www.interakt.shop/whatsapp-business-for-marketing-agency/)[![Image 42](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Real Estate](https://www.interakt.shop/whatsapp-business-for-real-estate/)[![Image 43](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Freelancer & Consultant Sales](https://www.interakt.shop/whatsapp-business-for-freelancer-and-consultant-sales/)[![Image 44](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Banking & Finance](https://www.interakt.shop/whatsapp-business-for-banking-and-finance/)          
 *   [Integrations](https://www.interakt.shop/integrations/) 
 *   [Pricing](https://www.interakt.shop/pricing/) 
 *   [Partnerships](https://www.interakt.shop/partner-program/) 
@@ -629,126 +639,23 @@ Markdown Content:
 *   [Login](https://app.interakt.ai/login?_gl=1*1g8ggv2*_gcl_au*ODk0MDY0MTk5LjE3MzY3NDYxNTYuMTQ5NzkwNDQzLjE3NDEwODUwNDEuMTc0MTA4NTA2NQ..*_ga*MTg2NTkwODYyNC4xNzM2NzQ2MTU2*_ga_4FBL7Q80RL*MTc0NDA0MTE2My4xODUuMS4xNzQ0MDQ3NTEwLjYwLjAuMA..&_ga=2.8954544.406833857.1743394959-1865908624.1736746156) 
 *   [Start Free Trial](https://www.interakt.shop/marketing-automation/signup/) 
 
-# Join Expert-Led Demos for WhatsApp
+# Get in Touch!
 
-![Image 82](blob:http://localhost/e15f0ebc8f4096e86333eb4e82bc116d)
+**Facing an issue**
 
-# Instagram & Sales CRM!
+**or need help with something?**
 
-# Join Expert-Led Demos
+ Raise Ticket
 
-![Image 84](blob:http://localhost/e15f0ebc8f4096e86333eb4e82bc116d)
+**Want to learn how to grow your business on WhatsApp?**  
+  
+**Email our Sales Team [sales-enquiries@interakt.ai](mailto:sales-enquiries@interakt.ai)**
 
-# for WhatsApp, Instagram & Sales CRM!
+# Our Offices
 
-Explore automation solutions with live demos.  
- Get personalized answers and tips for your business.
-
-Explore automation solutions with live demos. Get personalized answers and tips for your business.
-
-![Image 86](blob:http://localhost/c23e7754cb5d113607d5f18fdc439269)
-
-![Image 87](blob:http://localhost/f71748ddbe02f28bed45b4a2500985a5)
-
-![Image 89](blob:http://localhost/825a6c7e9c13eae0fbb142765d0699a8)
-
- See Interakt in action with a personalized walkthrough! 
-
-Discover how Interakt can seamlessly help you automate sales, nurture leads & close deals – all on WhatsApp.
-
-[WhatsApp Business API Demo](https://us06web.zoom.us/webinar/register/WN_S3ezRE2BT-mSgFRUlsKbEQ#/registration)
-
-[WhatsApp AI Agents Live Demo](https://us06web.zoom.us/webinar/register/1017628487188/WN_R0ZUqs5dTQuFo8vUPCt_Qw#/registration)
-
-[Sales CRM LIVE Demo](https://us06web.zoom.us/webinar/register/WN___0_Mq7SRJC-LkvpeUf8LA#/registration)
-
-# Already using Interakt?
-
-![Image 91](blob:http://localhost/e15f0ebc8f4096e86333eb4e82bc116d)
-
-## Explore Our Weekly Live Training Sessions
-
-![Image 93](blob:http://localhost/c23e7754cb5d113607d5f18fdc439269)
-
-![Image 94](blob:http://localhost/3c26f7b3260bfcc3fc8cb7b818e9756d)
-
-![Image 96](blob:http://localhost/e9ef2bbfd1ddaf405ccd825eba87b8e3)
-
-## Shopify Training
-
- Learn to manage your Shopify catalog, run campaigns, and set up COD to prepaid conversions with ease. 
-
-[Book a Slot](https://us06web.zoom.us/webinar/register/1617563656661/WN_9OO7JvM2RTOoFAMV2l1_sA)
-
-![Image 98](blob:http://localhost/c23e7754cb5d113607d5f18fdc439269)
-
-![Image 99](blob:http://localhost/a3eed4b98ad1eeb68b500a238940ac45)
-
-![Image 101](blob:http://localhost/bb5fcb010bd5fee5ddf4335204796707)
-
-## SOLO Workshop
-
- Join us every Wednesday for a practical session on SOLO, Interakt’s AI team built to help businesses manage marketing, sales, and customer conversations. 
-
-[Book a Slot](https://us06web.zoom.us/webinar/register/2017869562910/WN_H6Z031UORh-xKg5kISsRyg)
-
-![Image 103](blob:http://localhost/c23e7754cb5d113607d5f18fdc439269)
-
-![Image 104](blob:http://localhost/a3eed4b98ad1eeb68b500a238940ac45)
-
-![Image 106](blob:http://localhost/cb038723cb2c4e27a5617ce72d569a6c)
-
-## Instagram Automation Training
-
- Discover how to engage your audience and streamline communication on Instagram using our tools. 
-
-[Book a Slot](https://us06web.zoom.us/webinar/register/6017563650679/WN_iM7fnMNHQtCG8jTW4msgEg)
-
-![Image 108](blob:http://localhost/c23e7754cb5d113607d5f18fdc439269)
-
-![Image 109](blob:http://localhost/84c823466415f07820477de72b989e2d)
-
-![Image 111](blob:http://localhost/96e726c2aa1e990b047e713c7820a7c3)
-
-## Interakt Integrations
-
- Integrate Interakt with your business tech-stack and grow your business without juggling multiple tools and plartforms. 
-
-[Book a Slot](https://us06web.zoom.us/webinar/register/2317798833350/WN_JvYAAhAnSrGcu8s-1TcfRA)
-
-# Experience Interakt on WhatsApp
-
- Scan the code to experience an Interaktive demo from a customer’s point of view. 
-
-![Image 113](blob:http://localhost/d428d3e54105ef59014ebba81badb340)
-
-[WhatsApp Demo](https://api.whatsapp.com/send?phone=14704287796&text=Hello,%20I%20want%20to%20grow%20my%20business%20using%20WhatsApp)
-
-## Go-To Videos & Product Tutorials
-
-# Learn how to leverage Interakt  and grow your business.
-
-![Image 115](blob:http://localhost/9a2f949160bc72599f52538e4b654312)
-
- How to signup on Interakt? 
-
-![Image 117](blob:http://localhost/87c6bda26293f8cc0d96b3cb6241e48f)
-
- How to connect your number to Interakt 
-
-![Image 119](blob:http://localhost/87c6bda26293f8cc0d96b3cb6241e48f)
-
- How to migrate your number from one BSP to another 
-
-![Image 121](blob:http://localhost/9a2f949160bc72599f52538e4b654312)
-
- WhatsApp Business API pricing 
-
-## Want to learn more?
-
- Explore all popular videos here 
-
-[Watch Video](https://www.youtube.com/channel/UCpS611FX8bGJ_ytTuUQZ65Q/videos)
+**India**  
+  
+ Jio Haptik Technologies Limited 8th Floor, Cello Triumph, Goregaon East, Mumbai 400063 
 
 ## Get Started with Interakt Today
 
@@ -759,11 +666,11 @@ Discover how Interakt can seamlessly help you automate sales, nurture leads & cl
 
 [Try Interakt for Free](https://www.interakt.shop/whatsapp-business-api-live-demo)
 
-![Image 123](blob:http://localhost/e604890572eb269f1bc0e746c7c890d5)
+![Image 45](https://www.interakt.shop/wp-content/uploads/2023/04/Group-3794.png)
 
-![Image 125](blob:http://localhost/41a76e58e964119348145f9c90dc9026)
+![Image 46](https://www.interakt.shop/wp-content/uploads/2023/04/G2-Badges-2.png)
 
-![Image 127](blob:http://localhost/3e391abc3e97ac2f2a8f1c5012eb55af)
+![Image 47](https://www.interakt.shop/wp-content/uploads/2023/04/Group.png)
 
 #### Interakt
 
@@ -815,13 +722,13 @@ Discover how Interakt can seamlessly help you automate sales, nurture leads & cl
 *   [Interakt vs. Wati](https://www.interakt.shop/blog/top-wati-alternative/)
 *   [Interakt vs Qontak](https://www.interakt.shop/qontak-alternative/)
 
-[![Image 129](blob:http://localhost/798e8b0681325966238bfb9dcdce2496)](https://apps.apple.com/us/app/interakt/id1573532290)
+[![Image 48](blob:http://localhost/798e8b0681325966238bfb9dcdce2496)](https://apps.apple.com/us/app/interakt/id1573532290)
 
-[![Image 131](blob:http://localhost/4b57380dc36730755509a8608e721b35)](https://play.google.com/store/apps/details?id=com.haptik.interakt&pli=1)
+[![Image 49](blob:http://localhost/4b57380dc36730755509a8608e721b35)](https://play.google.com/store/apps/details?id=com.haptik.interakt&pli=1)
 
-![Image 133](blob:http://localhost/4b57380dc36730755509a8608e721b35)
+![Image 50](blob:http://localhost/4b57380dc36730755509a8608e721b35)
 
-[![Image 135](blob:http://localhost/835c23926efe8c3b06072c739ad702e2)](https://apps.shopify.com/interakt-marketing)
+[![Image 51](blob:http://localhost/835c23926efe8c3b06072c739ad702e2)](https://apps.shopify.com/interakt-marketing)
 
 India | Singapore | [Indonesia](https://www.interakt.shop/whatsapp-business-api-pricing-indonesia) | [Brazil](https://www.interakt.shop/whatsapp-business-api-brazil) | [UAE](https://www.interakt.shop/whatsapp-business-api-uae) | Philippines | Africa
 
@@ -829,21 +736,21 @@ Copyright© Jio Haptik Technologies Limited 2025. All rights reserved.
 
 [Whatsapp](https://whatsapp.com/channel/0029VadO2VwF1YlPFQIzJC2D)[](https://www.youtube.com/channel/UCpS611FX8bGJ_ytTuUQZ65Q)[](https://www.linkedin.com/company/heyinterakt/)[](https://www.instagram.com/heyinterakt/?utm_source=website&utm_medium=Footer_website&utm_campaign=Footer_website)[](https://twitter.com/heyinterakt/?utm_source=website&utm_medium=Footer_website&utm_campaign=Footer_website)[](https://www.facebook.com/heyinterakt/?utm_source=website&utm_medium=Footer_website&utm_campaign=Footer_website)
 
-![Image 137](blob:http://localhost/e604890572eb269f1bc0e746c7c890d5)
+![Image 52](blob:http://localhost/e604890572eb269f1bc0e746c7c890d5)
 
  Join our WhatsApp channel to stay updated 
 
-![Image 139](blob:http://localhost/e59be866251e60ae2ca5b6505baa424a)
+![Image 53](blob:http://localhost/e59be866251e60ae2ca5b6505baa424a)
 
-![Image 141](blob:http://localhost/3e391abc3e97ac2f2a8f1c5012eb55af)
+![Image 54](blob:http://localhost/3e391abc3e97ac2f2a8f1c5012eb55af)
 
-[![Image 143](blob:http://localhost/798e8b0681325966238bfb9dcdce2496)](https://apps.apple.com/us/app/interakt/id1573532290)
+[![Image 55](blob:http://localhost/798e8b0681325966238bfb9dcdce2496)](https://apps.apple.com/us/app/interakt/id1573532290)
 
-[![Image 145](blob:http://localhost/4b57380dc36730755509a8608e721b35)](https://play.google.com/store/apps/details?id=com.haptik.interakt&pli=1)
+[![Image 56](blob:http://localhost/4b57380dc36730755509a8608e721b35)](https://play.google.com/store/apps/details?id=com.haptik.interakt&pli=1)
 
-![Image 147](blob:http://localhost/4b57380dc36730755509a8608e721b35)
+![Image 57](blob:http://localhost/4b57380dc36730755509a8608e721b35)
 
-[![Image 149](blob:http://localhost/835c23926efe8c3b06072c739ad702e2)](https://apps.shopify.com/interakt-marketing)
+[![Image 58](blob:http://localhost/835c23926efe8c3b06072c739ad702e2)](https://apps.shopify.com/interakt-marketing)
 
 #### Interakt
 
@@ -901,21 +808,21 @@ India | Singapore | [Indonesia](https://www.interakt.shop/whatsapp-business-api-
 
 [Whatsapp](https://whatsapp.com/channel/0029VadO2VwF1YlPFQIzJC2D)[](https://www.youtube.com/channel/UCpS611FX8bGJ_ytTuUQZ65Q)[](https://www.linkedin.com/company/heyinterakt/)[](https://www.instagram.com/heyinterakt/?utm_source=website&utm_medium=Footer_website&utm_campaign=Footer_website)[](https://twitter.com/heyinterakt/?utm_source=website&utm_medium=Footer_website&utm_campaign=Footer_website)[](https://www.facebook.com/heyinterakt/?utm_source=website&utm_medium=Footer_website&utm_campaign=Footer_website)
 
-![Image 151](blob:http://localhost/e604890572eb269f1bc0e746c7c890d5)
+![Image 59](blob:http://localhost/e604890572eb269f1bc0e746c7c890d5)
 
  Join our WhatsApp channel to stay updated 
 
-![Image 153](blob:http://localhost/e59be866251e60ae2ca5b6505baa424a)
+![Image 60](blob:http://localhost/e59be866251e60ae2ca5b6505baa424a)
 
-![Image 155](blob:http://localhost/3e391abc3e97ac2f2a8f1c5012eb55af)
+![Image 61](blob:http://localhost/3e391abc3e97ac2f2a8f1c5012eb55af)
 
-[![Image 157](blob:http://localhost/798e8b0681325966238bfb9dcdce2496)](https://apps.apple.com/us/app/interakt/id1573532290)
+[![Image 62](blob:http://localhost/798e8b0681325966238bfb9dcdce2496)](https://apps.apple.com/us/app/interakt/id1573532290)
 
-[![Image 159](blob:http://localhost/4b57380dc36730755509a8608e721b35)](https://play.google.com/store/apps/details?id=com.haptik.interakt&pli=1)
+[![Image 63](blob:http://localhost/4b57380dc36730755509a8608e721b35)](https://play.google.com/store/apps/details?id=com.haptik.interakt&pli=1)
 
-![Image 161](blob:http://localhost/4b57380dc36730755509a8608e721b35)
+![Image 64](blob:http://localhost/4b57380dc36730755509a8608e721b35)
 
-[![Image 163](blob:http://localhost/835c23926efe8c3b06072c739ad702e2)](https://apps.shopify.com/interakt-marketing)
+[![Image 65](blob:http://localhost/835c23926efe8c3b06072c739ad702e2)](https://apps.shopify.com/interakt-marketing)
 
 #### Interakt
 
@@ -963,15 +870,15 @@ URL Source: https://www.interakt.shop/about-us
 Markdown Content:
 ![Image 10: ...](blob:http://localhost/8ac3b6157802c8b292fdee99ca0eba0a)
 
-[](https://us06web.zoom.us/webinar/register/1517919732999/WN_y0KK_dcATnmdXkAz-Gw2Pg)[[Workshop] Get your Shopify store Diwali-ready | 22nd Oct @ 11 AM](https://us06web.zoom.us/webinar/register/1517919732999/WN_y0KK_dcATnmdXkAz-Gw2Pg)[Register Now](https://www.interakt.shop/integrations/integrating-whatsapp-business-api-with-shopify/)
+[](https://www.interakt.shop/integrations/integrating-whatsapp-business-api-with-shopify/)[![Image 11](https://www.interakt.shop/wp-content/uploads/2025/04/New-Tag-3.png)Introducing Shopify Voice AI Agent.](https://www.interakt.shop/integrations/integrating-whatsapp-business-api-with-shopify/)[Learn More](https://www.interakt.shop/integrations/integrating-whatsapp-business-api-with-shopify/)
 
-[](https://us06web.zoom.us/webinar/register/1517919732999/WN_y0KK_dcATnmdXkAz-Gw2Pg)[[Workshop] Get your Shopify store Diwali-ready | 22nd Oct @ 11 AM](https://us06web.zoom.us/webinar/register/1517919732999/WN_y0KK_dcATnmdXkAz-Gw2Pg)Register Now
+[](https://www.interakt.shop/integrations/integrating-whatsapp-business-api-with-shopify/)[![Image 12: New](blob:http://localhost/ac599c6c963c74bed2804c845f554ed0) Introducing **Shopify Voice AI Agent**Learn More →](https://www.interakt.shop/integrations/integrating-whatsapp-business-api-with-shopify/)
 
-[![Image 11](blob:http://localhost/031a860cae98bac756933037c0796a5a)](https://www.interakt.shop/)
+[![Image 13](https://www.interakt.shop/wp-content/uploads/2024/05/Logo.svg)](https://www.interakt.shop/)
 
 *    Products  Close Products Open Products 
 
-    *   [SOLO ![Image 13](blob:http://localhost/61b0a7b0e686bf43f87f8e16e4822a16) Your AI Business Team](https://www.interakt.shop/solo/)
+    *   [SOLO ![Image 14](blob:http://localhost/61b0a7b0e686bf43f87f8e16e4822a16) Your AI Business Team](https://www.interakt.shop/solo/)
 
     *   [AI Agents Conversational AI for WhatsApp](https://www.interakt.shop/whatsapp-ai-agents/)
 
@@ -985,7 +892,7 @@ Markdown Content:
 
 [![Image 15](blob:http://localhost/a5baabb8c986fb7518a68ce3a50161ae)](https://www.interakt.shop/whatsapp-business-api-live-demo/)
 
-*    Solutions  Close Solutions Open Solutions By Channels ![Image 17](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) WhatsApp  ![Image 19](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Instagram  ![Image 21](blob:http://localhost/e0eddde41819fa08a3b546684c54f8e9) RCS  ![Image 22](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Voice New   [WhatsApp Voice Calling New](https://www.interakt.shop/whatsapp-voice-calling/)[No Code Chatbot Builder](https://www.interakt.shop/no-code-chatbot-builder/)[WhatsApp Business API](https://www.interakt.shop/whatsapp-business-api/)[WhatsApp Forms](https://www.interakt.shop/whatsapp-form/)[Click to WhatsApp Ads](https://www.interakt.shop/click-to-whatsapp-ads/)[WhatsApp Marketing](https://www.interakt.shop/whatsapp-marketing/)[WhatsApp Automation](https://www.interakt.shop/whatsapp-automation/)[WhatsApp CRM](https://www.interakt.shop/sales-crm/)[WhatsApp Commerce](https://www.interakt.shop/whatsapp-commerce/)[WhatsApp Chat Widget](https://www.interakt.shop/whatsapp-chat-widget/)[WhatsApp Notification Library](https://www.interakt.shop/whatsapp-notifications-library/) [Instagram Automation](https://www.interakt.shop/instagram-automation/) [RCS Campaigns](https://www.interakt.shop/whatsapp-rcs-fallback/)[Rich Messaging](https://www.interakt.shop/richbusinessmessaging-rcs/) [MyCallGenie](https://www.interakt.shop/mycallgenie-ai-call-receptionist/)  By Industry [![Image 24](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) B2B Sales](https://www.interakt.shop/whatsapp-business-for-b2b-sales/)[![Image 26](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Travel and Tourism](https://www.interakt.shop/whatsapp-business-for-travel-and-tourism/)[![Image 28](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Restaurants & Food Business](https://www.interakt.shop/whatsapp-business-for-restaurants-food-businesses/)[![Image 30](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Spas and Salons](https://www.interakt.shop/whatsapp-business-for-spas-and-salons/)[![Image 32](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Health & Wellness Brands](https://www.interakt.shop/whatsapp-business-for-health-wellness-brands/)[![Image 34](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Beauty & Cosmetics Brands](https://www.interakt.shop/whatsapp-business-for-beauty-cosmetics-brands/)[![Image 36](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Edutech](https://www.interakt.shop/whatsapp-business-for-edutech/)[![Image 38](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Automotive Industry](https://www.interakt.shop/whatsapp-business-for-automotive-industry/)[![Image 40](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Home Decor & Furnishing](https://www.interakt.shop/whatsapp-business-for-home-decor-and-furnishings/)[![Image 42](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Marketing Agency](https://www.interakt.shop/whatsapp-business-for-marketing-agency/)[![Image 44](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Real Estate](https://www.interakt.shop/whatsapp-business-for-real-estate/)[![Image 46](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Freelancer & Consultant Sales](https://www.interakt.shop/whatsapp-business-for-freelancer-and-consultant-sales/)[![Image 48](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Banking & Finance](https://www.interakt.shop/whatsapp-business-for-banking-and-finance/) ![Image 50](blob:http://localhost/fcc2d4d79fdfef8d8a84c66560893a7b)          
+*    Solutions  Close Solutions Open Solutions By Channels ![Image 16](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) WhatsApp  ![Image 17](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Instagram  ![Image 18](blob:http://localhost/e0eddde41819fa08a3b546684c54f8e9) RCS  ![Image 19](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Voice New   [WhatsApp Voice Calling New](https://www.interakt.shop/whatsapp-voice-calling/)[No Code Chatbot Builder](https://www.interakt.shop/no-code-chatbot-builder/)[WhatsApp Business API](https://www.interakt.shop/whatsapp-business-api/)[WhatsApp Forms](https://www.interakt.shop/whatsapp-form/)[Click to WhatsApp Ads](https://www.interakt.shop/click-to-whatsapp-ads/)[WhatsApp Marketing](https://www.interakt.shop/whatsapp-marketing/)[WhatsApp Automation](https://www.interakt.shop/whatsapp-automation/)[WhatsApp CRM](https://www.interakt.shop/sales-crm/)[WhatsApp Commerce](https://www.interakt.shop/whatsapp-commerce/)[WhatsApp Chat Widget](https://www.interakt.shop/whatsapp-chat-widget/)[WhatsApp Notification Library](https://www.interakt.shop/whatsapp-notifications-library/) [Instagram Automation](https://www.interakt.shop/instagram-automation/) [RCS Campaigns](https://www.interakt.shop/whatsapp-rcs-fallback/)[Rich Messaging](https://www.interakt.shop/richbusinessmessaging-rcs/) [MyCallGenie](https://www.interakt.shop/mycallgenie-ai-call-receptionist/)  By Industry [![Image 20](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) B2B Sales](https://www.interakt.shop/whatsapp-business-for-b2b-sales/)[![Image 21](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Travel and Tourism](https://www.interakt.shop/whatsapp-business-for-travel-and-tourism/)[![Image 22](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Restaurants & Food Business](https://www.interakt.shop/whatsapp-business-for-restaurants-food-businesses/)[![Image 23](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Spas and Salons](https://www.interakt.shop/whatsapp-business-for-spas-and-salons/)[![Image 24](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Health & Wellness Brands](https://www.interakt.shop/whatsapp-business-for-health-wellness-brands/)[![Image 25](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Beauty & Cosmetics Brands](https://www.interakt.shop/whatsapp-business-for-beauty-cosmetics-brands/)[![Image 26](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Edutech](https://www.interakt.shop/whatsapp-business-for-edutech/)[![Image 27](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Automotive Industry](https://www.interakt.shop/whatsapp-business-for-automotive-industry/)[![Image 28](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Home Decor & Furnishing](https://www.interakt.shop/whatsapp-business-for-home-decor-and-furnishings/)[![Image 29](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Marketing Agency](https://www.interakt.shop/whatsapp-business-for-marketing-agency/)[![Image 30](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Real Estate](https://www.interakt.shop/whatsapp-business-for-real-estate/)[![Image 31](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Freelancer & Consultant Sales](https://www.interakt.shop/whatsapp-business-for-freelancer-and-consultant-sales/)[![Image 32](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Banking & Finance](https://www.interakt.shop/whatsapp-business-for-banking-and-finance/) ![Image 33](blob:http://localhost/fcc2d4d79fdfef8d8a84c66560893a7b)          
 *   [Integrations](https://www.interakt.shop/integrations/) 
 *   [Pricing](https://www.interakt.shop/pricing/) 
 *   [Partnerships](https://www.interakt.shop/partner-program/) 
@@ -999,7 +906,7 @@ Markdown Content:
 
     *   [FAQs](https://www.interakt.shop/faqs/)
 
-[![Image 52](blob:http://localhost/fa7dc6d4f3b15645b784be329867990a)](https://www.interakt.shop/whatsapp-business-api-live-demo/)
+[![Image 34](blob:http://localhost/fa7dc6d4f3b15645b784be329867990a)](https://www.interakt.shop/whatsapp-business-api-live-demo/)
 
 [Demo](https://www.interakt.shop/whatsapp-business-api-live-demo/)
 
@@ -1007,11 +914,11 @@ Markdown Content:
 
 [Start Free Trial](https://www.interakt.shop/marketing-automation/signup/)
 
-[![Image 54](blob:http://localhost/031a860cae98bac756933037c0796a5a)](https://www.interakt.shop/)
+[![Image 35](blob:http://localhost/031a860cae98bac756933037c0796a5a)](https://www.interakt.shop/)
 
 *    Products  Close Products Open Products 
 
-    *   [SOLO ![Image 56](blob:http://localhost/61b0a7b0e686bf43f87f8e16e4822a16) Your AI Business Team](https://www.interakt.shop/solo/)
+    *   [SOLO ![Image 36](blob:http://localhost/61b0a7b0e686bf43f87f8e16e4822a16) Your AI Business Team](https://www.interakt.shop/solo/)
 
     *   [AI Agents Conversational AI for WhatsApp](https://www.interakt.shop/whatsapp-ai-agents/)
 
@@ -1023,7 +930,7 @@ Markdown Content:
 
     *   [MyCallGenie Your AI Call Receptionist](https://www.interakt.shop/mycallgenie-ai-call-receptionist/)
 
-*    Solutions  Close Solutions Open Solutions  By Channels  ![Image 58](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) WhatsApp  [WhatsApp Voice Calling New](https://www.interakt.shop/whatsapp-voice-calling/)[No Code Chatbot Builder](https://www.interakt.shop/no-code-chatbot-builder/)[WhatsApp Business API](https://www.interakt.shop/whatsapp-business-api/)[WhatsApp Forms](https://www.interakt.shop/whatsapp-form/)[Click to WhatsApp Ads](https://www.interakt.shop/click-to-whatsapp-ads/)[WhatsApp Marketing](https://www.interakt.shop/whatsapp-marketing/)[WhatsApp Automation](https://www.interakt.shop/whatsapp-automation/)[WhatsApp CRM](https://www.interakt.shop/sales-crm/)[WhatsApp Commerce](https://www.interakt.shop/whatsapp-commerce/)[WhatsApp Chat Widget](https://www.interakt.shop/whatsapp-chat-widget/)[WhatsApp Notification Library](https://www.interakt.shop/whatsapp-notifications-library/) ![Image 60](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Instagram  [Instagram Automation](https://www.interakt.shop/instagram-automation/) ![Image 62](blob:http://localhost/e0eddde41819fa08a3b546684c54f8e9) RCS  [RCS Campaigns](https://www.interakt.shop/whatsapp-rcs-fallback/)[Rich Messaging](https://www.interakt.shop/richbusinessmessaging-rcs/) ![Image 63](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Voice New [MyCallGenie](https://www.interakt.shop/mycallgenie-ai-call-receptionist/)   By Industry  [![Image 65](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) B2B Sales](https://www.interakt.shop/whatsapp-business-for-b2b-sales/)[![Image 67](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Travel and Tourism](https://www.interakt.shop/whatsapp-business-for-travel-and-tourism/)[![Image 69](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Restaurants & Food Business](https://www.interakt.shop/whatsapp-business-for-restaurants-food-businesses/)[![Image 71](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Spas and Salons](https://www.interakt.shop/whatsapp-business-for-spas-and-salons/)[![Image 73](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Health & Wellness Brands](https://www.interakt.shop/whatsapp-business-for-health-wellness-brands/)[![Image 75](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Beauty & Cosmetics Brands](https://www.interakt.shop/whatsapp-business-for-beauty-cosmetics-brands/)[![Image 77](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Edutech](https://www.interakt.shop/whatsapp-business-for-edutech/)[![Image 79](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Automotive Industry](https://www.interakt.shop/whatsapp-business-for-automotive-industry/)[![Image 81](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Home Decor & Furnishing](https://www.interakt.shop/whatsapp-business-for-home-decor-and-furnishings/)[![Image 83](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Marketing Agency](https://www.interakt.shop/whatsapp-business-for-marketing-agency/)[![Image 85](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Real Estate](https://www.interakt.shop/whatsapp-business-for-real-estate/)[![Image 87](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Freelancer & Consultant Sales](https://www.interakt.shop/whatsapp-business-for-freelancer-and-consultant-sales/)[![Image 89](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Banking & Finance](https://www.interakt.shop/whatsapp-business-for-banking-and-finance/)          
+*    Solutions  Close Solutions Open Solutions  By Channels  ![Image 37](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) WhatsApp  [WhatsApp Voice Calling New](https://www.interakt.shop/whatsapp-voice-calling/)[No Code Chatbot Builder](https://www.interakt.shop/no-code-chatbot-builder/)[WhatsApp Business API](https://www.interakt.shop/whatsapp-business-api/)[WhatsApp Forms](https://www.interakt.shop/whatsapp-form/)[Click to WhatsApp Ads](https://www.interakt.shop/click-to-whatsapp-ads/)[WhatsApp Marketing](https://www.interakt.shop/whatsapp-marketing/)[WhatsApp Automation](https://www.interakt.shop/whatsapp-automation/)[WhatsApp CRM](https://www.interakt.shop/sales-crm/)[WhatsApp Commerce](https://www.interakt.shop/whatsapp-commerce/)[WhatsApp Chat Widget](https://www.interakt.shop/whatsapp-chat-widget/)[WhatsApp Notification Library](https://www.interakt.shop/whatsapp-notifications-library/) ![Image 38](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Instagram  [Instagram Automation](https://www.interakt.shop/instagram-automation/) ![Image 39](blob:http://localhost/e0eddde41819fa08a3b546684c54f8e9) RCS  [RCS Campaigns](https://www.interakt.shop/whatsapp-rcs-fallback/)[Rich Messaging](https://www.interakt.shop/richbusinessmessaging-rcs/) ![Image 40](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Voice New [MyCallGenie](https://www.interakt.shop/mycallgenie-ai-call-receptionist/)   By Industry  [![Image 41](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) B2B Sales](https://www.interakt.shop/whatsapp-business-for-b2b-sales/)[![Image 42](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Travel and Tourism](https://www.interakt.shop/whatsapp-business-for-travel-and-tourism/)[![Image 43](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Restaurants & Food Business](https://www.interakt.shop/whatsapp-business-for-restaurants-food-businesses/)[![Image 44](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Spas and Salons](https://www.interakt.shop/whatsapp-business-for-spas-and-salons/)[![Image 45](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Health & Wellness Brands](https://www.interakt.shop/whatsapp-business-for-health-wellness-brands/)[![Image 46](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Beauty & Cosmetics Brands](https://www.interakt.shop/whatsapp-business-for-beauty-cosmetics-brands/)[![Image 47](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Edutech](https://www.interakt.shop/whatsapp-business-for-edutech/)[![Image 48](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Automotive Industry](https://www.interakt.shop/whatsapp-business-for-automotive-industry/)[![Image 49](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Home Decor & Furnishing](https://www.interakt.shop/whatsapp-business-for-home-decor-and-furnishings/)[![Image 50](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Marketing Agency](https://www.interakt.shop/whatsapp-business-for-marketing-agency/)[![Image 51](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Real Estate](https://www.interakt.shop/whatsapp-business-for-real-estate/)[![Image 52](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Freelancer & Consultant Sales](https://www.interakt.shop/whatsapp-business-for-freelancer-and-consultant-sales/)[![Image 53](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Banking & Finance](https://www.interakt.shop/whatsapp-business-for-banking-and-finance/)          
 *   [Integrations](https://www.interakt.shop/integrations/) 
 *   [Pricing](https://www.interakt.shop/pricing/) 
 *   [Partnerships](https://www.interakt.shop/partner-program/) 
@@ -1045,9 +952,9 @@ Markdown Content:
 
  Our vision is to make Interakt the de-facto WhatsApp Business platform for SMBs & D2C brands 
 
-![Image 91: WhatsApp business for B2B sales | WhatsApp business order](blob:http://localhost/dc4a313d2db920c0b446c11499d13cb4)
+![Image 54: WhatsApp business for B2B sales | WhatsApp business order](blob:http://localhost/dc4a313d2db920c0b446c11499d13cb4)
 
-![Image 93](blob:http://localhost/42a4e907aee425f40e0123fc9f17c25f)
+![Image 55](https://www.interakt.shop/wp-content/uploads/2023/04/abouthero.webp)
 
 ## Interakt’s Journey
 
@@ -1079,9 +986,9 @@ Today, Interakt is the go-to solution for businesses looking to go the WhatsApp 
 
  Built on the official WhatsApp Business API, Interakt is also a recognized Meta Business Partner building the D2C ecosystem bigger with partners like Shopify, WooCommerce, Razorpay, PayU, Instamojo, Pabbly & more. 
 
-![Image 95: Jio Haptik Technologies Limited with Interakt](blob:http://localhost/ecca4b34cef8abb1eebd827a12b00813)
+![Image 56: Jio Haptik Technologies Limited with Interakt](blob:http://localhost/ecca4b34cef8abb1eebd827a12b00813)
 
-![Image 97: WhatsApp business for B2B with Jio Haptik](blob:http://localhost/39a26207f7cb9478d3b38c3bad20c517)
+![Image 57: WhatsApp business for B2B with Jio Haptik](blob:http://localhost/39a26207f7cb9478d3b38c3bad20c517)
 
 ### Impact
 
@@ -1109,23 +1016,23 @@ Boost in Customer Engagements
 
  A Product By 
 
-![Image 99](blob:http://localhost/0a393a80001dcd3eabe06026a49eb617)
+![Image 58](blob:http://localhost/0a393a80001dcd3eabe06026a49eb617)
 
  Official WhatsApp Business Platform 
 
-![Image 101](blob:http://localhost/0a393a80001dcd3eabe06026a49eb617)
+![Image 59](blob:http://localhost/0a393a80001dcd3eabe06026a49eb617)
 
  Official Meta Business Partner 
 
-![Image 103](blob:http://localhost/0a393a80001dcd3eabe06026a49eb617)
+![Image 60](blob:http://localhost/0a393a80001dcd3eabe06026a49eb617)
 
 Our Rating on G2
 
 __ __ __ __ __ Rated 5 out of 5
 
-![Image 105](blob:http://localhost/248dc3c1df81b4a2f9e4713bebf6285a)
+![Image 61](blob:http://localhost/248dc3c1df81b4a2f9e4713bebf6285a)
 
-![Image 107](blob:http://localhost/248dc3c1df81b4a2f9e4713bebf6285a)
+![Image 62](blob:http://localhost/248dc3c1df81b4a2f9e4713bebf6285a)
 
 ## Life at Interakt
 
@@ -1146,11 +1053,11 @@ __ __ __ __ __ Rated 5 out of 5
 
 [Try Interakt for Free](https://www.interakt.shop/whatsapp-business-api-live-demo)
 
-![Image 109](blob:http://localhost/e604890572eb269f1bc0e746c7c890d5)
+![Image 63](blob:http://localhost/e604890572eb269f1bc0e746c7c890d5)
 
-![Image 111](blob:http://localhost/41a76e58e964119348145f9c90dc9026)
+![Image 64](blob:http://localhost/41a76e58e964119348145f9c90dc9026)
 
-![Image 113](blob:http://localhost/3e391abc3e97ac2f2a8f1c5012eb55af)
+![Image 65](blob:http://localhost/3e391abc3e97ac2f2a8f1c5012eb55af)
 
 #### Interakt
 
@@ -1202,13 +1109,13 @@ __ __ __ __ __ Rated 5 out of 5
 *   [Interakt vs. Wati](https://www.interakt.shop/blog/top-wati-alternative/)
 *   [Interakt vs Qontak](https://www.interakt.shop/qontak-alternative/)
 
-[![Image 115](blob:http://localhost/798e8b0681325966238bfb9dcdce2496)](https://apps.apple.com/us/app/interakt/id1573532290)
+[![Image 66](blob:http://localhost/798e8b0681325966238bfb9dcdce2496)](https://apps.apple.com/us/app/interakt/id1573532290)
 
-[![Image 117](blob:http://localhost/4b57380dc36730755509a8608e721b35)](https://play.google.com/store/apps/details?id=com.haptik.interakt&pli=1)
+[![Image 67](blob:http://localhost/4b57380dc36730755509a8608e721b35)](https://play.google.com/store/apps/details?id=com.haptik.interakt&pli=1)
 
-![Image 119](blob:http://localhost/4b57380dc36730755509a8608e721b35)
+![Image 68](blob:http://localhost/4b57380dc36730755509a8608e721b35)
 
-[![Image 121](blob:http://localhost/835c23926efe8c3b06072c739ad702e2)](https://apps.shopify.com/interakt-marketing)
+[![Image 69](blob:http://localhost/835c23926efe8c3b06072c739ad702e2)](https://apps.shopify.com/interakt-marketing)
 
 India | Singapore | [Indonesia](https://www.interakt.shop/whatsapp-business-api-pricing-indonesia) | [Brazil](https://www.interakt.shop/whatsapp-business-api-brazil) | [UAE](https://www.interakt.shop/whatsapp-business-api-uae) | Philippines | Africa
 
@@ -1216,21 +1123,21 @@ Copyright© Jio Haptik Technologies Limited 2025. All rights reserved.
 
 [Whatsapp](https://whatsapp.com/channel/0029VadO2VwF1YlPFQIzJC2D)[](https://www.youtube.com/channel/UCpS611FX8bGJ_ytTuUQZ65Q)[](https://www.linkedin.com/company/heyinterakt/)[](https://www.instagram.com/heyinterakt/?utm_source=website&utm_medium=Footer_website&utm_campaign=Footer_website)[](https://twitter.com/heyinterakt/?utm_source=website&utm_medium=Footer_website&utm_campaign=Footer_website)[](https://www.facebook.com/heyinterakt/?utm_source=website&utm_medium=Footer_website&utm_campaign=Footer_website)
 
-![Image 123](blob:http://localhost/e604890572eb269f1bc0e746c7c890d5)
+![Image 70](blob:http://localhost/e604890572eb269f1bc0e746c7c890d5)
 
  Join our WhatsApp channel to stay updated 
 
-![Image 125](blob:http://localhost/e59be866251e60ae2ca5b6505baa424a)
+![Image 71](blob:http://localhost/e59be866251e60ae2ca5b6505baa424a)
 
-![Image 127](blob:http://localhost/3e391abc3e97ac2f2a8f1c5012eb55af)
+![Image 72](blob:http://localhost/3e391abc3e97ac2f2a8f1c5012eb55af)
 
-[![Image 129](blob:http://localhost/798e8b0681325966238bfb9dcdce2496)](https://apps.apple.com/us/app/interakt/id1573532290)
+[![Image 73](blob:http://localhost/798e8b0681325966238bfb9dcdce2496)](https://apps.apple.com/us/app/interakt/id1573532290)
 
-[![Image 131](blob:http://localhost/4b57380dc36730755509a8608e721b35)](https://play.google.com/store/apps/details?id=com.haptik.interakt&pli=1)
+[![Image 74](blob:http://localhost/4b57380dc36730755509a8608e721b35)](https://play.google.com/store/apps/details?id=com.haptik.interakt&pli=1)
 
-![Image 133](blob:http://localhost/4b57380dc36730755509a8608e721b35)
+![Image 75](blob:http://localhost/4b57380dc36730755509a8608e721b35)
 
-[![Image 135](blob:http://localhost/835c23926efe8c3b06072c739ad702e2)](https://apps.shopify.com/interakt-marketing)
+[![Image 76](blob:http://localhost/835c23926efe8c3b06072c739ad702e2)](https://apps.shopify.com/interakt-marketing)
 
 #### Interakt
 
@@ -1288,21 +1195,21 @@ India | Singapore | [Indonesia](https://www.interakt.shop/whatsapp-business-api-
 
 [Whatsapp](https://whatsapp.com/channel/0029VadO2VwF1YlPFQIzJC2D)[](https://www.youtube.com/channel/UCpS611FX8bGJ_ytTuUQZ65Q)[](https://www.linkedin.com/company/heyinterakt/)[](https://www.instagram.com/heyinterakt/?utm_source=website&utm_medium=Footer_website&utm_campaign=Footer_website)[](https://twitter.com/heyinterakt/?utm_source=website&utm_medium=Footer_website&utm_campaign=Footer_website)[](https://www.facebook.com/heyinterakt/?utm_source=website&utm_medium=Footer_website&utm_campaign=Footer_website)
 
-![Image 137](blob:http://localhost/e604890572eb269f1bc0e746c7c890d5)
+![Image 77](blob:http://localhost/e604890572eb269f1bc0e746c7c890d5)
 
  Join our WhatsApp channel to stay updated 
 
-![Image 139](blob:http://localhost/e59be866251e60ae2ca5b6505baa424a)
+![Image 78](blob:http://localhost/e59be866251e60ae2ca5b6505baa424a)
 
-![Image 141](blob:http://localhost/3e391abc3e97ac2f2a8f1c5012eb55af)
+![Image 79](blob:http://localhost/3e391abc3e97ac2f2a8f1c5012eb55af)
 
-[![Image 143](blob:http://localhost/798e8b0681325966238bfb9dcdce2496)](https://apps.apple.com/us/app/interakt/id1573532290)
+[![Image 80](blob:http://localhost/798e8b0681325966238bfb9dcdce2496)](https://apps.apple.com/us/app/interakt/id1573532290)
 
-[![Image 145](blob:http://localhost/4b57380dc36730755509a8608e721b35)](https://play.google.com/store/apps/details?id=com.haptik.interakt&pli=1)
+[![Image 81](blob:http://localhost/4b57380dc36730755509a8608e721b35)](https://play.google.com/store/apps/details?id=com.haptik.interakt&pli=1)
 
-![Image 147](blob:http://localhost/4b57380dc36730755509a8608e721b35)
+![Image 82](blob:http://localhost/4b57380dc36730755509a8608e721b35)
 
-[![Image 149](blob:http://localhost/835c23926efe8c3b06072c739ad702e2)](https://apps.shopify.com/interakt-marketing)
+[![Image 83](blob:http://localhost/835c23926efe8c3b06072c739ad702e2)](https://apps.shopify.com/interakt-marketing)
 
 #### Interakt
 
@@ -1342,19 +1249,17 @@ India | Singapore | [Indonesia](https://www.interakt.shop/whatsapp-business-api-
 
 [Whatsapp](https://whatsapp.com/channel/0029VadO2VwF1YlPFQIzJC2D)[](https://www.youtube.com/channel/UCpS611FX8bGJ_ytTuUQZ65Q)[](https://www.linkedin.com/company/heyinterakt/)[](https://www.instagram.com/heyinterakt/?utm_source=website&utm_medium=Footer_website&utm_campaign=Footer_website)[](https://twitter.com/heyinterakt/?utm_source=website&utm_medium=Footer_website&utm_campaign=Footer_website)[](https://www.facebook.com/heyinterakt/?utm_source=website&utm_medium=Footer_website&utm_campaign=Footer_website)
 
-=== https://www.interakt.shop/contact-us ===
-Title: Contact us for WhatsApp Business API with Interakt
+=== https://www.interakt.shop/whatsapp-business-api-live-demo ===
+Title: Whatsapp Business API Live Demo
 
-URL Source: https://www.interakt.shop/contact-us
+URL Source: https://www.interakt.shop/whatsapp-business-api-live-demo
 
 Markdown Content:
-![Image 1: ...](blob:http://localhost/8ac3b6157802c8b292fdee99ca0eba0a)
+[](https://www.interakt.shop/integrations/integrating-whatsapp-business-api-with-shopify/)[![Image 1](https://www.interakt.shop/wp-content/uploads/2025/04/New-Tag-3.png)Introducing Shopify Voice AI Agent.](https://www.interakt.shop/integrations/integrating-whatsapp-business-api-with-shopify/)[Learn More](https://www.interakt.shop/integrations/integrating-whatsapp-business-api-with-shopify/)
 
-[](https://us06web.zoom.us/webinar/register/1517919732999/WN_y0KK_dcATnmdXkAz-Gw2Pg)[[Workshop] Get your Shopify store Diwali-ready | 22nd Oct @ 11 AM](https://us06web.zoom.us/webinar/register/1517919732999/WN_y0KK_dcATnmdXkAz-Gw2Pg)[Register Now](https://www.interakt.shop/integrations/integrating-whatsapp-business-api-with-shopify/)
+[](https://www.interakt.shop/integrations/integrating-whatsapp-business-api-with-shopify/)[![Image 2: New](blob:http://localhost/ac599c6c963c74bed2804c845f554ed0) Introducing **Shopify Voice AI Agent**Learn More →](https://www.interakt.shop/integrations/integrating-whatsapp-business-api-with-shopify/)
 
-[](https://us06web.zoom.us/webinar/register/1517919732999/WN_y0KK_dcATnmdXkAz-Gw2Pg)[[Workshop] Get your Shopify store Diwali-ready | 22nd Oct @ 11 AM](https://us06web.zoom.us/webinar/register/1517919732999/WN_y0KK_dcATnmdXkAz-Gw2Pg)Register Now
-
-[![Image 2](blob:http://localhost/031a860cae98bac756933037c0796a5a)](https://www.interakt.shop/)
+[![Image 3](https://www.interakt.shop/wp-content/uploads/2024/05/Logo.svg)](https://www.interakt.shop/)
 
 *    Products  Close Products Open Products 
 
@@ -1370,9 +1275,9 @@ Markdown Content:
 
     *   [MyCallGenie Your AI Call Receptionist](https://www.interakt.shop/mycallgenie-ai-call-receptionist/)
 
-[![Image 6](blob:http://localhost/a5baabb8c986fb7518a68ce3a50161ae)](https://www.interakt.shop/whatsapp-business-api-live-demo/)
+[![Image 5](blob:http://localhost/a5baabb8c986fb7518a68ce3a50161ae)](https://www.interakt.shop/whatsapp-business-api-live-demo/)
 
-*    Solutions  Close Solutions Open Solutions By Channels ![Image 8](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) WhatsApp  ![Image 10](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Instagram  ![Image 12](blob:http://localhost/e0eddde41819fa08a3b546684c54f8e9) RCS  ![Image 13](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Voice New   [WhatsApp Voice Calling New](https://www.interakt.shop/whatsapp-voice-calling/)[No Code Chatbot Builder](https://www.interakt.shop/no-code-chatbot-builder/)[WhatsApp Business API](https://www.interakt.shop/whatsapp-business-api/)[WhatsApp Forms](https://www.interakt.shop/whatsapp-form/)[Click to WhatsApp Ads](https://www.interakt.shop/click-to-whatsapp-ads/)[WhatsApp Marketing](https://www.interakt.shop/whatsapp-marketing/)[WhatsApp Automation](https://www.interakt.shop/whatsapp-automation/)[WhatsApp CRM](https://www.interakt.shop/sales-crm/)[WhatsApp Commerce](https://www.interakt.shop/whatsapp-commerce/)[WhatsApp Chat Widget](https://www.interakt.shop/whatsapp-chat-widget/)[WhatsApp Notification Library](https://www.interakt.shop/whatsapp-notifications-library/) [Instagram Automation](https://www.interakt.shop/instagram-automation/) [RCS Campaigns](https://www.interakt.shop/whatsapp-rcs-fallback/)[Rich Messaging](https://www.interakt.shop/richbusinessmessaging-rcs/) [MyCallGenie](https://www.interakt.shop/mycallgenie-ai-call-receptionist/)  By Industry [![Image 15](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) B2B Sales](https://www.interakt.shop/whatsapp-business-for-b2b-sales/)[![Image 17](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Travel and Tourism](https://www.interakt.shop/whatsapp-business-for-travel-and-tourism/)[![Image 19](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Restaurants & Food Business](https://www.interakt.shop/whatsapp-business-for-restaurants-food-businesses/)[![Image 21](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Spas and Salons](https://www.interakt.shop/whatsapp-business-for-spas-and-salons/)[![Image 23](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Health & Wellness Brands](https://www.interakt.shop/whatsapp-business-for-health-wellness-brands/)[![Image 25](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Beauty & Cosmetics Brands](https://www.interakt.shop/whatsapp-business-for-beauty-cosmetics-brands/)[![Image 27](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Edutech](https://www.interakt.shop/whatsapp-business-for-edutech/)[![Image 29](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Automotive Industry](https://www.interakt.shop/whatsapp-business-for-automotive-industry/)[![Image 31](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Home Decor & Furnishing](https://www.interakt.shop/whatsapp-business-for-home-decor-and-furnishings/)[![Image 33](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Marketing Agency](https://www.interakt.shop/whatsapp-business-for-marketing-agency/)[![Image 35](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Real Estate](https://www.interakt.shop/whatsapp-business-for-real-estate/)[![Image 37](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Freelancer & Consultant Sales](https://www.interakt.shop/whatsapp-business-for-freelancer-and-consultant-sales/)[![Image 39](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Banking & Finance](https://www.interakt.shop/whatsapp-business-for-banking-and-finance/) ![Image 41](blob:http://localhost/fcc2d4d79fdfef8d8a84c66560893a7b)          
+*    Solutions  Close Solutions Open Solutions By Channels ![Image 6](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) WhatsApp  ![Image 7](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Instagram  ![Image 8](blob:http://localhost/e0eddde41819fa08a3b546684c54f8e9) RCS  ![Image 9](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Voice New   [WhatsApp Voice Calling New](https://www.interakt.shop/whatsapp-voice-calling/)[No Code Chatbot Builder](https://www.interakt.shop/no-code-chatbot-builder/)[WhatsApp Business API](https://www.interakt.shop/whatsapp-business-api/)[WhatsApp Forms](https://www.interakt.shop/whatsapp-form/)[Click to WhatsApp Ads](https://www.interakt.shop/click-to-whatsapp-ads/)[WhatsApp Marketing](https://www.interakt.shop/whatsapp-marketing/)[WhatsApp Automation](https://www.interakt.shop/whatsapp-automation/)[WhatsApp CRM](https://www.interakt.shop/sales-crm/)[WhatsApp Commerce](https://www.interakt.shop/whatsapp-commerce/)[WhatsApp Chat Widget](https://www.interakt.shop/whatsapp-chat-widget/)[WhatsApp Notification Library](https://www.interakt.shop/whatsapp-notifications-library/) [Instagram Automation](https://www.interakt.shop/instagram-automation/) [RCS Campaigns](https://www.interakt.shop/whatsapp-rcs-fallback/)[Rich Messaging](https://www.interakt.shop/richbusinessmessaging-rcs/) [MyCallGenie](https://www.interakt.shop/mycallgenie-ai-call-receptionist/)  By Industry [![Image 10](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) B2B Sales](https://www.interakt.shop/whatsapp-business-for-b2b-sales/)[![Image 11](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Travel and Tourism](https://www.interakt.shop/whatsapp-business-for-travel-and-tourism/)[![Image 12](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Restaurants & Food Business](https://www.interakt.shop/whatsapp-business-for-restaurants-food-businesses/)[![Image 13](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Spas and Salons](https://www.interakt.shop/whatsapp-business-for-spas-and-salons/)[![Image 14](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Health & Wellness Brands](https://www.interakt.shop/whatsapp-business-for-health-wellness-brands/)[![Image 15](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Beauty & Cosmetics Brands](https://www.interakt.shop/whatsapp-business-for-beauty-cosmetics-brands/)[![Image 16](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Edutech](https://www.interakt.shop/whatsapp-business-for-edutech/)[![Image 17](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Automotive Industry](https://www.interakt.shop/whatsapp-business-for-automotive-industry/)[![Image 18](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Home Decor & Furnishing](https://www.interakt.shop/whatsapp-business-for-home-decor-and-furnishings/)[![Image 19](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Marketing Agency](https://www.interakt.shop/whatsapp-business-for-marketing-agency/)[![Image 20](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Real Estate](https://www.interakt.shop/whatsapp-business-for-real-estate/)[![Image 21](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Freelancer & Consultant Sales](https://www.interakt.shop/whatsapp-business-for-freelancer-and-consultant-sales/)[![Image 22](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Banking & Finance](https://www.interakt.shop/whatsapp-business-for-banking-and-finance/) ![Image 23](blob:http://localhost/fcc2d4d79fdfef8d8a84c66560893a7b)          
 *   [Integrations](https://www.interakt.shop/integrations/) 
 *   [Pricing](https://www.interakt.shop/pricing/) 
 *   [Partnerships](https://www.interakt.shop/partner-program/) 
@@ -1386,7 +1291,7 @@ Markdown Content:
 
     *   [FAQs](https://www.interakt.shop/faqs/)
 
-[![Image 43](blob:http://localhost/fa7dc6d4f3b15645b784be329867990a)](https://www.interakt.shop/whatsapp-business-api-live-demo/)
+[![Image 24](blob:http://localhost/fa7dc6d4f3b15645b784be329867990a)](https://www.interakt.shop/whatsapp-business-api-live-demo/)
 
 [Demo](https://www.interakt.shop/whatsapp-business-api-live-demo/)
 
@@ -1394,11 +1299,19 @@ Markdown Content:
 
 [Start Free Trial](https://www.interakt.shop/marketing-automation/signup/)
 
-[![Image 45](blob:http://localhost/031a860cae98bac756933037c0796a5a)](https://www.interakt.shop/)
+![Image 25: en](https://www.interakt.shop/wp-content/plugins/gtranslate/flags/svg/en.svg)en
+
+[![Image 26: en](https://www.interakt.shop/whatsapp-business-api-live-demo) English](https://www.interakt.shop/whatsapp-business-api-live-demo/)[![Image 27: id](https://www.interakt.shop/whatsapp-business-api-live-demo) Indonesian](https://www.interakt.shop/id/whatsapp-business-api-live-demo/)[![Image 28: ar](https://www.interakt.shop/whatsapp-business-api-live-demo) Arabic](https://www.interakt.shop/ar/whatsapp-business-api-live-demo/)[![Image 29: pt](https://www.interakt.shop/whatsapp-business-api-live-demo) Portuguese](https://www.interakt.shop/pt/whatsapp-business-api-live-demo/)[![Image 30: hi](https://www.interakt.shop/whatsapp-business-api-live-demo) Hindi](https://www.interakt.shop/hi/whatsapp-business-api-live-demo/)[![Image 31: es](https://www.interakt.shop/whatsapp-business-api-live-demo) Spanish](https://www.interakt.shop/es/whatsapp-business-api-live-demo/)
+
+[![Image 32](blob:http://localhost/031a860cae98bac756933037c0796a5a)](https://www.interakt.shop/)
+
+![Image 33: en](https://www.interakt.shop/wp-content/plugins/gtranslate/flags/svg/en.svg)en
+
+[![Image 34: en](https://www.interakt.shop/whatsapp-business-api-live-demo) English](https://www.interakt.shop/whatsapp-business-api-live-demo/)[![Image 35: id](https://www.interakt.shop/whatsapp-business-api-live-demo) Indonesian](https://www.interakt.shop/id/whatsapp-business-api-live-demo/)[![Image 36: ar](https://www.interakt.shop/whatsapp-business-api-live-demo) Arabic](https://www.interakt.shop/ar/whatsapp-business-api-live-demo/)[![Image 37: pt](https://www.interakt.shop/whatsapp-business-api-live-demo) Portuguese](https://www.interakt.shop/pt/whatsapp-business-api-live-demo/)[![Image 38: hi](https://www.interakt.shop/whatsapp-business-api-live-demo) Hindi](https://www.interakt.shop/hi/whatsapp-business-api-live-demo/)[![Image 39: es](https://www.interakt.shop/whatsapp-business-api-live-demo) Spanish](https://www.interakt.shop/es/whatsapp-business-api-live-demo/)
 
 *    Products  Close Products Open Products 
 
-    *   [SOLO ![Image 47](blob:http://localhost/61b0a7b0e686bf43f87f8e16e4822a16) Your AI Business Team](https://www.interakt.shop/solo/)
+    *   [SOLO ![Image 40](blob:http://localhost/61b0a7b0e686bf43f87f8e16e4822a16) Your AI Business Team](https://www.interakt.shop/solo/)
 
     *   [AI Agents Conversational AI for WhatsApp](https://www.interakt.shop/whatsapp-ai-agents/)
 
@@ -1410,7 +1323,7 @@ Markdown Content:
 
     *   [MyCallGenie Your AI Call Receptionist](https://www.interakt.shop/mycallgenie-ai-call-receptionist/)
 
-*    Solutions  Close Solutions Open Solutions  By Channels  ![Image 49](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) WhatsApp  [WhatsApp Voice Calling New](https://www.interakt.shop/whatsapp-voice-calling/)[No Code Chatbot Builder](https://www.interakt.shop/no-code-chatbot-builder/)[WhatsApp Business API](https://www.interakt.shop/whatsapp-business-api/)[WhatsApp Forms](https://www.interakt.shop/whatsapp-form/)[Click to WhatsApp Ads](https://www.interakt.shop/click-to-whatsapp-ads/)[WhatsApp Marketing](https://www.interakt.shop/whatsapp-marketing/)[WhatsApp Automation](https://www.interakt.shop/whatsapp-automation/)[WhatsApp CRM](https://www.interakt.shop/sales-crm/)[WhatsApp Commerce](https://www.interakt.shop/whatsapp-commerce/)[WhatsApp Chat Widget](https://www.interakt.shop/whatsapp-chat-widget/)[WhatsApp Notification Library](https://www.interakt.shop/whatsapp-notifications-library/) ![Image 51](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Instagram  [Instagram Automation](https://www.interakt.shop/instagram-automation/) ![Image 53](blob:http://localhost/e0eddde41819fa08a3b546684c54f8e9) RCS  [RCS Campaigns](https://www.interakt.shop/whatsapp-rcs-fallback/)[Rich Messaging](https://www.interakt.shop/richbusinessmessaging-rcs/) ![Image 54](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Voice New [MyCallGenie](https://www.interakt.shop/mycallgenie-ai-call-receptionist/)   By Industry  [![Image 56](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) B2B Sales](https://www.interakt.shop/whatsapp-business-for-b2b-sales/)[![Image 58](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Travel and Tourism](https://www.interakt.shop/whatsapp-business-for-travel-and-tourism/)[![Image 60](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Restaurants & Food Business](https://www.interakt.shop/whatsapp-business-for-restaurants-food-businesses/)[![Image 62](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Spas and Salons](https://www.interakt.shop/whatsapp-business-for-spas-and-salons/)[![Image 64](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Health & Wellness Brands](https://www.interakt.shop/whatsapp-business-for-health-wellness-brands/)[![Image 66](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Beauty & Cosmetics Brands](https://www.interakt.shop/whatsapp-business-for-beauty-cosmetics-brands/)[![Image 68](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Edutech](https://www.interakt.shop/whatsapp-business-for-edutech/)[![Image 70](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Automotive Industry](https://www.interakt.shop/whatsapp-business-for-automotive-industry/)[![Image 72](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Home Decor & Furnishing](https://www.interakt.shop/whatsapp-business-for-home-decor-and-furnishings/)[![Image 74](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Marketing Agency](https://www.interakt.shop/whatsapp-business-for-marketing-agency/)[![Image 76](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Real Estate](https://www.interakt.shop/whatsapp-business-for-real-estate/)[![Image 78](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Freelancer & Consultant Sales](https://www.interakt.shop/whatsapp-business-for-freelancer-and-consultant-sales/)[![Image 80](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Banking & Finance](https://www.interakt.shop/whatsapp-business-for-banking-and-finance/)          
+*    Solutions  Close Solutions Open Solutions  By Channels  ![Image 41](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) WhatsApp  [WhatsApp Voice Calling New](https://www.interakt.shop/whatsapp-voice-calling/)[No Code Chatbot Builder](https://www.interakt.shop/no-code-chatbot-builder/)[WhatsApp Business API](https://www.interakt.shop/whatsapp-business-api/)[WhatsApp Forms](https://www.interakt.shop/whatsapp-form/)[Click to WhatsApp Ads](https://www.interakt.shop/click-to-whatsapp-ads/)[WhatsApp Marketing](https://www.interakt.shop/whatsapp-marketing/)[WhatsApp Automation](https://www.interakt.shop/whatsapp-automation/)[WhatsApp CRM](https://www.interakt.shop/sales-crm/)[WhatsApp Commerce](https://www.interakt.shop/whatsapp-commerce/)[WhatsApp Chat Widget](https://www.interakt.shop/whatsapp-chat-widget/)[WhatsApp Notification Library](https://www.interakt.shop/whatsapp-notifications-library/) ![Image 42](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Instagram  [Instagram Automation](https://www.interakt.shop/instagram-automation/) ![Image 43](blob:http://localhost/e0eddde41819fa08a3b546684c54f8e9) RCS  [RCS Campaigns](https://www.interakt.shop/whatsapp-rcs-fallback/)[Rich Messaging](https://www.interakt.shop/richbusinessmessaging-rcs/) ![Image 44](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Voice New [MyCallGenie](https://www.interakt.shop/mycallgenie-ai-call-receptionist/)   By Industry  [![Image 45](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) B2B Sales](https://www.interakt.shop/whatsapp-business-for-b2b-sales/)[![Image 46](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Travel and Tourism](https://www.interakt.shop/whatsapp-business-for-travel-and-tourism/)[![Image 47](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Restaurants & Food Business](https://www.interakt.shop/whatsapp-business-for-restaurants-food-businesses/)[![Image 48](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Spas and Salons](https://www.interakt.shop/whatsapp-business-for-spas-and-salons/)[![Image 49](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Health & Wellness Brands](https://www.interakt.shop/whatsapp-business-for-health-wellness-brands/)[![Image 50](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Beauty & Cosmetics Brands](https://www.interakt.shop/whatsapp-business-for-beauty-cosmetics-brands/)[![Image 51](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Edutech](https://www.interakt.shop/whatsapp-business-for-edutech/)[![Image 52](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Automotive Industry](https://www.interakt.shop/whatsapp-business-for-automotive-industry/)[![Image 53](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Home Decor & Furnishing](https://www.interakt.shop/whatsapp-business-for-home-decor-and-furnishings/)[![Image 54](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Marketing Agency](https://www.interakt.shop/whatsapp-business-for-marketing-agency/)[![Image 55](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Real Estate](https://www.interakt.shop/whatsapp-business-for-real-estate/)[![Image 56](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Freelancer & Consultant Sales](https://www.interakt.shop/whatsapp-business-for-freelancer-and-consultant-sales/)[![Image 57](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Banking & Finance](https://www.interakt.shop/whatsapp-business-for-banking-and-finance/)          
 *   [Integrations](https://www.interakt.shop/integrations/) 
 *   [Pricing](https://www.interakt.shop/pricing/) 
 *   [Partnerships](https://www.interakt.shop/partner-program/) 
@@ -1428,23 +1341,126 @@ Markdown Content:
 *   [Login](https://app.interakt.ai/login?_gl=1*1g8ggv2*_gcl_au*ODk0MDY0MTk5LjE3MzY3NDYxNTYuMTQ5NzkwNDQzLjE3NDEwODUwNDEuMTc0MTA4NTA2NQ..*_ga*MTg2NTkwODYyNC4xNzM2NzQ2MTU2*_ga_4FBL7Q80RL*MTc0NDA0MTE2My4xODUuMS4xNzQ0MDQ3NTEwLjYwLjAuMA..&_ga=2.8954544.406833857.1743394959-1865908624.1736746156) 
 *   [Start Free Trial](https://www.interakt.shop/marketing-automation/signup/) 
 
-# Get in Touch!
+# Join Expert-Led Demos for WhatsApp
 
-**Facing an issue**
+![Image 58](https://www.interakt.shop/wp-content/uploads/2024/09/Isolation_Mode.png)
 
-**or need help with something?**
+# Instagram & Sales CRM!
 
- Raise Ticket
+# Join Expert-Led Demos
 
-**Want to learn how to grow your business on WhatsApp?**  
-  
-**Email our Sales Team [[email protected]](https://www.interakt.shop/cdn-cgi/l/email-protection#790a18151c0a541c17080c100b101c0a3910170d1c0b18120d57181059)**
+![Image 59](blob:http://localhost/e15f0ebc8f4096e86333eb4e82bc116d)
 
-# Our Offices
+# for WhatsApp, Instagram & Sales CRM!
 
-**India**  
-  
- Jio Haptik Technologies Limited 8th Floor, Cello Triumph, Goregaon East, Mumbai 400063 
+Explore automation solutions with live demos.  
+ Get personalized answers and tips for your business.
+
+Explore automation solutions with live demos. Get personalized answers and tips for your business.
+
+![Image 60](blob:http://localhost/c23e7754cb5d113607d5f18fdc439269)
+
+![Image 61](https://www.interakt.shop/wp-content/uploads/2025/01/conteudo.jpg)
+
+![Image 62](https://www.interakt.shop/wp-content/uploads/2025/01/Tag.png)
+
+ See Interakt in action with a personalized walkthrough! 
+
+Discover how Interakt can seamlessly help you automate sales, nurture leads & close deals – all on WhatsApp.
+
+[WhatsApp Business API Demo](https://us06web.zoom.us/webinar/register/WN_S3ezRE2BT-mSgFRUlsKbEQ#/registration)
+
+[WhatsApp AI Agents Live Demo](https://us06web.zoom.us/webinar/register/1017628487188/WN_R0ZUqs5dTQuFo8vUPCt_Qw#/registration)
+
+[Sales CRM LIVE Demo](https://us06web.zoom.us/webinar/register/WN___0_Mq7SRJC-LkvpeUf8LA#/registration)
+
+# Already using Interakt?
+
+![Image 63](https://www.interakt.shop/wp-content/uploads/2024/09/Isolation_Mode.png)
+
+## Explore Our Weekly Live Training Sessions
+
+![Image 64](blob:http://localhost/c23e7754cb5d113607d5f18fdc439269)
+
+![Image 65](https://www.interakt.shop/wp-content/uploads/2025/01/WhatsApp-Analytics.jpg)
+
+![Image 66](https://www.interakt.shop/wp-content/uploads/2025/01/Frame-37121.png)
+
+## Shopify Training
+
+ Learn to manage your Shopify catalog, run campaigns, and set up COD to prepaid conversions with ease. 
+
+[Book a Slot](https://us06web.zoom.us/webinar/register/1617563656661/WN_9OO7JvM2RTOoFAMV2l1_sA)
+
+![Image 67](blob:http://localhost/c23e7754cb5d113607d5f18fdc439269)
+
+![Image 68](https://www.interakt.shop/wp-content/uploads/2026/08/Thumbnail.png)
+
+![Image 69](https://www.interakt.shop/wp-content/uploads/2025/01/Frame-37121-1.png)
+
+## SOLO Workshop
+
+ Join us every Wednesday for a practical session on SOLO, Interakt’s AI team built to help businesses manage marketing, sales, and customer conversations. 
+
+[Book a Slot](https://us06web.zoom.us/webinar/register/2017869562910/WN_H6Z031UORh-xKg5kISsRyg)
+
+![Image 70](blob:http://localhost/c23e7754cb5d113607d5f18fdc439269)
+
+![Image 71](https://www.interakt.shop/wp-content/uploads/2025/01/WhatsApp-Automated-Retries.jpg)
+
+![Image 72](https://www.interakt.shop/wp-content/uploads/2025/01/Frame-37122.png)
+
+## Instagram Automation Training
+
+ Discover how to engage your audience and streamline communication on Instagram using our tools. 
+
+[Book a Slot](https://us06web.zoom.us/webinar/register/6017563650679/WN_iM7fnMNHQtCG8jTW4msgEg)
+
+![Image 73](blob:http://localhost/c23e7754cb5d113607d5f18fdc439269)
+
+![Image 74](https://www.interakt.shop/wp-content/uploads/2026/05/integration-1.png)
+
+![Image 75](https://www.interakt.shop/wp-content/uploads/2025/02/Frame-37121-2.png)
+
+## Interakt Integrations
+
+ Integrate Interakt with your business tech-stack and grow your business without juggling multiple tools and plartforms. 
+
+[Book a Slot](https://us06web.zoom.us/webinar/register/2317798833350/WN_JvYAAhAnSrGcu8s-1TcfRA)
+
+# Experience Interakt on WhatsApp
+
+ Scan the code to experience an Interaktive demo from a customer’s point of view. 
+
+![Image 76](https://www.interakt.shop/wp-content/uploads/2025/01/Image-1024x698.png)
+
+[WhatsApp Demo](https://api.whatsapp.com/send?phone=14704287796&text=Hello,%20I%20want%20to%20grow%20my%20business%20using%20WhatsApp)
+
+## Go-To Videos & Product Tutorials
+
+# Learn how to leverage Interakt  and grow your business.
+
+![Image 77](blob:http://localhost/9a2f949160bc72599f52538e4b654312)
+
+ How to signup on Interakt? 
+
+![Image 78](blob:http://localhost/87c6bda26293f8cc0d96b3cb6241e48f)
+
+ How to connect your number to Interakt 
+
+![Image 79](blob:http://localhost/87c6bda26293f8cc0d96b3cb6241e48f)
+
+ How to migrate your number from one BSP to another 
+
+![Image 80](blob:http://localhost/9a2f949160bc72599f52538e4b654312)
+
+ WhatsApp Business API pricing 
+
+## Want to learn more?
+
+ Explore all popular videos here 
+
+[Watch Video](https://www.youtube.com/channel/UCpS611FX8bGJ_ytTuUQZ65Q/videos)
 
 ## Get Started with Interakt Today
 
@@ -1455,11 +1471,11 @@ Markdown Content:
 
 [Try Interakt for Free](https://www.interakt.shop/whatsapp-business-api-live-demo)
 
-![Image 82](blob:http://localhost/e604890572eb269f1bc0e746c7c890d5)
+![Image 81](blob:http://localhost/e604890572eb269f1bc0e746c7c890d5)
 
-![Image 84](blob:http://localhost/41a76e58e964119348145f9c90dc9026)
+![Image 82](blob:http://localhost/41a76e58e964119348145f9c90dc9026)
 
-![Image 86](blob:http://localhost/3e391abc3e97ac2f2a8f1c5012eb55af)
+![Image 83](blob:http://localhost/3e391abc3e97ac2f2a8f1c5012eb55af)
 
 #### Interakt
 
@@ -1511,13 +1527,13 @@ Markdown Content:
 *   [Interakt vs. Wati](https://www.interakt.shop/blog/top-wati-alternative/)
 *   [Interakt vs Qontak](https://www.interakt.shop/qontak-alternative/)
 
-[![Image 88](blob:http://localhost/798e8b0681325966238bfb9dcdce2496)](https://apps.apple.com/us/app/interakt/id1573532290)
+[![Image 84](blob:http://localhost/798e8b0681325966238bfb9dcdce2496)](https://apps.apple.com/us/app/interakt/id1573532290)
 
-[![Image 90](blob:http://localhost/4b57380dc36730755509a8608e721b35)](https://play.google.com/store/apps/details?id=com.haptik.interakt&pli=1)
+[![Image 85](blob:http://localhost/4b57380dc36730755509a8608e721b35)](https://play.google.com/store/apps/details?id=com.haptik.interakt&pli=1)
 
-![Image 92](blob:http://localhost/4b57380dc36730755509a8608e721b35)
+![Image 86](blob:http://localhost/4b57380dc36730755509a8608e721b35)
 
-[![Image 94](blob:http://localhost/835c23926efe8c3b06072c739ad702e2)](https://apps.shopify.com/interakt-marketing)
+[![Image 87](blob:http://localhost/835c23926efe8c3b06072c739ad702e2)](https://apps.shopify.com/interakt-marketing)
 
 India | Singapore | [Indonesia](https://www.interakt.shop/whatsapp-business-api-pricing-indonesia) | [Brazil](https://www.interakt.shop/whatsapp-business-api-brazil) | [UAE](https://www.interakt.shop/whatsapp-business-api-uae) | Philippines | Africa
 
@@ -1525,21 +1541,21 @@ Copyright© Jio Haptik Technologies Limited 2025. All rights reserved.
 
 [Whatsapp](https://whatsapp.com/channel/0029VadO2VwF1YlPFQIzJC2D)[](https://www.youtube.com/channel/UCpS611FX8bGJ_ytTuUQZ65Q)[](https://www.linkedin.com/company/heyinterakt/)[](https://www.instagram.com/heyinterakt/?utm_source=website&utm_medium=Footer_website&utm_campaign=Footer_website)[](https://twitter.com/heyinterakt/?utm_source=website&utm_medium=Footer_website&utm_campaign=Footer_website)[](https://www.facebook.com/heyinterakt/?utm_source=website&utm_medium=Footer_website&utm_campaign=Footer_website)
 
-![Image 96](blob:http://localhost/e604890572eb269f1bc0e746c7c890d5)
+![Image 88](blob:http://localhost/e604890572eb269f1bc0e746c7c890d5)
 
  Join our WhatsApp channel to stay updated 
 
-![Image 98](blob:http://localhost/e59be866251e60ae2ca5b6505baa424a)
+![Image 89](blob:http://localhost/e59be866251e60ae2ca5b6505baa424a)
 
-![Image 100](blob:http://localhost/3e391abc3e97ac2f2a8f1c5012eb55af)
+![Image 90](blob:http://localhost/3e391abc3e97ac2f2a8f1c5012eb55af)
 
-[![Image 102](blob:http://localhost/798e8b0681325966238bfb9dcdce2496)](https://apps.apple.com/us/app/interakt/id1573532290)
+[![Image 91](blob:http://localhost/798e8b0681325966238bfb9dcdce2496)](https://apps.apple.com/us/app/interakt/id1573532290)
 
-[![Image 104](blob:http://localhost/4b57380dc36730755509a8608e721b35)](https://play.google.com/store/apps/details?id=com.haptik.interakt&pli=1)
+[![Image 92](blob:http://localhost/4b57380dc36730755509a8608e721b35)](https://play.google.com/store/apps/details?id=com.haptik.interakt&pli=1)
 
-![Image 106](blob:http://localhost/4b57380dc36730755509a8608e721b35)
+![Image 93](blob:http://localhost/4b57380dc36730755509a8608e721b35)
 
-[![Image 108](blob:http://localhost/835c23926efe8c3b06072c739ad702e2)](https://apps.shopify.com/interakt-marketing)
+[![Image 94](blob:http://localhost/835c23926efe8c3b06072c739ad702e2)](https://apps.shopify.com/interakt-marketing)
 
 #### Interakt
 
@@ -1597,21 +1613,21 @@ India | Singapore | [Indonesia](https://www.interakt.shop/whatsapp-business-api-
 
 [Whatsapp](https://whatsapp.com/channel/0029VadO2VwF1YlPFQIzJC2D)[](https://www.youtube.com/channel/UCpS611FX8bGJ_ytTuUQZ65Q)[](https://www.linkedin.com/company/heyinterakt/)[](https://www.instagram.com/heyinterakt/?utm_source=website&utm_medium=Footer_website&utm_campaign=Footer_website)[](https://twitter.com/heyinterakt/?utm_source=website&utm_medium=Footer_website&utm_campaign=Footer_website)[](https://www.facebook.com/heyinterakt/?utm_source=website&utm_medium=Footer_website&utm_campaign=Footer_website)
 
-![Image 110](blob:http://localhost/e604890572eb269f1bc0e746c7c890d5)
+![Image 95](blob:http://localhost/e604890572eb269f1bc0e746c7c890d5)
 
  Join our WhatsApp channel to stay updated 
 
-![Image 112](blob:http://localhost/e59be866251e60ae2ca5b6505baa424a)
+![Image 96](blob:http://localhost/e59be866251e60ae2ca5b6505baa424a)
 
-![Image 114](blob:http://localhost/3e391abc3e97ac2f2a8f1c5012eb55af)
+![Image 97](blob:http://localhost/3e391abc3e97ac2f2a8f1c5012eb55af)
 
-[![Image 116](blob:http://localhost/798e8b0681325966238bfb9dcdce2496)](https://apps.apple.com/us/app/interakt/id1573532290)
+[![Image 98](blob:http://localhost/798e8b0681325966238bfb9dcdce2496)](https://apps.apple.com/us/app/interakt/id1573532290)
 
-[![Image 118](blob:http://localhost/4b57380dc36730755509a8608e721b35)](https://play.google.com/store/apps/details?id=com.haptik.interakt&pli=1)
+[![Image 99](blob:http://localhost/4b57380dc36730755509a8608e721b35)](https://play.google.com/store/apps/details?id=com.haptik.interakt&pli=1)
 
-![Image 120](blob:http://localhost/4b57380dc36730755509a8608e721b35)
+![Image 100](blob:http://localhost/4b57380dc36730755509a8608e721b35)
 
-[![Image 122](blob:http://localhost/835c23926efe8c3b06072c739ad702e2)](https://apps.shopify.com/interakt-marketing)
+[![Image 101](blob:http://localhost/835c23926efe8c3b06072c739ad702e2)](https://apps.shopify.com/interakt-marketing)
 
 #### Interakt
 
@@ -1650,6 +1666,123 @@ India | Singapore | [Indonesia](https://www.interakt.shop/whatsapp-business-api-
  Copyright© Jio Haptik Technologies Limited 2025. All rights reserved. 
 
 [Whatsapp](https://whatsapp.com/channel/0029VadO2VwF1YlPFQIzJC2D)[](https://www.youtube.com/channel/UCpS611FX8bGJ_ytTuUQZ65Q)[](https://www.linkedin.com/company/heyinterakt/)[](https://www.instagram.com/heyinterakt/?utm_source=website&utm_medium=Footer_website&utm_campaign=Footer_website)[](https://twitter.com/heyinterakt/?utm_source=website&utm_medium=Footer_website&utm_campaign=Footer_website)[](https://www.facebook.com/heyinterakt/?utm_source=website&utm_medium=Footer_website&utm_campaign=Footer_website)
+
+=== https://www.interakt.shop/privacy-policy ===
+Title: Privacy Policy of Interakt
+
+URL Source: https://www.interakt.shop/privacy-policy
+
+Markdown Content:
+## Thank you for being a part of Interakt - a product by Jio Haptik Technologies Limited. Your privacy is important to us.
+
+Please read the following statement to learn about our information gathering and dissemination practices.
+
+## SCOPE:
+
+Jio Haptik Technologies Limited (hereinafter referred to as “the Company”, “we”, “our”, “us”) inter alia, offers a suite of messaging software-as-a-service solutions through a single platform to enable its customer to manage communications with their users under the name and style of “Interakt - a product by Jio Haptik” (hereinafter referred to as “Solution”) as a service to its customers, in order to enhance their user support through quicker responses and more efficient internal processes. The Solution is committed to protecting and respecting your privacy. This policy (“Privacy Policy”), together with the terms and conditions, available at [https:interakt.ai/privacy-policy], and all other policies listed as part of the Solution, outlines the privacy practices of the Solution regarding collection, use and safeguard of your information through the Solution and the services offered thereupon. By using, registering or signing up for the Solution, you accept the terms of this Privacy Policy. If you do not accept any of these terms, your usage of the Solution will be restricted. Your clicking of the “ agree” button and submission of personal information or if you are a minor, the submission of your personal information either by your parents (or your legal guardian) or by you with the permission of your parents (or legal guardian) to the Solution will be deemed as your acceptance of this Privacy Policy and agree to be contacted by us to inform you about products and/or services and/or upcoming benefits offered by us or any of our affiliates or any other sub- domains. This Privacy Policy is an electronic record in terms of the Information Technology Act, 2000 (as amended/re-enacted from time to time) (“IT Act”) and rules thereunder, and, amongst others, is published in accordance with the provisions of Rule 3 (1) of the Information Technology (Intermediaries Guidelines) Rules, 2011, which mandates for publishing of rules and regulations, privacy policy and terms of use for access or usage of the Solution. This Privacy Policy is an electronic record, generated by a computer system and does not require any physical or digital signatures
+
+## CHANGES TO THE PRIVACY POLICY:
+
+We will treat your information in accordance with applicable laws and regulations of India. This Privacy Policy is subject to modification(s) based on business, legal or regulatory requirements and will be updated online from time to time. We will make all efforts to communicate any significant changes to this Privacy Policy to you. You are encouraged to periodically visit this page to review the Privacy Policy and any changes to it. Your continued participation in the Solution after any modification(s) to this Privacy Policy will be deemed as your acceptance to such modification(s).
+
+## PERSONAL INFORMATION WE COLLECT:
+
+“Personal information” is defined as information that can be used to identify you and may include details such as your name, age, gender, contact information and details, incoming/outgoing messages, business information, products and services you are interested in or require more information about. Insofar as sensitive personal information is concerned, it will carry the meaning as may be defined by applicable laws from time to time.
+
+We collect, use and share your personal information in the following manner:
+
+## Collection
+
+We may collect your personal information, whenever relevant, to provide you with the services and/or complete any transaction or provide any product you have requested or authorized under the Solution. You also consent to the collection of certain personal information in the course of your applying for the products and/or services with regards to the Solution.
+
+## Usage
+
+We seek this personal information either to (a) validate and process your request for the usage of the Solution; or (b) assist the Company and/or any of its affiliates to handle and fulfill your orders and/or transactions, if any, or (c) to communicate details of any allied products and/or services and/or transaction to any third party; or (d) improve the quality of the Solution; or (e) assist you in determining the services/products best suited for your needs; or (f) facilitate our internal business operations, including the fulfilment of any legal and regulatory requirements; or (g) provide you with recommendation about services/products you may be interested in, based on your participation in the Solution; or (h) provide you with marketing communications and advertising that we believe may be of interest of you; or (i) resolve disputes or troubleshooting problems; or (j) detect and protect us against any error, fraud and other criminal activity; or (h) enforce our terms and conditions; or (i) as otherwise described to you at the time of collection.
+
+## Sharing
+
+We may disclose your personal information to our affiliates when necessary (a) to provide the services on our behalf or on your behalf in relation to the Solution; or (b) to display advertising and promotional services; or (c) to provide search results and links (including paid listings and links); or (d) to provide efficient customer service. Please note that our entities and affiliates may market to you as a result of such sharing. If you wish to opt-out of any such sharing, do email us on hello@interakt.ai. We may disclose your personal information to any third parties. This disclosure may be required for us to provide you and such third parties to provide services under the Solution or for enhancing your experience, or to comply with our legal obligations. We may also share your personal information with external organizations or individuals if we believe that such access, usage, preservation or disclosure of the personal information is reasonably necessary to:
+
+(a) meet any applicable law, regulation, legal process or enforceable governmental request;
+
+(b) detect, prevent or otherwise address fraud, security or technical issues;
+
+(c) protect against any harm to rights, property or safety of our customers or the public, as required or permitted by applicable laws in India.
+
+‍
+
+## NON-PERSONAL INFORMATION WE COLLECT:
+
+Non-personal information is defined as any information that does not personally identify you and may include unique system or hardware identifiers, system or application software, and peripherals. Any non-personal information, when clubbed with personal information shall be treated as personal information. The following is the manner in which we collect, use and share non-personal information.
+
+## Collection:
+
+You agree that the Solution may collect diagnostic, technical, usage related information, for the usage purposes described below, or communicated to you at the time of collection. This information, once collected, is anonymized in a manner that does not personally identify you.
+
+## Usage:
+
+The non-personal information is gathered periodically to provide and improve the Solution and services therein, facilitate the provision of software updates, product support and other services to you (if any) and to verify compliance with the terms of this Privacy Policy. As non-personal information does not personally identify you, we may use and disclose non-personal information at our discretion, subject to applicable laws.
+
+## Sharing:
+
+To enable the Solution partners and Third Party Service Providers to improve their software, hardware and services designed for use with the Solution, we may also provide any such partner or Third Party Service Providers with a subset of diagnostic information that is relevant to such partner’s or Third Party Service Provider’s software, hardware and/or services, as long as the diagnostic information is in a form that does not personally identify you.
+
+## Cloud API:
+
+WhatsApp Infrastructure means WhatsApp Enterprise Client deployment which helps communication between users and the Interakt platform.
+
+The Client hereby confirms and agrees that upon sharing the data on the WhatsApp infrastructure, all the data shared by the Client in relation to the WhatsApp messaging will now reside on Cloud API's ("Data Residence"), a Meta Product.
+
+It is further understood and accepted that any Client data previously routed & stored on WhatsApp infrastructure i.e. for the purpose of messaging/notification on WhatsApp, the WhatsApp infrastructure shall henceforward be migrated to the data centers which are currently located in North America and European Union via Cloud API service by Meta.
+
+For the purpose of the provision of services under this Agreement, the Client hereby acknowledges that for the WhatsApp infrastructure data localization is not offered by the Company for any such data shared or obtained by the Company in the process of providing the WhatsApp messaging to the Client.
+
+‍
+
+## LOCATION SERVICES:
+
+The Solution, its licensees and agents, may access, collect and analyse your participation in the Solution and usage of the Solution therein and other information related to your location on a regular basis through Bluetooth and Wi-Fi signals and other technologies and data for the performance of the services provided by the Solution and to help improve the design, functionality, performance, and content of the Solution. In order to collect geo-location information, the location settings must be enabled on your device. Therefore, in some cases, the device may request that you enable the location settings. Except in cases where any specific services requested by you require or involve personal identification, the Solution collects location data anonymously and in a form that does not personally identify you. By using the Solution, you agree and consent to transmission, collection, maintenance, processing and use of your location data and queries to provide and improve such services of the Solution.
+
+## COOKIES:
+
+We place both permanent and temporary cookies in your device in relation to the Solution. Information collected by cookies and other technologies are treated as non-personal information. However, to the extent that IP addresses or similar identifiers are considered personal information by local law, we treat any information linked to such identifiers as personal information. Similarly, to the extent that non-personal information is combined with personal information, we will treat the combined information as personal information.
+
+## OTHER INFORMATION THE SOLUTION COLLECTS:
+
+The Solution may also collect other information about you in ways that the Solution describe to you or otherwise with your consent. You can choose not to provide us with certain types of information, but doing so may affect your ability to avail and/or use some services.
+
+## THIRD PARTY SERVICES, THIRD PARTY APPLICATIONS, WEBSITES & SERVICES:
+
+Third Party Services shall mean the third party services made available by the Company under the Solution including but not limited to WhatsApp business platforms and the term “Third Party Service Provider” shall mean the provider of such Third Party Services. The Solution may include links to other websites/applications or any of its sub domains or website/applications of any Third Party Service Providers or may display advertisements from such Third Party Service Providers and other content that links to Third Party Services. Such Third Party Services are governed by their respective privacy policies, which are out of our control. Once you leave our servers, use of any information you provide is governed by the privacy policy of the operators of the Third Party Services you are visiting and such policies may differ from this Privacy Policy. If you can't find the privacy policy of any of the Third Party Service Providers, you must contact the relevant website /application of such Third Party Service Providers directly for more information. We shall not be responsible for the privacy practices or the content of such Third Party Services. We shall not be liable for the services provided by the Third Party Service Providers, on the Solution. You shall assume all risks arising out of or resulting from any transaction undertaken by you with such Third Party Service Providers on the Solution and you agree and acknowledge that the Company shall not be responsible or liable for any losses arising out of your usage of such Third Party Services. We may use third party advertising companies to serve ads when you visit the Solution. Please note that any Third Party Services you access as a part of the Solution, may also collect, use and share information about you and your usage. We cannot control how these Third Party Service Providers collect, use, share or secure this information. These Third Party Service Providers who collects, processes, shares, uses, retains your personal and/or usage related information or with whom such information is shared pursuant to contractual obligations shall be solely responsible for such usage and liability, if any.
+
+## ACCESS, CORRECTION AND DELETION:
+
+We strive hard to keep our records updated and accurate with your latest information. You shall be responsible to ensure that the information or data you provide from time to time is and shall be correct, current and updated and you have all the rights, permissions and consents to provide such information or data. You may note that deletion of certain information or withdrawal of consent may lead to cancellation of your access to the Solution or your access to certain features and services of the Solution. Additionally, we may not be able to process your request of correction, updating or deletion, in case the same is not supported by valid documents or data retention is required by the applicable law or law enforcement requests or under any judicial proceedings or it is extremely difficult to implement (such as requests related to backup copies or if a new system is required to process the request or change of technical design) or risks the privacy of other users.
+
+## HOW TO REQUEST DELETION OF YOUR DATA
+
+You may request the deletion of your personal information by emailing us at [privacy@interakt.shop](mailto:privacy@interakt.shop) with the subject line “Data Deletion Request.”
+
+Please include the following information so that we can identify and verify your account:
+
+*   Your registered email address and mobile number;
+*   Details of the data or account that you would like us to delete.
+
+After verifying your request, we will delete or anonymise the applicable personal information from our active systems, unless we are required to retain certain information for legal, regulatory, fraud-prevention, security purposes or as required under applicable laws.
+
+We will confirm receipt of your request and notify you after the request has been processed within the timeline as notified under applicable law.
+
+## PROCESSING OF THE INFORMATION
+
+We along with our affiliates or Third Party Service Providers with whom we have entered into contractual arrangements may also process any personal and/or usage related information collected from you for legitimate commercial purposes including providing the aforementioned services for the Solution, unless you explicitly opt out. Doing so may affect your ability to avail and/or use the Solution.
+
+## WAIVER OF LIABILITY
+
+Notwithstanding anything contrary mentioned in this Privacy Policy, we shall not be liable for any indirect, incidental, consequential, special or exemplary damage(s) arising due to loss of data or use arising out of or in connection with your access or use of or inability to access or use the Solution including but not limited to any sub-domains or any Third Party Services.
+
+## QUERIES AND COMPLAINTS:
+
+We are committed to protect your personal information collected and processed by us and look forward to your continued support for the same. In case of any feedback or concern regarding protection of your personal information, or any privacy-related feedback or concerns you may contact the Data Protection officer Ranvijay Jamwal at Infosec@haptik.ai or at hello[at]interakt.ai for any other clarification.
 
 === https://www.interakt.shop/terms-of-service ===
 Title: Terms & Conditions | Interakt
@@ -1913,7 +2046,7 @@ Third party products, software, services, applications, including but not limite
 
 You are responsible for maintaining the confidentiality of your account credentials and for all activities that occur under your account. Interakt will never ask you to share your password, OTP, or other sensitive information through unofficial links or third-party channels.
 
-To access your account securely, please use only[https://app.interakt.ai/login](https://app.interakt.ai/login). If you receive any communication containing alternative links or requests for personal information, do not click or respond. Report any such suspicious activity to our support team at[[email protected]](https://www.interakt.shop/cdn-cgi/l/email-protection#5d2e282d2d322f291d343329382f3c3629733c34)immediately.
+To access your account securely, please use only[https://app.interakt.ai/login](https://app.interakt.ai/login). If you receive any communication containing alternative links or requests for personal information, do not click or respond. Report any such suspicious activity to our support team at[support@interakt.ai](mailto:support@interakt.ai)immediately.
 
 ## DISCLAIMERS OF WARRANTIES
 
@@ -1955,251 +2088,7 @@ It is agreed between the Parties that the Company reserves the right to use cert
 
 ## FORCE MAJEURE
 
-Except for the duty to make payments hereunder when due, and the indemnification provisions under these Terms of Use, neither the Company nor the Client shall be liable by reason of any failure or delay in the performance of its obligations arising out of a Force Majeure Event. As used in these Terms of Use, “Force Majeure Event” shall mean: any act of God, act of nature or the elements, terrorism, insurrection, revolution or civil strife, piracy, civil war or hostile action, labor strikes, acts of public enemies, federal or state laws, rules and regulations of any governmental authorities having jurisdiction over the premises, inability to procure material, equipment, or necessary labor in the open market, acute and unusual labor, material, or equipment shortages, or any other causes (except financial) beyond the control of either Party. In the event, if one or more Force Majeure Events results in delay of 15 (fifteen) consecutive days in the performance of the obligations under these Terms of Use, the Parties shall mutually discuss to terminate these Terms of Use without any further liability. However, the Client shall be liable to pay the Company for the utilization of the Solution provided in accordance with these Terms of Use.
-
-## CONTACT DETAILS
-
-All communications or notices permitted or required to be given or served to the Company under these Terms of Use shall be in writing, shall be addressed to the Company as per the details set out below. These details may be updated from time to time by the Company and shall also be made available on the Solution.
-
-Email ID:[[email protected]](https://www.interakt.shop/cdn-cgi/l/email-protection#234b464f4f4c634a4d5746514248570d424a)
-
-## SURVIVAL AND SEVERABILITY
-
-The rights and obligations arising out of these Terms of Use, which by their nature should survive or are expressly so stated herein, shall remain in full force and effect to the extent so specified, notwithstanding any expiry or termination of these Terms of Use. If any provision of these Terms of Use (or any portion thereof) is determined to be invalid or unenforceable the remaining provisions of these Terms of Use shall not be affected by such determination, shall be binding upon the parties and shall be enforceable.
-
-## WAIVER
-
-Neither Party shall, by mere lapse of time, without giving notice thereof, be deemed to have waived any right or remedy arising hereunder or in connection with any breach or illegality involving the other Party. The waiver by either Party of any such right or remedy shall not be construed as a waiver of any other right or remedy or as a continuing waiver with respect to any similar, ongoing, or repeated circumstances.
-
-## ASSIGNMENT
-
-The Company may assign these Terms of Use and/or part thereof at its discretion, at any time, to any of its Affiliates, group companies, holding company, subsidiary companies, third parties without any notice to the Client. However, the Client shall not assign these Terms of Use or any part thereof to any party without taking prior written consent of the Company.
-
-=== https://www.interakt.shop/case-study ===
-Title: Interakt Case Studies: Real Stories of WhatsApp Business Success
-
-URL Source: https://www.interakt.shop/case-study
-
-Markdown Content:
-![Image 1: ...](blob:http://localhost/8ac3b6157802c8b292fdee99ca0eba0a)
-
-[](https://us06web.zoom.us/webinar/register/1517919732999/WN_y0KK_dcATnmdXkAz-Gw2Pg)[[Workshop] Get your Shopify store Diwali-ready | 22nd Oct @ 11 AM](https://us06web.zoom.us/webinar/register/1517919732999/WN_y0KK_dcATnmdXkAz-Gw2Pg)[Register Now](https://www.interakt.shop/integrations/integrating-whatsapp-business-api-with-shopify/)
-
-[](https://us06web.zoom.us/webinar/register/1517919732999/WN_y0KK_dcATnmdXkAz-Gw2Pg)[[Workshop] Get your Shopify store Diwali-ready | 22nd Oct @ 11 AM](https://us06web.zoom.us/webinar/register/1517919732999/WN_y0KK_dcATnmdXkAz-Gw2Pg)Register Now
-
-[![Image 2](blob:http://localhost/031a860cae98bac756933037c0796a5a)](https://www.interakt.shop/)
-
-*    Products  Close Products Open Products 
-
-    *   [SOLO ![Image 4](blob:http://localhost/61b0a7b0e686bf43f87f8e16e4822a16) Your AI Business Team](https://www.interakt.shop/solo/)
-
-    *   [AI Agents Conversational AI for WhatsApp](https://www.interakt.shop/whatsapp-ai-agents/)
-
-    *   [Marketing Hub Your Ultimate Campaign Suite](https://www.interakt.shop/marketing-automation/)
-
-    *   [Support Hub All-in-One Customer Platform](https://www.interakt.shop/customer-support-automation/)
-
-    *   [Sales CRM Boost Sales with WhatsApp CRM](https://www.interakt.shop/sales-crm/)
-
-    *   [MyCallGenie Your AI Call Receptionist](https://www.interakt.shop/mycallgenie-ai-call-receptionist/)
-
-[![Image 6](blob:http://localhost/a5baabb8c986fb7518a68ce3a50161ae)](https://www.interakt.shop/whatsapp-business-api-live-demo/)
-
-*    Solutions  Close Solutions Open Solutions By Channels ![Image 8](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) WhatsApp  ![Image 10](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Instagram  ![Image 12](blob:http://localhost/e0eddde41819fa08a3b546684c54f8e9) RCS  ![Image 13](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Voice New   [WhatsApp Voice Calling New](https://www.interakt.shop/whatsapp-voice-calling/)[No Code Chatbot Builder](https://www.interakt.shop/no-code-chatbot-builder/)[WhatsApp Business API](https://www.interakt.shop/whatsapp-business-api/)[WhatsApp Forms](https://www.interakt.shop/whatsapp-form/)[Click to WhatsApp Ads](https://www.interakt.shop/click-to-whatsapp-ads/)[WhatsApp Marketing](https://www.interakt.shop/whatsapp-marketing/)[WhatsApp Automation](https://www.interakt.shop/whatsapp-automation/)[WhatsApp CRM](https://www.interakt.shop/sales-crm/)[WhatsApp Commerce](https://www.interakt.shop/whatsapp-commerce/)[WhatsApp Chat Widget](https://www.interakt.shop/whatsapp-chat-widget/)[WhatsApp Notification Library](https://www.interakt.shop/whatsapp-notifications-library/) [Instagram Automation](https://www.interakt.shop/instagram-automation/) [RCS Campaigns](https://www.interakt.shop/whatsapp-rcs-fallback/)[Rich Messaging](https://www.interakt.shop/richbusinessmessaging-rcs/) [MyCallGenie](https://www.interakt.shop/mycallgenie-ai-call-receptionist/)  By Industry [![Image 15](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) B2B Sales](https://www.interakt.shop/whatsapp-business-for-b2b-sales/)[![Image 17](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Travel and Tourism](https://www.interakt.shop/whatsapp-business-for-travel-and-tourism/)[![Image 19](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Restaurants & Food Business](https://www.interakt.shop/whatsapp-business-for-restaurants-food-businesses/)[![Image 21](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Spas and Salons](https://www.interakt.shop/whatsapp-business-for-spas-and-salons/)[![Image 23](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Health & Wellness Brands](https://www.interakt.shop/whatsapp-business-for-health-wellness-brands/)[![Image 25](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Beauty & Cosmetics Brands](https://www.interakt.shop/whatsapp-business-for-beauty-cosmetics-brands/)[![Image 27](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Edutech](https://www.interakt.shop/whatsapp-business-for-edutech/)[![Image 29](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Automotive Industry](https://www.interakt.shop/whatsapp-business-for-automotive-industry/)[![Image 31](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Home Decor & Furnishing](https://www.interakt.shop/whatsapp-business-for-home-decor-and-furnishings/)[![Image 33](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Marketing Agency](https://www.interakt.shop/whatsapp-business-for-marketing-agency/)[![Image 35](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Real Estate](https://www.interakt.shop/whatsapp-business-for-real-estate/)[![Image 37](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Freelancer & Consultant Sales](https://www.interakt.shop/whatsapp-business-for-freelancer-and-consultant-sales/)[![Image 39](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Banking & Finance](https://www.interakt.shop/whatsapp-business-for-banking-and-finance/) ![Image 41](blob:http://localhost/fcc2d4d79fdfef8d8a84c66560893a7b)          
-*   [Integrations](https://www.interakt.shop/integrations/) 
-*   [Pricing](https://www.interakt.shop/pricing/) 
-*   [Partnerships](https://www.interakt.shop/partner-program/) 
-*    Resources  Close Resources Open Resources 
-
-    *   [Blogs](https://www.interakt.shop/blog/)
-
-    *   [Case Studies](https://www.interakt.shop/case-study/)
-
-    *   [Resource Center](https://www.interakt.shop/resource-center/)
-
-    *   [FAQs](https://www.interakt.shop/faqs/)
-
-[![Image 43](blob:http://localhost/fa7dc6d4f3b15645b784be329867990a)](https://www.interakt.shop/whatsapp-business-api-live-demo/)
-
-[Demo](https://www.interakt.shop/whatsapp-business-api-live-demo/)
-
-[Login](https://app.interakt.ai/login?_gl=1*zop15q*_gcl_au*MTg5NzU2MDcyMi4xNzAyODc1NTA3&_ga=2.184796513.97017958.1704554353-699056367.1663883724)
-
-[Start Free Trial](https://www.interakt.shop/marketing-automation/signup/)
-
-[![Image 45](blob:http://localhost/031a860cae98bac756933037c0796a5a)](https://www.interakt.shop/)
-
-*    Products  Close Products Open Products 
-
-    *   [SOLO ![Image 47](blob:http://localhost/61b0a7b0e686bf43f87f8e16e4822a16) Your AI Business Team](https://www.interakt.shop/solo/)
-
-    *   [AI Agents Conversational AI for WhatsApp](https://www.interakt.shop/whatsapp-ai-agents/)
-
-    *   [Marketing Hub Your Ultimate Campaign Suite](https://www.interakt.shop/marketing-automation/)
-
-    *   [Support Hub All-in-One Customer Platform](https://www.interakt.shop/customer-support-automation/)
-
-    *   [Sales CRM Boost Sales with WhatsApp CRM](https://www.interakt.shop/sales-crm/)
-
-    *   [MyCallGenie Your AI Call Receptionist](https://www.interakt.shop/mycallgenie-ai-call-receptionist/)
-
-*    Solutions  Close Solutions Open Solutions  By Channels  ![Image 49](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) WhatsApp  [WhatsApp Voice Calling New](https://www.interakt.shop/whatsapp-voice-calling/)[No Code Chatbot Builder](https://www.interakt.shop/no-code-chatbot-builder/)[WhatsApp Business API](https://www.interakt.shop/whatsapp-business-api/)[WhatsApp Forms](https://www.interakt.shop/whatsapp-form/)[Click to WhatsApp Ads](https://www.interakt.shop/click-to-whatsapp-ads/)[WhatsApp Marketing](https://www.interakt.shop/whatsapp-marketing/)[WhatsApp Automation](https://www.interakt.shop/whatsapp-automation/)[WhatsApp CRM](https://www.interakt.shop/sales-crm/)[WhatsApp Commerce](https://www.interakt.shop/whatsapp-commerce/)[WhatsApp Chat Widget](https://www.interakt.shop/whatsapp-chat-widget/)[WhatsApp Notification Library](https://www.interakt.shop/whatsapp-notifications-library/) ![Image 51](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Instagram  [Instagram Automation](https://www.interakt.shop/instagram-automation/) ![Image 53](blob:http://localhost/e0eddde41819fa08a3b546684c54f8e9) RCS  [RCS Campaigns](https://www.interakt.shop/whatsapp-rcs-fallback/)[Rich Messaging](https://www.interakt.shop/richbusinessmessaging-rcs/) ![Image 54](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Voice New [MyCallGenie](https://www.interakt.shop/mycallgenie-ai-call-receptionist/)   By Industry  [![Image 56](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) B2B Sales](https://www.interakt.shop/whatsapp-business-for-b2b-sales/)[![Image 58](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Travel and Tourism](https://www.interakt.shop/whatsapp-business-for-travel-and-tourism/)[![Image 60](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Restaurants & Food Business](https://www.interakt.shop/whatsapp-business-for-restaurants-food-businesses/)[![Image 62](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Spas and Salons](https://www.interakt.shop/whatsapp-business-for-spas-and-salons/)[![Image 64](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Health & Wellness Brands](https://www.interakt.shop/whatsapp-business-for-health-wellness-brands/)[![Image 66](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Beauty & Cosmetics Brands](https://www.interakt.shop/whatsapp-business-for-beauty-cosmetics-brands/)[![Image 68](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Edutech](https://www.interakt.shop/whatsapp-business-for-edutech/)[![Image 70](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Automotive Industry](https://www.interakt.shop/whatsapp-business-for-automotive-industry/)[![Image 72](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Home Decor & Furnishing](https://www.interakt.shop/whatsapp-business-for-home-decor-and-furnishings/)[![Image 74](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Marketing Agency](https://www.interakt.shop/whatsapp-business-for-marketing-agency/)[![Image 76](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Real Estate](https://www.interakt.shop/whatsapp-business-for-real-estate/)[![Image 78](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Freelancer & Consultant Sales](https://www.interakt.shop/whatsapp-business-for-freelancer-and-consultant-sales/)[![Image 80](blob:http://localhost/e939f7f58a5c58f8c69cfacc5fe73637) Banking & Finance](https://www.interakt.shop/whatsapp-business-for-banking-and-finance/)          
-*   [Integrations](https://www.interakt.shop/integrations/) 
-*   [Pricing](https://www.interakt.shop/pricing/) 
-*   [Partnerships](https://www.interakt.shop/partner-program/) 
-*    Resources  Close Resources Open Resources 
-
-    *   [Blogs](https://www.interakt.shop/blog/)
-
-    *   [Case Studies](https://www.interakt.shop/case-study/)
-
-    *   [Resource Center](https://www.interakt.shop/resource-center/)
-
-    *   [FAQs](https://www.interakt.shop/faqs/)
-
-*   [Demo](https://www.interakt.shop/whatsapp-business-api-live-demo) 
-*   [Login](https://app.interakt.ai/login?_gl=1*1g8ggv2*_gcl_au*ODk0MDY0MTk5LjE3MzY3NDYxNTYuMTQ5NzkwNDQzLjE3NDEwODUwNDEuMTc0MTA4NTA2NQ..*_ga*MTg2NTkwODYyNC4xNzM2NzQ2MTU2*_ga_4FBL7Q80RL*MTc0NDA0MTE2My4xODUuMS4xNzQ0MDQ3NTEwLjYwLjAuMA..&_ga=2.8954544.406833857.1743394959-1865908624.1736746156) 
-*   [Start Free Trial](https://www.interakt.shop/marketing-automation/signup/) 
-
-# Know Businesses That Are Winning With Interakt
-
-Search
-
-#### Popular Keywords
-
-#### Categories
-
-No Record Found
-
-[View All Results](https://www.interakt.shop/case-study#)
-
-Food Tech Banking & Finance Travel & Tourism e-Commerce Healthtech D2C Fashion & Apparel FMCG EdTech Home Decor All 
-
-[](https://www.interakt.shop/case-study/supervek/)
-
-[![Image 82](blob:http://localhost/43a293af5fb9f0db0efbc6ccebcfae68)](https://www.interakt.shop/case-study/supervek/)
-
-## [Supervek](https://www.interakt.shop/case-study/supervek/)
-
- Supervek is an alternative lifestyle and everyday carry brand that designs highly functional gear.... 
-
-[](https://www.interakt.shop/case-study/drink-delulu/)
-
-[![Image 84](blob:http://localhost/43a293af5fb9f0db0efbc6ccebcfae68)](https://www.interakt.shop/case-study/drink-delulu/)
-
-## [Drink Delulu](https://www.interakt.shop/case-study/drink-delulu/)
-
- Interakt has helped us turn customer conversations into repeat sales. From instant support to.... 
-
-[](https://www.interakt.shop/case-study/holovision/)
-
-[![Image 86](blob:http://localhost/43a293af5fb9f0db0efbc6ccebcfae68)](https://www.interakt.shop/case-study/holovision/)
-
-## [Holovision](https://www.interakt.shop/case-study/holovision/)
-
- Hira Holovision is one of India’s leading manufacturers and exporters of holographic security solutions..... 
-
-[](https://www.interakt.shop/case-study/linger/)
-
-[![Image 88](blob:http://localhost/43a293af5fb9f0db0efbc6ccebcfae68)](https://www.interakt.shop/case-study/linger/)
-
-## [Linger](https://www.interakt.shop/case-study/linger/)
-
- Linger Homestays is a collection of carefully curated homestays and farm stays designed for.... 
-
-[](https://www.interakt.shop/case-study/sandhu/)
-
-[![Image 90](blob:http://localhost/43a293af5fb9f0db0efbc6ccebcfae68)](https://www.interakt.shop/case-study/sandhu/)
-
-## [Sandhu](https://www.interakt.shop/case-study/sandhu/)
-
- Interakt helped us simplify customer communication while improving engagement and reducing manual effort.... 
-
-[](https://www.interakt.shop/case-study/modern-gifts/)
-
-[![Image 92](blob:http://localhost/c948793d45883c4f7f448635470de9c2)](https://www.interakt.shop/case-study/modern-gifts/)
-
-## [Modern Gifts](https://www.interakt.shop/case-study/modern-gifts/)
-
- Modern Gifts is a D2C brand focused on curated, meaningful gifting solutions for various.... 
-
-[](https://www.interakt.shop/case-study/metamind/)
-
-[![Image 94](blob:http://localhost/43a293af5fb9f0db0efbc6ccebcfae68)](https://www.interakt.shop/case-study/metamind/)
-
-## [Metamind](https://www.interakt.shop/case-study/metamind/)
-
- How Metamind Simplifies Mental Health Consultations and Patient Communication on WhatsApp.... 
-
-[](https://www.interakt.shop/case-study/sprinlock/)
-
-[![Image 96](blob:http://localhost/43a293af5fb9f0db0efbc6ccebcfae68)](https://www.interakt.shop/case-study/sprinlock/)
-
-## [Sprinlock](https://www.interakt.shop/case-study/sprinlock/)
-
- Sprinlocks, founded in late 2023, offers stand-up zipper pouches and flexible packaging with a.... 
-
-[](https://www.interakt.shop/case-study/memeraki/)
-
-[![Image 98](blob:http://localhost/43a293af5fb9f0db0efbc6ccebcfae68)](https://www.interakt.shop/case-study/memeraki/)
-
-## [MeMeraki](https://www.interakt.shop/case-study/memeraki/)
-
- MeMeraki is a culture-tech platform dedicated to bringing traditional Indian art to a global.... 
-
-## Get Started with Interakt Today
-
-*   Engage & Re-engage Prospects
-*   Drive Sales
-*   Deliver higher CSAT
-*   Support at Scale
-
-[Try Interakt for Free](https://www.interakt.shop/whatsapp-business-api-live-demo)
-
-![Image 100](blob:http://localhost/e604890572eb269f1bc0e746c7c890d5)
-
-![Image 102](blob:http://localhost/41a76e58e964119348145f9c90dc9026)
-
-![Image 104](blob:http://localhost/3e391abc3e97ac2f2a8f1c5012eb55af)
-
-#### Interakt
-
-*   [Get a Live Demo](https://www.interakt.shop/whatsapp-business-api-live-demo/)
-*   [About Us](https://www.interakt.shop/about-us/)
-*   [Contact Us](https://www.interakt.shop/contact-us/)
-*   [Partner with Us](https://www.interakt.shop/partner-program/)
-*   [Privacy Policy](https://www.interakt.shop/privacy-policy/)
-*   [Terms & Conditions](https://www.interakt.shop/terms-of-service/)
-
-*   [Get a Live Demo](https://www.interakt.shop/whatsapp-business-api-live-demo/)
-*   [About Us](https://www.interakt.shop/about-us/)
-*   [Contact Us](https://www.interakt.shop/contact-us/)
-*   [Partner with Us](https://www.interakt.shop/partner-program/)
-*   [Privacy Policy](https://www.interakt.shop/privacy-policy/)
-*   [Terms & Conditions](https://www.interakt.shop/terms-of-service/)
-
-#### Resources
-
-*   [Case Studies](https://www.interakt.shop/case-study/)
-*   [Resource Center](https://www.interakt.shop/resource-center/)
-*   [Notifications Library](https://www.interakt.shop/whatsapp-notifications-library/)
-*   [Blogs](https://www.interakt.shop/blog/)
-*   [Interakt Academy](https://www.interakt.shop/interakt-academy/)
-*   [FAQ’s](https://www.interakt.shop/faqs/)
-
-*   [Case Studies](https://www.interakt.shop/case-study/)
-*   [Resource Center](https://www.interakt.shop/resource-center/)
-*   [Notifications Library](https://www.interakt.shop/whatsapp-notifications-library/)
-*   [Blogs](https://www.interakt.shop/blog/)
-*   [Interakt Academy](https://www.interakt.shop/interakt-academy/)
-*   [FAQ’s](https://www.interakt.shop/faqs/)
-
-#### Why Interakt
-
-*   [Interakt vs. Aisensy](https://www.interakt.shop/blog/top-5-aisensy-alternatives)
-*   [Interakt vs. Bitespeed](https://www.interakt.shop/blog/top-5-bitespeed-alternatives)
-*   [Interakt vs. Delightchat](https://www.interakt.shop/blog/top-5-delightchat-whatsapp-business-solution-alternatives)
-*   [Interakt vs. Limechat](https://www.interakt.shop/blog/top-5-limechat-alterna
+Except for the duty to make payments hereunder when due, and the indemnification provisions under these Terms of Use, neither the Company nor the Client shall be liable by reason of any failure or delay in the performance of its obligations arising out of a Force Majeure Event. As used in these Terms of Use, “Force Majeure Event” shall mean: any act of God, act of nature or the elements, terrorism, insurrection, revolution or civil strife, piracy, civil war or hostile action, labor strikes, acts of public enemies, federal or state laws, rules and regulations of any governmental authorities having jurisdiction over the premises, inability to procure material, equipment, or necessary labor in the open market, acute and unusual labor, material, or equipment shortages, or any other causes (except financial) beyond the control of either Party. In the event, if one or more Force Majeure Events results in delay of 15 (fifteen) consecutive days in the performance of the obligations under these Terms of Use, the Parties shall mutually discuss to terminate these Terms of Use without any further liability. However, the Client sh
 
 [Content truncated]
 <!-- /ANCHOR:source_documentation -->
